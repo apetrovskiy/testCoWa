@@ -1,20 +1,19 @@
-import pytest
-
-from src.main.training.katas.narcissistic.narcissistic import narcissistic
-
-
 def check_7():
-    print("==============")
-    assert narcissistic(7)
+    print("============== 777 ====================")
+    from src.main.training.katas.narcissistic.code import narcissistic
+    assert narcissistic(7) is True
 
 
 def check_371():
-    assert narcissistic(371)
+    from src.main.training.katas.narcissistic.code import narcissistic
+    assert narcissistic(371) is True
 
 
 def check_122():
-    assert narcissistic(122)
+    from src.main.training.katas.narcissistic.code import narcissistic
+    assert narcissistic(122) is False
 
 
 def check_4887():
-    assert narcissistic(4887)
+    from src.main.training.katas.narcissistic.code import narcissistic
+    assert narcissistic(4887) is False
