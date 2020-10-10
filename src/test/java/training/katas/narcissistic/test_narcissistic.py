@@ -1,4 +1,4 @@
-from src.main.training.katas.narcissistic.code import narcissistic
+from src.main.java.training.katas.narcissistic.code import narcissistic
 
 
 def test_7():

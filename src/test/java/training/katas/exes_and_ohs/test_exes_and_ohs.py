@@ -1,4 +1,4 @@
-from src.main.training.katas.exes_and_ohs.code import xo
+from src.main.java.training.katas.exes_and_ohs.code import xo
 
 
 def test_xo():

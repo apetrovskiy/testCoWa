@@ -1,4 +1,4 @@
-from src.main.training.katas.find_odd.code import find_it
+from src.main.java.training.katas.find_odd.code import find_it
 
 
 def test_find_odd():
