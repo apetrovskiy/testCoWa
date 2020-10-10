@@ -1,5 +1,6 @@
 import "package:test/test.dart";
-import "package:solution/solution.dart";
+// import "package:solution/solution.dart";
+import '../../../../../main/java/training/katas/exes_and_ohs/code.dart';
 
 void main() {
   group('Fixed tests', () {
