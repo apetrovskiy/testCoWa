@@ -1,14 +1,7 @@
 import "package:test/test.dart";
-// import "package:solution/solution.dart";
 import '../../../../../main/java/training/katas/exes_and_ohs/ExesAndOhs.dart';
 
 void main() {
-  print("222222222");
-
-  test("111", () {
-    print("111111");
-  });
-
   group('Fixed tests', () {
     test("Testing for xo", () {
       expect(XO('xo'), equals(true));
