@@ -3,6 +3,6 @@ bool XO(str) {
   return true;
 }
 
-// void main() {
-//   XO("xox");
-// }
+void main() {
+  XO("xox");
+}
