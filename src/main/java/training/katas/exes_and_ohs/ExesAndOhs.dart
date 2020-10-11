@@ -1,8 +1,13 @@
 bool XO(str) {
   // your code here
-  return true;
+  var lowerCased = str.toLowerCase();
+  return lowerCased.runes.where((int i) {
+    return i == 'x'.codeUnitAt(0);
+  }).length == lowerCased.runes.where((int i) {
+    return i == 'o'.codeUnitAt(0);
+  }).length;
 }
 
 void main() {
-  XO("xox");
+  print(XO("xox"));
 }
