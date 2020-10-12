@@ -1,4 +1,4 @@
-package test.java.training.katas.number_of_people_in_the_bus;
+package training.katas.number_of_people_in_the_bus;
 
 import java.util.ArrayList;
 
@@ -6,6 +6,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.runners.JUnit4;
+import training.katas.number_of_people_in_the_bus.Metro;
 
 
 public class MetroTest {
