@@ -32,5 +32,5 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
 
     // https://mvnrepository.com/artifact/org.scalatest/scalatest
-    testCompile group: 'org.scalatest', name: 'scalatest_2.13', version: '3.3.0-SNAP2'
+    testCompile("org.scalatest:scalatest_2.13:3.3.0-SNAP2")
 }
