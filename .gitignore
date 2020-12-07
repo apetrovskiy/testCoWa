@@ -1190,3 +1190,26 @@ DerivedData/
 
 # Ignore Gradle build output directory
 build
+
+.fake
+.ionide
+.metals/metals.h2.db
+.metals/metals.lock.db
+.bloop/CodeSignTest.json
+.bloop/CodeSignTest-test.json
+
+allure-reports/*
+*result.json
+*container.json
+
+.nyc_output/*
+**/.nyc_output/*
+
+null/*
+**/null/*
+
+.noseids
+allure-results/*-result.json
+allure-results/*-container.json
+!allure-results/categories.json
+.allure/*
