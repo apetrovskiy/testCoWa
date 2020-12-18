@@ -1,4 +1,4 @@
-namespace Solution {
+namespace training.katas.exes_and_ohs {
   using NUnit.Framework;
   using System;
 
@@ -6,7 +6,7 @@ namespace Solution {
   public class SolutionTest
   {
     [Test]
-    public void ExampleTests()
+    public void ExesAndOhsTests()
     {
       Assert.AreEqual(true, Kata.XO("xo"));
       Assert.AreEqual(true, Kata.XO("xxOo"));

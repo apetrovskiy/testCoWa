@@ -1,4 +1,4 @@
-namespace Solution
+namespace training.katas.exes_and_ohs
 {
     using System.Linq;
     using System;
