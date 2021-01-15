@@ -44,11 +44,12 @@ test_data = [
                                                                     'ke', 'jj', 'xn', 'kz', 'hk', 'pc', 'jb', 've', 'ht', 'nw', 'oi', 'jg', 'qu', 'qo', 'ky', 'az', 'eq', 'jg', 'vm', 'jr']),
     ("adyzbvtwrmqnwkutry", ['ad', 'yz', 'bv',
                             'tw', 'rm', 'qn', 'wk', 'ut', 'ry']),
-    ("vvtys", ['vv', 'ty', 's_'])
+    ("vvtys", ['vv', 'ty', 's_']),
+    ("ft", ['ft'])
 ]
 
 
-@pytest.mark.parametrize("input,expected_result", test_data)
+@ pytest.mark.parametrize("input,expected_result", test_data)
 def test_split_strings(input: str, expected_result: List[str]):
     assert expected_result == solution(input)
 
