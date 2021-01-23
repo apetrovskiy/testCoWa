@@ -25,6 +25,7 @@ GEM
     mini_portile2 (2.4.0)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
+    minitest (5.14.2)
     nokogiri (1.10.10-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     parallel (1.19.2)
@@ -93,7 +94,9 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  bundler
   capybara
+  minitest
   rspec
   rspec-core
   rspec-expectations

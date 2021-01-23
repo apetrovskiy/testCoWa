@@ -1,0 +1,104 @@
+<div class="view" data-context="root"><div class="h-full"><div class="mt-0 h-8 flex flex-row items-center"><div><div class="small-hex is-extra-wide is-yellow-rank"><div class="inner-small-hex is-extra-wide "><span>6 kyu</span></div></div></div><a class="ml-2 text-ui-text text-lg" href="/kata/51b62bf6a9c58071c600001b">Roman Numerals Encoder</a></div><div class="markdown prose max-w-none overflow-auto" style="height: calc(100% - 4rem)" data-markdown="Create a function taking a positive integer as its parameter and returning a string containing the Roman Numeral representation of that integer.
+
+Modern Roman numerals are written by expressing each digit separately starting with the left most digit and skipping any digit with a value of zero. In Roman numerals 1990 is rendered: 1000=M, 900=CM, 90=XC; resulting in MCMXC. 2008 is written as 2000=MM, 8=VIII; or MMVIII. 1666 uses each Roman symbol in descending order: MDCLXVI.
+
+Example:
+```javascript
+solution(1000); // should return 'M'
+```
+```coffeescript
+solution(1000) # should return 'M'
+```
+```ruby
+solution(1000) # should return 'M'
+```
+```python
+solution(1000) # should return 'M'
+```
+```haskell
+solution 1000 -- should return &quot;M&quot;
+```
+```java
+conversion.solution(1000); //should return &quot;M&quot;
+```
+```typescript
+solution(1000); // should return 'M'
+```
+```cpp
+solution(1000); // should return &quot;M&quot;
+```
+```php
+solution(1000); // should return &quot;M&quot;
+```
+```csharp
+RomanConvert.Solution(1000) -- should return &quot;M&quot;
+```
+```swift
+solution(1000) // should return &quot;M&quot;
+```
+```elixir
+solution(1000) # should return &quot;M&quot;
+```
+```r
+solution(1000) # should return &quot;M&quot;
+```
+```c
+solution(1000); // => &quot;M&quot;
+```
+```nim
+solution(1000) # should return &quot;M&quot;
+```
+```lua
+romanEncoder(1000) -- should return 'M'
+```
+```scala
+Roman.encode(1000) // should return &quot;M&quot;
+```
+
+Help:
+```
+Symbol	Value
+I	      1
+V	      5
+X	      10
+L	      50
+C	      100
+D	      500
+M	      1,000
+```
+
+Remember that there can't be more than 3 identical symbols in a row.
+
+
+More about roman numerals - http://en.wikipedia.org/wiki/Roman_numerals
+" data-language="python"><p>Create a function taking a positive integer as its parameter and returning a string containing the Roman Numeral representation of that integer.</p>
+<p>Modern Roman numerals are written by expressing each digit separately starting with the left most digit and skipping any digit with a value of zero. In Roman numerals 1990 is rendered: 1000=M, 900=CM, 90=XC; resulting in MCMXC. 2008 is written as 2000=MM, 8=VIII; or MMVIII. 1666 uses each Roman symbol in descending order: MDCLXVI.</p>
+<p>Example:</p>
+<pre style="display: none;"><code class="language-javascript"><span class="cm-variable">solution</span>(<span class="cm-number">1000</span>); <span class="cm-comment">// should return 'M'</span></code></pre>
+<pre style="display: none;"><code class="language-coffeescript"><span class="cm-variable">solution</span><span class="cm-punctuation">(</span><span class="cm-number">1000</span><span class="cm-punctuation">)</span> <span class="cm-comment"># should return 'M'</span></code></pre>
+<pre style="display: none;"><code class="language-ruby"><span class="cm-variable">solution</span>(<span class="cm-number">1000</span>) <span class="cm-comment"># should return 'M'</span></code></pre>
+<pre><code class="language-python"><span class="cm-variable">solution</span>(<span class="cm-number">1000</span>) <span class="cm-comment"># should return 'M'</span></code></pre>
+<pre style="display: none;"><code class="language-haskell"><span class="cm-variable">solution</span> <span class="cm-number">1000</span> <span class="cm-comment">-- should return "M"</span></code></pre>
+<pre style="display: none;"><code class="language-java"><span class="cm-variable">conversion</span>.<span class="cm-variable">solution</span>(<span class="cm-number">1000</span>); <span class="cm-comment">//should return "M"</span></code></pre>
+<pre style="display: none;"><code class="language-typescript"><span class="cm-variable">solution</span>(<span class="cm-number">1000</span>); <span class="cm-comment">// should return 'M'</span></code></pre>
+<pre style="display: none;"><code class="language-cpp"><span class="cm-variable">solution</span>(<span class="cm-number">1000</span>); <span class="cm-comment">// should return "M"</span></code></pre>
+<pre style="display: none;"><code class="language-php"><span class="cm-variable">solution</span>(<span class="cm-number">1000</span>); <span class="cm-comment">// should return "M"</span></code></pre>
+<pre style="display: none;"><code class="language-csharp"><span class="cm-variable">RomanConvert</span>.<span class="cm-variable">Solution</span>(<span class="cm-number">1000</span>) <span class="cm-operator">--</span> <span class="cm-variable">should</span> <span class="cm-keyword">return</span> <span class="cm-string">"M"</span></code></pre>
+<pre style="display: none;"><code class="language-swift"><span class="cm-variable">solution</span><span class="cm-punctuation">(</span><span class="cm-number">1000</span><span class="cm-punctuation">)</span> <span class="cm-comment">// should return "M"</span></code></pre>
+<pre style="display: none;"><code class="language-elixir"><span class="cm-variable">solution</span>(<span class="cm-number">1000</span>) <span class="cm-comment"># should return "M"</span></code></pre>
+<pre style="display: none;"><code class="language-r"><span class="cm-variable">solution</span>(<span class="cm-number">1000</span>) <span class="cm-comment"># should return "M"</span></code></pre>
+<pre style="display: none;"><code class="language-c"><span class="cm-variable">solution</span>(<span class="cm-number">1000</span>); <span class="cm-comment">// =&gt; "M"</span></code></pre>
+<pre style="display: none;"><code class="language-nim"><span class="cm-variable">solution</span>(<span class="cm-number">1000</span>) <span class="cm-comment"># should return "M"</span></code></pre>
+<pre style="display: none;"><code class="language-lua"><span class="cm-variable">romanEncoder</span>(<span class="cm-number">1000</span>) <span class="cm-comment">-- should return 'M'</span></code></pre>
+<pre style="display: none;"><code class="language-scala"><span class="cm-variable">Roman</span>.<span class="cm-variable">encode</span>(<span class="cm-number">1000</span>) <span class="cm-comment">// should return "M"</span></code></pre>
+<p>Help:</p>
+<pre><code>Symbol    Value
+I          1
+V          5
+X          10
+L          50
+C          100
+D          500
+M          1,000</code></pre><p>Remember that there can't be more than 3 identical symbols in a row.</p>
+<p>More about roman numerals - <a href="http://en.wikipedia.org/wiki/Roman_numerals" target="_blank">http://en.wikipedia.org/wiki/Roman_numerals</a></p>
+</div><div class="keywords pt-2 h-8 overflow-hidden"><div class="keyword-tag is-low-light" data-context-key="3m4u2q0b4yw">Algorithms</div><div class="keyword-tag is-low-light" data-context-key="z14m3bjgdh">Encoding</div><div class="keyword-tag is-low-light" data-context-key="3e02bssx329">Logic</div></div></div></div>
