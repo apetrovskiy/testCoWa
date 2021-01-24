@@ -1,16 +1,15 @@
 namespace training.katas.SplitStrings
 {
-      using NUnit.Framework;
-  using System;  
+    using NUnit.Framework;
 
-  [TestFixture]
-  public class SplitStringTests
-  {
-    [Test]
-    public void BasicTests()
+    [TestFixture]
+    public class SplitStringTests
     {
-      Assert.AreEqual(new string[] { "ab", "c_" }, SplitString.Solution("abc"));
-      Assert.AreEqual(new string[] { "ab", "cd", "ef" }, SplitString.Solution("abcdef"));
+        [Test]
+        public void BasicTests()
+        {
+            Assert.AreEqual(new string[] { "ab", "c_" }, SplitString.Solution("abc"));
+            Assert.AreEqual(new string[] { "ab", "cd", "ef" }, SplitString.Solution("abcdef"));
+        }
     }
-  }
 }
