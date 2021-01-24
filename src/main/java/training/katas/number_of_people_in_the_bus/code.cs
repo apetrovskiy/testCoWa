@@ -1,4 +1,4 @@
-namespace trainig.katas.number_of_people_in_the_bus
+namespace training.katas.number_of_people_in_the_bus
 {
     using System;
     using System.Collections.Generic;
