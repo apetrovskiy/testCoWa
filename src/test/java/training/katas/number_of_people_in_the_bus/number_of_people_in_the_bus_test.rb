@@ -16,7 +16,7 @@ RSpec.describe 'number of people' do
       it "when the input is #{input}" do
         # let(:input_value) { input }
         actual_result = number(input)
-        expect(expected_output).to eql number(input)
+        expect(number(input)).to eql expected_output
         expect(actual_result).to equal(expected_output)
         expect(actual_result).to be == expected_output
       end

@@ -32,7 +32,7 @@ RSpec.describe 'split strings' do
       it "when the input is #{input}" do
         # let(:input_value) { input }
         actual_result = solution(input)
-        expect(expected_output).to eql solution(input)
+        expect(solution(input)).to eql expected_output
         expect(actual_result).to be == expected_output
       end
     end
