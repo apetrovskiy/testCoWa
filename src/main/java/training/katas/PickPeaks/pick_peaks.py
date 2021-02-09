@@ -1,3 +1,3 @@
 def pick_peaks(arr):
-    #your code here
+    # your code here
     # return []
