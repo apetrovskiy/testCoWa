@@ -1,5 +1,8 @@
 def solution(digits):
-    digits = digits.replace('\n', '')
+    print(digits)
+    digits = digits.replace('\n', '').replace(
+        ' ', '').replace('\t', '').replace('         ', '')
+    print(digits)
     numbers = [int(digits[i:i+5]) for i in range(0, len(digits), 5)]
     numbers.extend([int(digits[i+1:i+6]) for i in range(0, len(digits)-1, 5)])
     numbers.extend([int(digits[i+2:i+7]) for i in range(0, len(digits)-2, 5)])
