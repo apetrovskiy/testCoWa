@@ -1,0 +1,93 @@
+<div class="w-full md:w-5/12 is-full-height pr-0 bg-ui-section" id="description_area">
+    <div class="tabs is-full-height">
+        <dl class="tabs is-contained">
+            <dd class="is-active"><a data-tab="description" data-tippy-content="Tip: You can press Cmd + I to toggle between Instructions and Output tabs." data-tippy-placement="bottom">Instructions</a></dd>
+            <dd><a data-tab="output">Output</a></dd>
+            <div class="float-right pr-10px pt-5px"><a class="is-hidden" id="minimize_layout"><i class="icon-moon-collapse text-2xl"></i><span>Restore</span></a></div>
+        </dl>
+        <ul class="tabs-content mb-0" data-vertical-fill="{&quot;min&quot;:200,&quot;offset&quot;:-15,&quot;fitWithinView&quot;:true}" style="height: 673px;">
+            <li class="is-active md:h-full" data-tab="description">
+                <div class="description is-full-height has-auto-scrolling mb-15px p-15px">
+                    <div class="markdown prose max-w-none" id="description">
+                        <p>Your task in order to complete this Kata is to write a function which formats a duration, given as a number of seconds, in a human-friendly way.</p>
+                        <p>The function must accept a non-negative integer. If it is zero, it just returns <code>"now"</code>. Otherwise, the duration is expressed as a combination of <code>years</code>, <code>days</code>, <code>hours</code>, <code>minutes</code>                            and <code>seconds</code>.</p>
+                        <p>It is much easier to understand with an example:</p>
+                        <pre style="display: none;"><code class="language-Fortran">formatDuration (62)    // returns "1 minute and 2 seconds"
+    formatDuration (3662)  // returns "1 hour, 1 minute and 2 seconds"</code></pre>
+                        <pre style="display: none;"><code class="language-c"><span class="cm-variable">formatDuration</span> (<span class="cm-number">62</span>)    <span class="cm-comment">// returns "1 minute and 2 seconds"</span>
+    <span class="cm-variable">formatDuration</span> (<span class="cm-number">3662</span>)  <span class="cm-comment">// returns "1 hour, 1 minute and 2 seconds"</span></code></pre>
+                        <pre style="display: none;"><code class="language-nasm"><span class="cm-keyword">mov</span> <span class="cm-builtin">edi</span>, <span class="cm-number">62</span>
+    <span class="cm-keyword">call</span> fmtduration      <span class="cm-comment">; RAX &lt;- `1 minute and 2 seconds\0`</span>
+    
+    <span class="cm-keyword">mov</span> <span class="cm-builtin">edi</span>, <span class="cm-number">3662</span>
+    <span class="cm-keyword">call</span> fmtduration      <span class="cm-comment">; RAX &lt;- `1 hour, 1 minute and 2 seconds\0`</span></code></pre>
+                        <pre style="display: none;"><code class="language-cpp"><span class="cm-variable">format_duration</span>(<span class="cm-number">62</span>)    <span class="cm-comment">// returns "1 minute and 2 seconds"</span>
+    <span class="cm-variable">format_duration</span>(<span class="cm-number">3662</span>)  <span class="cm-comment">// returns "1 hour, 1 minute and 2 seconds"</span></code></pre>
+                        <pre style="display: none;"><code class="language-javascript"><span class="cm-variable">formatDuration</span>(<span class="cm-number">62</span>)    <span class="cm-comment">// returns "1 minute and 2 seconds"</span>
+    <span class="cm-variable">formatDuration</span>(<span class="cm-number">3662</span>)  <span class="cm-comment">// returns "1 hour, 1 minute and 2 seconds"</span></code></pre>
+                        <pre><code class="language-python"><span class="cm-variable">format_duration</span>(<span class="cm-number">62</span>)    <span class="cm-comment"># returns "1 minute and 2 seconds"</span>
+    <span class="cm-variable">format_duration</span>(<span class="cm-number">3662</span>)  <span class="cm-comment"># returns "1 hour, 1 minute and 2 seconds"</span></code></pre>
+                        <pre style="display: none;"><code class="language-ruby"><span class="cm-variable">format_duration</span>(<span class="cm-number">62</span>)    <span class="cm-comment"># returns "1 minute and 2 seconds"</span>
+    <span class="cm-variable">format_duration</span>(<span class="cm-number">3662</span>)  <span class="cm-comment"># returns "1 hour, 1 minute and 2 seconds"</span></code></pre>
+                        <pre style="display: none;"><code class="language-elixir"><span class="cm-variable">format_duration</span>(<span class="cm-number">62</span>)    <span class="cm-comment"># returns "1 minute and 2 seconds"</span>
+    <span class="cm-variable">format_duration</span>(<span class="cm-number">3662</span>)  <span class="cm-comment"># returns "1 hour, 1 minute and 2 seconds"</span></code></pre>
+                        <pre style="display: none;"><code class="language-php"><span class="cm-variable">format_duration</span>(<span class="cm-number">62</span>)    <span class="cm-comment"># returns "1 minute and 2 seconds"</span>
+    <span class="cm-variable">format_duration</span>(<span class="cm-number">3662</span>)  <span class="cm-comment"># returns "1 hour, 1 minute and 2 seconds"</span></code></pre>
+                        <pre style="display: none;"><code class="language-haskell"><span class="cm-variable">formatDuration</span> <span class="cm-number">62</span>     <span class="cm-comment">-- returns "1 minute and 2 seconds"</span>
+    <span class="cm-variable">formatDuration</span> <span class="cm-number">3662</span>   <span class="cm-comment">-- returns "1 hour, 1 minute and 2 seconds"</span></code></pre>
+                        <pre style="display: none;"><code class="language-java"><span class="cm-variable">TimeFormatter</span>.<span class="cm-variable">formatDuration</span>(<span class="cm-number">62</span>)   <span class="cm-comment">//returns "1 minute and 2 seconds"</span>
+    <span class="cm-variable">TimeFormatter</span>.<span class="cm-variable">formatDuration</span>(<span class="cm-number">3662</span>) <span class="cm-comment">//returns "1 hour, 1 minute and 2 seconds"</span></code></pre>
+                        <pre style="display: none;"><code class="language-groovy"><span class="cm-variable">Kata</span>.<span class="cm-property">formatDuration</span>(<span class="cm-number">62</span>)   <span class="cm-comment">//returns "1 minute and 2 seconds"</span>
+    <span class="cm-variable">Kata</span>.<span class="cm-property">formatDuration</span>(<span class="cm-number">3662</span>) <span class="cm-comment">//returns "1 hour, 1 minute and 2 seconds"</span></code></pre>
+                        <pre style="display: none;"><code class="language-shell">duration <span class="cm-number">62</span>            <span class="cm-comment"># echos "1 minute and 2 seconds"</span>
+    duration <span class="cm-number">3662</span>          <span class="cm-comment"># echos "1 hour, 1 minute and 2 seconds"</span></code></pre>
+                        <pre style="display: none;"><code class="language-julia"><span class="cm-builtin">formatduration(62</span>)    <span class="cm-comment"># returns "1 minute and 2 seconds"</span>
+    <span class="cm-builtin">formatduration(3662</span>)  <span class="cm-comment"># returns "1 hour, 1 minute and 2 seconds"</span></code></pre>
+                        <pre style="display: none;"><code class="language-racket"><span class="cm-bracket">(</span><span class="cm-variable">format-duration</span> <span class="cm-number">62</span><span class="cm-bracket">)</span>    <span class="cm-comment">; returns "1 minute and 2 seconds"</span>
+    <span class="cm-bracket">(</span><span class="cm-variable">format-duration</span> <span class="cm-number">3662</span><span class="cm-bracket">)</span>  <span class="cm-comment">; returns "1 hour, 1 minute and 2 seconds"</span></code></pre>
+                        <pre style="display: none;"><code class="language-rust"><span class="cm-variable">format_duration</span>(<span class="cm-number">62</span>)    <span class="cm-comment">// returns "1 minute and 2 seconds"</span>
+    <span class="cm-variable">format_duration</span>(<span class="cm-number">3662</span>)  <span class="cm-comment">// returns "1 hour, 1 minute and 2 seconds"</span></code></pre>
+                        <p><strong>For the purpose of this Kata, a year is 365 days and a day is 24 hours.</strong></p>
+                        <p>Note that spaces are important.</p>
+                        <h3 id="detailed-rules">Detailed rules</h3>
+                        <p>The resulting expression is made of components like <code>4 seconds</code>, <code>1 year</code>, etc. In general, a positive integer and one of the valid units of time, separated by a space. The unit of time is used in plural if
+                            the integer is greater than 1.</p>
+                        <p>The components are separated by a comma and a space (<code>", "</code>). Except the last component, which is separated by <code>" and "</code>, just like it would be written in English. </p>
+                        <p>A more significant units of time will occur before than a least significant one. Therefore, <code>1 second and 1 year</code> is not correct, but <code>1 year and 1 second</code> is.</p>
+                        <p>Different components have different unit of times. So there is not repeated units like in <code>5 seconds and 1 second</code>.</p>
+                        <p>A component will not appear at all if its value happens to be zero. Hence, <code>1 minute and 0 seconds</code> is not valid, but it should be just <code>1 minute</code>.</p>
+                        <p> A unit of time must be used "as much as possible". It means that the function should not return <code>61 seconds</code>, but <code>1 minute and 1 second</code> instead. Formally, the duration specified by of a component must not
+                            be greater than any valid more significant unit of time.</p>
+                    </div>
+                    <hr>
+                    <div class="mt-15px"><span><i class="icon-moon-tag "></i></span>
+                        <div class="keyword-tag">Algorithms</div>
+                        <div class="keyword-tag">Formats</div>
+                        <div class="keyword-tag">Strings</div>
+                        <div class="keyword-tag">Dates/Time</div>
+                        <div class="keyword-tag">Formatting</div>
+                    </div>
+                    <hr><br>
+                    <div class="text-center">
+                        <a class="hover:text-current" data-tippy-content="Supercharge your technical hiring with developer assessments." data-tippy-placement="top" href="https://www.qualified.io?utm_source=codewars&amp;utm_medium=web" target="_blank">
+                            <div class="flex items-baseline justify-center"><span class="pl-1 text-xs inline-block">powered by</span><img class="h-4 inline-block dark:hidden pl-1" src="/assets/logos/qualified-black-b052752a4beaf94810c9d982f495680e2a9eb207824764ef98240ccef15cfbb1.svg"><img class="h-4 hidden dark:inline-block pl-1"
+                                    src="/assets/logos/qualified-white-7cba1bde874154ee4f39d50aebd5b7e435f5b21af9884b236a60d9015039e7f0.svg"></div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="md:h-full is-overflow-hidden" data-tab="output">
+                <div class="console-output is-full-height p-0">
+                    <div class="is-full-height" id="code_results">
+                        <div class="alert-box no-border is-square mb-0 is-full-height">
+                            <div class="message"><i class="icon-moon-info "></i>Your output will be shown here</div><iframe data-src="https://cr.codewars.com?api=v2&amp;utm_campaign=kata_trainer&amp;utm_medium=web&amp;utm_source=codewars#congrats=true&amp;pro=false&amp;theme=dark"
+                                id="runner_frame" sandbox="allow-scripts allow-same-origin allow-pointer-lock" src="https://cr.codewars.com?api=v2&amp;utm_campaign=kata_trainer&amp;utm_medium=web&amp;utm_source=codewars#congrats=true&amp;pro=false&amp;theme=dark"></iframe></div>
+                    </div>
+                </div>
+            </li>
+            <li class="md:h-full is-overflow-auto" data-tab="solutions">
+                <div class="is-full-height mb-15px p-15px"></div>
+            </li>
+        </ul>
+    </div>
+</div>
