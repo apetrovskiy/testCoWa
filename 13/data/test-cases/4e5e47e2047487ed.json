@@ -1,0 +1,79 @@
+{
+  "uid" : "4e5e47e2047487ed",
+  "name" : "test_human_readable_duration_format[3595920-41 days, 14 hours and 52 minutes]",
+  "fullName" : "src.test.java.training.katas.HumaReadableDurationFormat.test_human_readable_duration_format#test_human_readable_duration_format",
+  "historyId" : "72220da8965eab61a83d44b54765a605",
+  "time" : {
+    "start" : 1618431615926,
+    "stop" : 1618431615926,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.HumaReadableDurationFormat"
+  }, {
+    "name" : "suite",
+    "value" : "test_human_readable_duration_format"
+  }, {
+    "name" : "host",
+    "value" : "fv-az193-370"
+  }, {
+    "name" : "thread",
+    "value" : "3084-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.HumaReadableDurationFormat.test_human_readable_duration_format"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'41 days, 14 hours and 52 minutes'"
+  }, {
+    "name" : "seconds",
+    "value" : "3595920"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "34ef09678013c68a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/12//#testresult/34ef09678013c68a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618430771348,
+          "stop" : 1618430771348,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4e5e47e2047487ed.json",
+  "parameterValues" : [ "'41 days, 14 hours and 52 minutes'", "3595920" ]
+}
