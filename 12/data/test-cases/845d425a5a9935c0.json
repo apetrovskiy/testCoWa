@@ -1,0 +1,83 @@
+{
+  "uid" : "845d425a5a9935c0",
+  "name" : "test_split_strings[lpdrbuwhoohiiagjsopchwuannfrfupsznxbgbwqgnfb\n     dqenhgwpofrcmfvptbinwxrjhdtfanczc-expected_result12]",
+  "fullName" : "src.test.java.training.katas.SplitStrings.test_split_strings#test_split_strings",
+  "historyId" : "0a4818cc0697a27b2ddcd79f1496b5ed",
+  "time" : {
+    "start" : 1618430771523,
+    "stop" : 1618430771524,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert ['lp', 'dr', ...o', 'hi', ...] == ['lp', 'dr', ...o', 'hi', ...]\n  At index 22 diff: 'dq' != '\\n '\n  Right contains 3 more items, first extra item: 'an'\n  Use -v to get the full diff",
+  "statusTrace" : "input = 'lpdrbuwhoohiiagjsopchwuannfrfupsznxbgbwqgnfb\\n     dqenhgwpofrcmfvptbinwxrjhdtfanczc'\nexpected_result = ['lp', 'dr', 'bu', 'wh', 'oo', 'hi', ...]\n\n    @ pytest.mark.parametrize(\"input,expected_result\", test_data)\n    def test_split_strings(input: str, expected_result: List[str]):\n>       assert expected_result == solution(input)\nE       AssertionError: assert ['lp', 'dr', ...o', 'hi', ...] == ['lp', 'dr', ...o', 'hi', ...]\nE         At index 22 diff: 'dq' != '\\n '\nE         Right contains 3 more items, first extra item: 'an'\nE         Use -v to get the full diff\n\nsrc/test/java/training/katas/SplitStrings/test_split_strings.py:101: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert ['lp', 'dr', ...o', 'hi', ...] == ['lp', 'dr', ...o', 'hi', ...]\n  At index 22 diff: 'dq' != '\\n '\n  Right contains 3 more items, first extra item: 'an'\n  Use -v to get the full diff",
+    "statusTrace" : "input = 'lpdrbuwhoohiiagjsopchwuannfrfupsznxbgbwqgnfb\\n     dqenhgwpofrcmfvptbinwxrjhdtfanczc'\nexpected_result = ['lp', 'dr', 'bu', 'wh', 'oo', 'hi', ...]\n\n    @ pytest.mark.parametrize(\"input,expected_result\", test_data)\n    def test_split_strings(input: str, expected_result: List[str]):\n>       assert expected_result == solution(input)\nE       AssertionError: assert ['lp', 'dr', ...o', 'hi', ...] == ['lp', 'dr', ...o', 'hi', ...]\nE         At index 22 diff: 'dq' != '\\n '\nE         Right contains 3 more items, first extra item: 'an'\nE         Use -v to get the full diff\n\nsrc/test/java/training/katas/SplitStrings/test_split_strings.py:101: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2f69ba6b004d2093",
+      "name" : "stdout",
+      "source" : "2f69ba6b004d2093.txt",
+      "type" : "text/plain",
+      "size" : 338
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.SplitStrings"
+  }, {
+    "name" : "suite",
+    "value" : "test_split_strings"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-306"
+  }, {
+    "name" : "thread",
+    "value" : "3028-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.SplitStrings.test_split_strings"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "['lp', 'dr', 'bu', 'wh', 'oo', 'hi', 'ia', 'gj', 'so', 'pc', 'hw', 'ua', 'nn', 'fr', 'fu', 'ps', 'zn', 'xb', 'gb', 'wq', 'gn', 'fb', 'dq', 'en', 'hg', 'wp', 'of', 'rc', 'mf', 'vp', 'tb', 'in', 'wx', 'rj', 'hd', 'tf', 'an', 'cz', 'c_']"
+  }, {
+    "name" : "input",
+    "value" : "'lpdrbuwhoohiiagjsopchwuannfrfupsznxbgbwqgnfb\n     dqenhgwpofrcmfvptbinwxrjhdtfanczc'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "845d425a5a9935c0.json",
+  "parameterValues" : [ "['lp', 'dr', 'bu', 'wh', 'oo', 'hi', 'ia', 'gj', 'so', 'pc', 'hw', 'ua', 'nn', 'fr', 'fu', 'ps', 'zn', 'xb', 'gb', 'wq', 'gn', 'fb', 'dq', 'en', 'hg', 'wp', 'of', 'rc', 'mf', 'vp', 'tb', 'in', 'wx', 'rj', 'hd', 'tf', 'an', 'cz', 'c_']", "'lpdrbuwhoohiiagjsopchwuannfrfupsznxbgbwqgnfb\n     dqenhgwpofrcmfvptbinwxrjhdtfanczc'" ]
+}

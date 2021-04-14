@@ -1,0 +1,59 @@
+{
+  "uid" : "75c077ae7e50914e",
+  "name" : "test_valid_parentheses[)test-False]",
+  "fullName" : "src.test.java.training.katas.ValidParentheses.test_valid_parentheses#test_valid_parentheses",
+  "historyId" : "79b93bfd71a6dd3d0907084e694790f5",
+  "time" : {
+    "start" : 1618430771570,
+    "stop" : 1618430771570,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.ValidParentheses"
+  }, {
+    "name" : "suite",
+    "value" : "test_valid_parentheses"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-306"
+  }, {
+    "name" : "thread",
+    "value" : "3028-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.ValidParentheses.test_valid_parentheses"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "False"
+  }, {
+    "name" : "input",
+    "value" : "')test'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "75c077ae7e50914e.json",
+  "parameterValues" : [ "False", "')test'" ]
+}
