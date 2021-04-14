@@ -1,4 +1,5 @@
-from src.main.java.training.katas.ValidParentheses.valid_parentheses import valid_parentheses
+from src.main.java.training.katas.ValidParentheses.valid_parentheses \
+    import valid_parentheses
 import pytest
 
 
