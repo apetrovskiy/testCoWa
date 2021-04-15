@@ -3,7 +3,7 @@ from src.main.java.training.katas.largest_5_digit_number_in_a_series.code \
     import solution
 
 
-@pytest.mark.skip(reason="TODO: no way of currently testing this")
+# @pytest.mark.skip(reason="TODO: no way of currently testing this")
 def test_largest_5_digit_number_in_a_series():
     number = """7316717653133062491922511967442657474235534919493496
     98352036854250632623957831801698480186947885184385861560789112
