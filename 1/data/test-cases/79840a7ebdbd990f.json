@@ -1,0 +1,109 @@
+{
+  "uid" : "79840a7ebdbd990f",
+  "name" : "test_where_my_anagrams_at[racer-words1-expected_result1]",
+  "fullName" : "src.test.java.training.katas.WhereMyAnagramsAt.test_where_my_anagrams_at#test_where_my_anagrams_at",
+  "historyId" : "59035c6b4edb77c019974345eeb0e9dd",
+  "time" : {
+    "start" : 1618553004250,
+    "stop" : 1618553004250,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.WhereMyAnagramsAt"
+  }, {
+    "name" : "suite",
+    "value" : "test_where_my_anagrams_at"
+  }, {
+    "name" : "host",
+    "value" : "fv-az231-694"
+  }, {
+    "name" : "thread",
+    "value" : "3103-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.WhereMyAnagramsAt.test_where_my_anagrams_at"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "['carer', 'racer']"
+  }, {
+    "name" : "word",
+    "value" : "'racer'"
+  }, {
+    "name" : "words",
+    "value" : "['crazer', 'carer', 'racar', 'caers', 'racer']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "25cb7bf129552806",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/15//#testresult/25cb7bf129552806",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618553023572,
+          "stop" : 1618553023572,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b805569f3858163c",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/14//#testresult/b805569f3858163c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618467106370,
+          "stop" : 1618467106370,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "44cada91c7ae7815",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/13//#testresult/44cada91c7ae7815",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618431616148,
+          "stop" : 1618431616148,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cc169e43564d98b3",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/12//#testresult/cc169e43564d98b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618430771603,
+          "stop" : 1618430771603,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "79840a7ebdbd990f.json",
+  "parameterValues" : [ "['carer', 'racer']", "'racer'", "['crazer', 'carer', 'racar', 'caers', 'racer']" ]
+}
