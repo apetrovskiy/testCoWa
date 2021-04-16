@@ -1,0 +1,113 @@
+{
+  "uid" : "c575e5d29093a7fe",
+  "name" : "test_roman_numerals_encoder[1989-MCMLXXXIX]",
+  "fullName" : "src.test.java.training.katas.roman_numerals_encoder.test_roman_numerals_encoder#test_roman_numerals_encoder",
+  "historyId" : "9ff0962e854b4c26ae00da8a7844c434",
+  "time" : {
+    "start" : 1618553023634,
+    "stop" : 1618553023634,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "91e68e45ca07da0b",
+      "name" : "stdout",
+      "source" : "91e68e45ca07da0b.txt",
+      "type" : "text/plain",
+      "size" : 8
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.roman_numerals_encoder"
+  }, {
+    "name" : "suite",
+    "value" : "test_roman_numerals_encoder"
+  }, {
+    "name" : "host",
+    "value" : "fv-az272-125"
+  }, {
+    "name" : "thread",
+    "value" : "3122-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.roman_numerals_encoder.test_roman_numerals_encoder"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'MCMLXXXIX'"
+  }, {
+    "name" : "input",
+    "value" : "1989"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "ec5f7e8cc93884a2",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/14//#testresult/ec5f7e8cc93884a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618467106432,
+          "stop" : 1618467106432,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "246febf486cc4ae2",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/13//#testresult/246febf486cc4ae2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618431616218,
+          "stop" : 1618431616219,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "628e215ca87d0d40",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/12//#testresult/628e215ca87d0d40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618430771667,
+          "stop" : 1618430771667,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c575e5d29093a7fe.json",
+  "parameterValues" : [ "'MCMLXXXIX'", "1989" ]
+}

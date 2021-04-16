@@ -1,0 +1,124 @@
+{
+  "uid" : "2d2f47b2fee26f11",
+  "name" : "test_371",
+  "fullName" : "src.test.java.training.katas.narcissistic.test_narcissistis_unittest.NarcissisticTest#test_371",
+  "historyId" : "50323cb8cbafcb8efdb69aef2af526b8",
+  "time" : {
+    "start" : 1618553023603,
+    "stop" : 1618553023603,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_NarcissisticTest",
+    "time" : {
+      "start" : 1618553023601,
+      "stop" : 1618553023601,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_NarcissisticTest::0",
+    "time" : {
+      "start" : 1618553023607,
+      "stop" : 1618553023607,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.narcissistic"
+  }, {
+    "name" : "suite",
+    "value" : "test_narcissistis_unittest"
+  }, {
+    "name" : "subSuite",
+    "value" : "NarcissisticTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az272-125"
+  }, {
+    "name" : "thread",
+    "value" : "3122-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.narcissistic.test_narcissistis_unittest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "2968ae047627a53a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/14//#testresult/2968ae047627a53a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618467106401,
+          "stop" : 1618467106401,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4cabdb2060a7cb3e",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/13//#testresult/4cabdb2060a7cb3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618431616183,
+          "stop" : 1618431616183,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "186bd54be3335d31",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/12//#testresult/186bd54be3335d31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618430771635,
+          "stop" : 1618430771635,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2d2f47b2fee26f11.json",
+  "parameterValues" : [ ]
+}
