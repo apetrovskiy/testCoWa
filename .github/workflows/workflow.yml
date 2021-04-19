@@ -27,7 +27,7 @@ jobs:
       with:
         python-version: 3.9
 
-    -name: Look at allure
+    - name: Look at allure
       run: |
         ls .
         ls allure-results
@@ -69,7 +69,7 @@ jobs:
         ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
-    -name: Look at allure
+    - name: Look at allure
       run: |
         ls .
         ls allure-results
@@ -78,7 +78,7 @@ jobs:
     - name: Run tests
       run: bundle exec rake
 
-    -name: Look at allure
+    - name: Look at allure
       run: |
         ls .
         ls allure-results
@@ -103,7 +103,7 @@ jobs:
       if: always()
       run: ./gradlew build
 
-    -name: Look at allure
+    - name: Look at allure
       run: |
         ls .
         ls allure-results
