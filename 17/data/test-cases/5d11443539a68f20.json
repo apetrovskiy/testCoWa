@@ -1,0 +1,97 @@
+{
+  "uid" : "5d11443539a68f20",
+  "name" : "test_human_readable_duration_format[205851834-6 years, 192 days, 13 hours, 3 minutes and 54 seconds]",
+  "fullName" : "src.test.java.training.katas.HumaReadableDurationFormat.test_human_readable_duration_format#test_human_readable_duration_format",
+  "historyId" : "38b42b62e6f40e03bd89f0620d72b4ca",
+  "time" : {
+    "start" : 1618836947829,
+    "stop" : 1618836947829,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.HumaReadableDurationFormat"
+  }, {
+    "name" : "suite",
+    "value" : "test_human_readable_duration_format"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-977"
+  }, {
+    "name" : "thread",
+    "value" : "3121-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.HumaReadableDurationFormat.test_human_readable_duration_format"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'6 years, 192 days, 13 hours, 3 minutes and 54 seconds'"
+  }, {
+    "name" : "seconds",
+    "value" : "205851834"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "8d53cd531c40e55a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/16//#testresult/8d53cd531c40e55a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618836036687,
+          "stop" : 1618836036687,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "98022719dbc28fff",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/15//#testresult/98022719dbc28fff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618835031321,
+          "stop" : 1618835031321,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "58ca582776823335",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/14//#testresult/58ca582776823335",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618831830552,
+          "stop" : 1618831830552,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5d11443539a68f20.json",
+  "parameterValues" : [ "'6 years, 192 days, 13 hours, 3 minutes and 54 seconds'", "205851834" ]
+}

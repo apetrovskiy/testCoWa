@@ -1,0 +1,97 @@
+{
+  "uid" : "1539f60d52bdbb9",
+  "name" : "test_human_readable_duration_format[8990744-104 days, 1 hour, 25 minutes and 44 seconds]",
+  "fullName" : "src.test.java.training.katas.HumaReadableDurationFormat.test_human_readable_duration_format#test_human_readable_duration_format",
+  "historyId" : "d9e8d0adc8bf2d68a3266735d812808c",
+  "time" : {
+    "start" : 1618836947849,
+    "stop" : 1618836947849,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.HumaReadableDurationFormat"
+  }, {
+    "name" : "suite",
+    "value" : "test_human_readable_duration_format"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-977"
+  }, {
+    "name" : "thread",
+    "value" : "3121-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.HumaReadableDurationFormat.test_human_readable_duration_format"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'104 days, 1 hour, 25 minutes and 44 seconds'"
+  }, {
+    "name" : "seconds",
+    "value" : "8990744"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "9663ad5930b41cf7",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/16//#testresult/9663ad5930b41cf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618836036706,
+          "stop" : 1618836036706,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4f2be538fc768295",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/15//#testresult/4f2be538fc768295",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618835031342,
+          "stop" : 1618835031342,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "283bca1cc8e57f0b",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/14//#testresult/283bca1cc8e57f0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618831830570,
+          "stop" : 1618831830570,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1539f60d52bdbb9.json",
+  "parameterValues" : [ "'104 days, 1 hour, 25 minutes and 44 seconds'", "8990744" ]
+}
