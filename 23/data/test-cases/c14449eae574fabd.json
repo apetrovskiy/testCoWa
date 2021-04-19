@@ -1,0 +1,151 @@
+{
+  "uid" : "c14449eae574fabd",
+  "name" : "test_xo[zzoo-False]",
+  "fullName" : "src.test.java.training.katas.exes_and_ohs.test_exes_and_ohs#test_xo",
+  "historyId" : "36f7162f19841794bd0fee9bd1f89176",
+  "time" : {
+    "start" : 1618849434510,
+    "stop" : 1618849434510,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.exes_and_ohs"
+  }, {
+    "name" : "suite",
+    "value" : "test_exes_and_ohs"
+  }, {
+    "name" : "host",
+    "value" : "fv-az269-57"
+  }, {
+    "name" : "thread",
+    "value" : "3120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.exes_and_ohs.test_exes_and_ohs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "False"
+  }, {
+    "name" : "input",
+    "value" : "'zzoo'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "e0367538444d24fe",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/22//#testresult/e0367538444d24fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618848017090,
+          "stop" : 1618848017090,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e95cc8d6e5a2ff66",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/21//#testresult/e95cc8d6e5a2ff66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618847502730,
+          "stop" : 1618847502730,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d7f5fbfc9d8928c2",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/20//#testresult/d7f5fbfc9d8928c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618845346281,
+          "stop" : 1618845346281,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9870f69ccb035cc4",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/19//#testresult/9870f69ccb035cc4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618843301952,
+          "stop" : 1618843301953,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ec301dd44765442",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/18//#testresult/ec301dd44765442",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618839968278,
+          "stop" : 1618839968278,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2e7497899a7db529",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/17//#testresult/2e7497899a7db529",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618836948014,
+          "stop" : 1618836948014,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9fbc3947502bfde3",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/16//#testresult/9fbc3947502bfde3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618836036852,
+          "stop" : 1618836036852,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bae172e29b20df12",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/15//#testresult/bae172e29b20df12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618835031501,
+          "stop" : 1618835031501,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a32e40b3ea6a7775",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/14//#testresult/a32e40b3ea6a7775",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618831830714,
+          "stop" : 1618831830714,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c14449eae574fabd.json",
+  "parameterValues" : [ "False", "'zzoo'" ]
+}
