@@ -7,7 +7,8 @@ gem 'rspec'
 
 gem 'minitest'
 
-# gem "allure-ruby-commons"
+gem 'oj'
+gem "allure-ruby-commons"
 # gem "allure-cucumber"
 gem "allure-rspec"
 
