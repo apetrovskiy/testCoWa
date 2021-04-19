@@ -1,0 +1,98 @@
+{
+  "uid" : "3e6fce092b80f629",
+  "name" : "BasicTests",
+  "fullName" : "training.katas.SplitStrings.SplitStringTests.BasicTests",
+  "historyId" : "training.katas.SplitStrings.SplitStringTests.BasicTests",
+  "time" : {
+    "start" : 1618843470098,
+    "stop" : 1618843470105,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "BasicTests",
+      "time" : {
+        "start" : 1618843470098,
+        "stop" : 1618843470105,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2cb661d207eee25a",
+        "name" : "Console Output",
+        "source" : "2cb661d207eee25a.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-561"
+  }, {
+    "name" : "testClass",
+    "value" : "training.katas.SplitStrings.SplitStringTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "BasicTests"
+  }, {
+    "name" : "package",
+    "value" : "training.katas.SplitStrings.SplitStringTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c332451aed789eec",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/18//#testresult/c332451aed789eec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618840132265,
+          "stop" : 1618840132269,
+          "duration" : 4
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3e6fce092b80f629.json",
+  "parameterValues" : [ ]
+}
