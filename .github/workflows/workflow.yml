@@ -25,7 +25,7 @@ jobs:
 
     # - name: Look at allure
     #   run: |
-    #     ls .
+    #     # ls .
     #     ls allure-results
     #     allure --version
 
@@ -44,7 +44,7 @@ jobs:
 
     - name: Look at allure
       run: |
-        ls .
+        # ls .
         ls allure-results
         allure --version
 
@@ -57,7 +57,7 @@ jobs:
         # pip install allure-pytest
         # sudo apt-add-repository ppa:qameta/allure
         # sudo apt-get update
-        ls .
+        # ls .
         ls allure-results
         allure --version
         # sudo apt-get install allure
@@ -86,7 +86,7 @@ jobs:
 
     - name: Look at allure
       run: |
-        ls .
+        # ls .
         ls allure-results
         allure --version
 
@@ -95,7 +95,7 @@ jobs:
 
     - name: Look at allure
       run: |
-        ls .
+        # ls .
         ls allure-results
         allure --version
 
@@ -120,7 +120,7 @@ jobs:
 
     - name: Look at allure
       run: |
-        ls .
+        # ls .
         ls allure-results
         allure --version
 
