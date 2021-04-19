@@ -35,10 +35,10 @@ jobs:
         # pip install allure-pytest
         # sudo apt-add-repository ppa:qameta/allure
         # sudo apt-get update 
-        # sudo apt-get install allure
-        # mkdir allure-results
-        # mkdir allure-report
-        # mkdir allure-history
+        sudo apt-get install allure
+        mkdir allure-results
+        mkdir allure-report
+        mkdir allure-history
     - name: Lint with flake8
       run: |
         flake8 .
