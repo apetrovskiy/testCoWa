@@ -60,7 +60,9 @@ jobs:
 
     - name: Experimental installation
       if: always()
-      run: bundle install
+      run: |
+        rm Gemfile.lock
+        bundle install
 
     - name: Ruby - run tests
       if: always()
@@ -89,7 +91,9 @@ jobs:
 
     - name: Go - build
       if: always()
-      run: go build -v ./...
+      run: |
+        go mod vendor
+        go build -v ./...
 
     - name: Go - test
       if: always()
