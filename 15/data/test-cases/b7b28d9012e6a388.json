@@ -1,0 +1,79 @@
+{
+  "uid" : "b7b28d9012e6a388",
+  "name" : "test_human_readable_duration_format[5015292-58 days, 1 hour, 8 minutes and 12 seconds]",
+  "fullName" : "src.test.java.training.katas.HumaReadableDurationFormat.test_human_readable_duration_format#test_human_readable_duration_format",
+  "historyId" : "4912abe69d69356d9e4c4f138a7757cd",
+  "time" : {
+    "start" : 1618835031352,
+    "stop" : 1618835031353,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.HumaReadableDurationFormat"
+  }, {
+    "name" : "suite",
+    "value" : "test_human_readable_duration_format"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-401"
+  }, {
+    "name" : "thread",
+    "value" : "3058-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.HumaReadableDurationFormat.test_human_readable_duration_format"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'58 days, 1 hour, 8 minutes and 12 seconds'"
+  }, {
+    "name" : "seconds",
+    "value" : "5015292"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a8df825410b958c1",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/14//#testresult/a8df825410b958c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618831830579,
+          "stop" : 1618831830579,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b7b28d9012e6a388.json",
+  "parameterValues" : [ "'58 days, 1 hour, 8 minutes and 12 seconds'", "5015292" ]
+}
