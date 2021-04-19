@@ -1,10 +1,11 @@
 namespace training.katas.number_of_people_in_the_bus
 {
+    using NUnit.Allure.Core;
     using NUnit.Framework;
     using System;
     using System.Collections.Generic;
 
-
+    [AllureNUnit]
     [TestFixture]
     public class MyTest
     {

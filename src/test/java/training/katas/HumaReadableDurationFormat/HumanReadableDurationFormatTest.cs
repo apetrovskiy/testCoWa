@@ -1,8 +1,10 @@
 namespace training.katas.HumanReadableDurationFormat
 {
+    using NUnit.Allure.Core;
     using NUnit.Framework;
     using System;
 
+    [AllureNUnit]
     [TestFixture]
     public class Tests
     {
