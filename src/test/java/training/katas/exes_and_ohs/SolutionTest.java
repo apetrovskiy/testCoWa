@@ -1,8 +1,10 @@
 package training.katas.exes_and_ohs;
 
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
+// import org.junit.Test;
+// import static org.junit.Assert.assertEquals;
+// import org.junit.runners.JUnit4;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import training.katas.exes_and_ohs.XO;
 
 public class SolutionTest {

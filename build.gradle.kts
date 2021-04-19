@@ -200,8 +200,12 @@ configure<AllureExtension> {
     autoconfigure = true
     aspectjweaver = true
     version = versions["allure"]
+    allureJavaVersion = "16"
 
     clean = true
+
+    resultsDir = file("../../allure-results")
+    reportDir = file("../../allure-reports")
 
     useJUnit5 {
         version = versions["allure"]
@@ -216,6 +220,7 @@ val test by tasks.getting(Test::class) {
     systemProperty("junit.jupiter.execution.parallel.enabled", "true")
     systemProperty("junit.jupiter.execution.parallel.config.strategy", "dynamic")
     systemProperty("junit.jupiter.extensions.autodetection.enabled", "true")
+    // systemProperty("allure.results.directory", "../../../allure-results")
 }
 
 tasks.named<Wrapper>("wrapper") {
