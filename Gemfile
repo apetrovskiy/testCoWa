@@ -9,7 +9,7 @@ gem 'minitest'
 
 # gem "allure-ruby-commons"
 # gem "allure-cucumber"
-# gem "allure-rspec"
+gem "allure-rspec"
 
 group :test do
   # gem 'cucumber-rails', require: false
