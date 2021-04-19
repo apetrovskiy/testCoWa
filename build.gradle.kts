@@ -20,7 +20,8 @@ val versions = mapOf(
     "javafaker" to "1.0.2",
     "awaitility" to "4.0.3",
     "cucumber" to "6.8.1",
-    "cucumber-junit" to "6.10.2"
+    "cucumber-junit" to "6.10.2",
+    "allure-gradle" to "2.8.1"
 )
 
 plugins {
@@ -180,6 +181,9 @@ dependencies {
 
     // Need scala-xml at test runtime
     testRuntimeOnly("org.scala-lang.modules:scala-xml_2.13:1.2.0")
+
+    // https://mvnrepository.com/artifact/io.qameta.allure/allure-gradle
+    implementation("io.qameta.allure:allure-gradle:${versions["allure-gradle"]}")
 }
 
 application {
