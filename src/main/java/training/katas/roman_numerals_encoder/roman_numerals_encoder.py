@@ -3,7 +3,8 @@ EMPTY = ''
 
 def solution_roman_numerals_encoder(n):
     # TODO convert int to roman string
-    return build_thousands(n) + build_hundreds(n) + build_tens(n) + build_ones(n)
+    return build_thousands(n) + build_hundreds(n) + \
+        build_tens(n) + build_ones(n)
 
 
 def build_thousands(n: int) -> str:
@@ -32,7 +33,8 @@ def build_ones(n: int) -> str:
     return build_roman_string(thousands, 'I', 'V', 'X')
 
 
-def build_roman_string(n: int, one_char: str, five_char: str, ten_char: str) -> str:
+def build_roman_string(n: int, one_char: str,
+                       five_char: str, ten_char: str) -> str:
     print(n)
     switcher = {
         0: EMPTY,

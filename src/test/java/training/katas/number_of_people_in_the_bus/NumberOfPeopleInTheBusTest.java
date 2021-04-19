@@ -1,11 +1,8 @@
 package training.katas.number_of_people_in_the_bus;
 
 import java.util.ArrayList;
-
-import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import training.katas.number_of_people_in_the_bus.Metro;
 
 public class NumberOfPeopleInTheBusTest {

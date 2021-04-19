@@ -1,7 +1,9 @@
 namespace training.katas.SplitStrings
 {
+    using NUnit.Allure.Core;
     using NUnit.Framework;
 
+    [AllureNUnit]
     [TestFixture]
     public class SplitStringTests
     {

@@ -1,4 +1,5 @@
-from src.main.java.training.katas.roman_numerals_encoder.roman_numerals_encoder import solution_roman_numerals_encoder
+from src.main.java.training.katas.roman_numerals_encoder.\
+    roman_numerals_encoder import solution_roman_numerals_encoder
 import pytest
 # import ptest
 
@@ -20,5 +21,6 @@ test_data = [
 
 @ pytest.mark.parametrize("input,expected_result", test_data)
 def test_roman_numerals_encoder(input: int, expected_result: str):
-    # test.assert_equals(solution_roman_numerals_encoder(input), expected_result)
+    # test.assert_equals(
+    # solution_roman_numerals_encoder(input), expected_result)
     assert solution_roman_numerals_encoder(input) == expected_result

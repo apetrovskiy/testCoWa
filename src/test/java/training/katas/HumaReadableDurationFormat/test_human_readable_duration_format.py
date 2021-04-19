@@ -1,4 +1,5 @@
-from src.main.java.training.katas.HumanReadableDurationFormat.solution import format_duration
+from src.main.java.training.katas.HumanReadableDurationFormat.solution \
+    import format_duration
 import pytest
 
 

@@ -1,8 +1,10 @@
 namespace training.katas.exes_and_ohs
 {
+    using NUnit.Allure.Core;
     using NUnit.Framework;
     using System;
 
+    [AllureNUnit]
     [TestFixture]
     public class SolutionTest
     {
