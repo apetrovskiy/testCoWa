@@ -1,0 +1,115 @@
+{
+  "uid" : "8141d3f498d76a7c",
+  "name" : "test_split_strings[igdiavqsfbdfptqrvcpkoavztvkxzyed-expected_result15]",
+  "fullName" : "src.test.java.training.katas.SplitStrings.test_split_strings#test_split_strings",
+  "historyId" : "99620458049369af9dc33fd2ce345a04",
+  "time" : {
+    "start" : 1618839968196,
+    "stop" : 1618839968196,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: TODO: no way of currently testing this",
+  "statusTrace" : "('/home/runner/work/testCoWa/testCoWa/src/test/java/training/katas/SplitStrings/test_split_strings.py', 99, 'Skipped: TODO: no way of currently testing this')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='TODO: no way of currently testing this')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.SplitStrings"
+  }, {
+    "name" : "suite",
+    "value" : "test_split_strings"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-561"
+  }, {
+    "name" : "thread",
+    "value" : "3065-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.SplitStrings.test_split_strings"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "['ig', 'di', 'av', 'qs', 'fb', 'df', 'pt', 'qr', 'vc', 'pk', 'oa', 'vz', 'tv', 'kx', 'zy', 'ed']"
+  }, {
+    "name" : "input",
+    "value" : "'igdiavqsfbdfptqrvcpkoavztvkxzyed'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 5,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "4bad26cfbbeeae88",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/17//#testresult/4bad26cfbbeeae88",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1618836947935,
+          "stop" : 1618836947935,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "41cbe2bb40db6c86",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/16//#testresult/41cbe2bb40db6c86",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1618836036782,
+          "stop" : 1618836036782,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cce451015ccb3cb7",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/15//#testresult/cce451015ccb3cb7",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1618835031423,
+          "stop" : 1618835031423,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "92b09177c505e195",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/14//#testresult/92b09177c505e195",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1618831830645,
+          "stop" : 1618831830645,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip(reason='TODO: no way of currently testing this')" ]
+  },
+  "source" : "8141d3f498d76a7c.json",
+  "parameterValues" : [ "['ig', 'di', 'av', 'qs', 'fb', 'df', 'pt', 'qr', 'vc', 'pk', 'oa', 'vz', 'tv', 'kx', 'zy', 'ed']", "'igdiavqsfbdfptqrvcpkoavztvkxzyed'" ]
+}
