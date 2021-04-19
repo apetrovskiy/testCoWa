@@ -6,6 +6,8 @@
  * User Manual available at https://docs.gradle.org/6.6.1/userguide/tutorial_java_projects.html
  */
 
+import io.qameta.allure.gradle.AllureExtension
+
 val versions = mapOf(
     "gatling" to "3.5.1",
     "junit-jupiter" to "5.7.1",
@@ -21,6 +23,7 @@ val versions = mapOf(
     "awaitility" to "4.0.3",
     "cucumber" to "6.8.1",
     "cucumber-junit" to "6.10.2",
+    "allure" to "2.13.9",
     "allure-gradle" to "2.8.1"
 )
 
@@ -55,6 +58,8 @@ plugins {
 
     // Apply the xctest plugin to add support for building and running Swift test executables (Linux) or bundles (macOS)
     // xctest
+
+    id("io.qameta.allure") version "2.8.1"
 }
 
 /*
@@ -69,12 +74,11 @@ library {
 }
 */
 
-/*
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(11))
+        languageVersion.set(JavaLanguageVersion.of(16))
     }
-}*/
+}
 
 /*
 tasks.withType<JavaCompile>().configureEach {
@@ -182,20 +186,36 @@ dependencies {
     // Need scala-xml at test runtime
     testRuntimeOnly("org.scala-lang.modules:scala-xml_2.13:1.2.0")
 
-    // https://mvnrepository.com/artifact/io.qameta.allure/allure-gradle
-    implementation("io.qameta.allure:allure-gradle:${versions["allure-gradle"]}")
+    testImplementation("io.qameta.allure:allure-java-commons:${versions["allure"]}")
+    // implementation("io.qameta.allure:allure-gradle:${versions["allure-gradle"]}")
 }
 
-application {
+/*application {
     // Define the main class for the application.
     // mainClassName = "testLeCo.App"
     mainClass.set("testLeCo.App")
+}*/
+
+configure<AllureExtension> {
+    autoconfigure = true
+    aspectjweaver = true
+    version = versions["allure"]
+
+    clean = true
+
+    useJUnit5 {
+        version = versions["allure"]
+    }
 }
 
 val test by tasks.getting(Test::class) {
+    ignoreFailures = true
     // Use junit platform for unit tests
     useJUnitPlatform()
     testLogging.showStandardStreams = true
+    systemProperty("junit.jupiter.execution.parallel.enabled", "true")
+    systemProperty("junit.jupiter.execution.parallel.config.strategy", "dynamic")
+    systemProperty("junit.jupiter.extensions.autodetection.enabled", "true")
 }
 
 tasks.named<Wrapper>("wrapper") {
