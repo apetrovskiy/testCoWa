@@ -26,6 +26,13 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: 3.9
+
+    -name: Look at allure
+      run: |
+        ls .
+        ls allure-results
+        allure
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
@@ -34,11 +41,14 @@ jobs:
         # pip install flake8 pytest
         # pip install allure-pytest
         # sudo apt-add-repository ppa:qameta/allure
-        # sudo apt-get update 
-        sudo apt-get install allure
-        mkdir allure-results
-        mkdir allure-report
-        mkdir allure-history
+        # sudo apt-get update
+        ls .
+        ls allure-results
+        allure
+        # sudo apt-get install allure
+        # mkdir allure-results
+        # mkdir allure-report
+        # mkdir allure-history
     - name: Lint with flake8
       run: |
         flake8 .
@@ -58,8 +68,21 @@ jobs:
       with:
         ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+
+    -name: Look at allure
+      run: |
+        ls .
+        ls allure-results
+        allure
+
     - name: Run tests
       run: bundle exec rake
+
+    -name: Look at allure
+      run: |
+        ls .
+        ls allure-results
+        allure
 
     - name: Set up JDK 15
       uses: actions/setup-java@v2
@@ -79,6 +102,12 @@ jobs:
     - name: Build with Gradle
       if: always()
       run: ./gradlew build
+
+    -name: Look at allure
+      run: |
+        ls .
+        ls allure-results
+        allure
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
