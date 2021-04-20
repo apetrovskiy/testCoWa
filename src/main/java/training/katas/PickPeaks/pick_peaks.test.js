@@ -1,4 +1,5 @@
 const chai = require("chai");
+import { pickPeaks } from "./pick_peaks.js";
 const assert = chai.assert;
 chai.config.truncateThreshold = 0;
 

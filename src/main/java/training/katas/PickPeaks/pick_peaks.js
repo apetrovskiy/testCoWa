@@ -1,4 +1,4 @@
-function pickPeaks(arr) {
+export function pickPeaks(arr) {
 
     //  return {pos:[],peaks:[]}
 }
