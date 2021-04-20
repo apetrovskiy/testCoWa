@@ -20,5 +20,7 @@ func TestStep(t *testing.T) {
 	allure.Test(t, allure.Action(func() {
 		Expect(k.ValidParentheses("()")).To(Equal(true))
 		Expect(k.ValidParentheses(")")).To(Equal(false))
+		// wrong case
+		Expect(k.ValidParentheses("()")).To(Equal(false))
 	}))
 }
