@@ -1,3 +1,4 @@
+/*
 const chai = require("chai");
 const pickPeaks = require('../pick_peaks');
 const assert = chai.assert;
@@ -17,4 +18,4 @@ describe("Sample tests", function() {
         assert.deepEqual(pickPeaks([1, 1, 1, 1]), { pos: [], peaks: [] });
     });
 });
-// 11
+*/
