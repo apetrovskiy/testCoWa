@@ -1,3 +1,5 @@
+import { JasmineAllureReporter } from "allure-jasmine";
+import { AllureRuntime, Status, TestResult } from "allure-js-commons";
 // Since Node 10, we're using Mocha.
 // You can use `chai` for assertions.
 const chai = require("chai");
@@ -8,9 +10,9 @@ const assert = chai.assert;
 // Uncomment the following to use the old assertions:
 // const Test = require("@codewars/test-compat");
 
-describe("Solution", function() {
-    it("should test for something", function() {
-        // Test.assertEquals(1 + 1, 2);
-        // assert.strictEqual(1 + 1, 2);
-    });
+describe("Solution", function () {
+  it("should test for something", function () {
+    // Test.assertEquals(1 + 1, 2);
+    // assert.strictEqual(1 + 1, 2);
+  });
 });
