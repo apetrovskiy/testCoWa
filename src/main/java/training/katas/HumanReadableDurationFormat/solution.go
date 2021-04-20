@@ -1,2 +1,2 @@
-package training.katas.HumanReadableDurationFormat
+package HumanReadableDurationFormat
 // import "C"

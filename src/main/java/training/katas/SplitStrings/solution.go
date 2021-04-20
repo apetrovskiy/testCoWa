@@ -1,1 +1,1 @@
-package training.katas.SplitStrings
+package SplitStrings

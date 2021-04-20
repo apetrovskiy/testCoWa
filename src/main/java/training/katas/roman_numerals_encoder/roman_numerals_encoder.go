@@ -1,1 +1,1 @@
-package training.katas.roman_numerals_encoder
+package roman_numerals_encoder
