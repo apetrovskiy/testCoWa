@@ -98,6 +98,8 @@ jobs:
     - name: Go - build
       if: always()
       run: |
+        go get github.com/onsi/ginkgo/ginkgo
+        go get github.com/onsi/gomega/...
         GCO_ENABLED=0
         go mod vendor
         go build -v ./...

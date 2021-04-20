@@ -1,7 +1,7 @@
-package kata_test
+package kata // _test
 
 import (
-	. "codewarrior/kata"
+	// . "codewarrior/kata"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
