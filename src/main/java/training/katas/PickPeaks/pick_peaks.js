@@ -1,4 +1,4 @@
-pick_peaksfunction pickPeaks(arr){
-  
+function pickPeaks(arr) {
+
     //  return {pos:[],peaks:[]}
 }
