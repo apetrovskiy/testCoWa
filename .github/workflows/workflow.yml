@@ -74,12 +74,6 @@ jobs:
       if: always()
       run: bundle exec rake
 
-    # - name: Look at allure
-    #   run: |
-    #     # ls .
-    #     ls allure-results
-    #     # allure --version
-
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       if: always()
