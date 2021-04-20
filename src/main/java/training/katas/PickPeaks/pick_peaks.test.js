@@ -1,5 +1,5 @@
-import { JasmineAllureReporter } from "allure-jasmine";
-import { AllureRuntime, Status, TestResult } from "allure-js-commons";
+// import { JasmineAllureReporter } from "allure-jasmine";
+// import { AllureRuntime, Status, TestResult } from "allure-js-commons";
 const chai = require("chai");
 const pickPeaks = require('../pick_peaks');
 const assert = chai.assert;
