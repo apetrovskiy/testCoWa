@@ -21,6 +21,6 @@ func TestStep(t *testing.T) {
 		Expect(k.ValidParentheses("()")).To(Equal(true))
 		Expect(k.ValidParentheses(")")).To(Equal(false))
 		// wrong case
-		Expect(k.ValidParentheses("()")).To(Equal(false))
+		// Expect(k.ValidParentheses("()")).To(Equal(false))
 	}))
 }
