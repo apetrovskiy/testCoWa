@@ -1,4 +1,4 @@
-name: Python 3.9, Ruby 2.7, Java 15, .NET 5, allure
+name: Python 3.9, Ruby 2.7, Java 15, .NET 5, Go 1.16, Swift, Dart, allure
 
 on: [push]
 
@@ -353,6 +353,24 @@ jobs:
       # want to change this to 'flutter test'.
       - name: Run tests
         run: dart test
+
+    - name: Look at Allure
+      if: always()
+      uses: ./.github/actions/allure-show
+
+    # TODO: de-duplicate
+    - name: Archive Allure results
+      if: always()
+      uses: actions/upload-artifact@v2
+      with:
+        name: allure-results
+        path: allure-results
+    # - name: Archive Allure reports
+    #   if: always()
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: allure-reports
+    #     path: allure-reports
 
   allure:
     runs-on: ubuntu-latest
