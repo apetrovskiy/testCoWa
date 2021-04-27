@@ -4,7 +4,7 @@ import (
 	// . "codewarrior/kata"
 	// k "."
 	"github.com/dailymotion/allure-go"
-	. "github.com/joho/godotenv"
+	"github.com/joho/godotenv"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"log"
