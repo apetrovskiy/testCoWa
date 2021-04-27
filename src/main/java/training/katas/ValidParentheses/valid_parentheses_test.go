@@ -4,12 +4,12 @@ import (
 	// . "codewarrior/kata"
 	// k "."
 	"github.com/dailymotion/allure-go"
+	. "github.com/joho/godotenv"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"testing"
-	. "github.com/joho/godotenv"
-	"os"
 	"log"
+	"os"
+	"testing"
 )
 
 // https://towardsdatascience.com/use-environment-variable-in-your-next-golang-project-39e17c3aaa66
@@ -19,13 +19,13 @@ func goDotEnvVariable(key string) string {
 
 	// load .env file
 	err := godotenv.Load("variables.env")
-  
+
 	if err != nil {
-	  log.Fatalf("Error loading .env file")
+		log.Fatalf("Error loading .env file")
 	}
-  
+
 	return os.Getenv(key)
-  }
+}
 
 var _ = Describe("Example Tests", func() {
 	It("passes example tests", func() {
