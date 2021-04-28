@@ -1,0 +1,274 @@
+{
+  "uid" : "bd510e4ffdcc8c41",
+  "name" : "exampleTests()",
+  "fullName" : "training.katas.HumanReadableDurationFormat.TimeFormatterTest.exampleTests",
+  "historyId" : "7871275a8085c8e6d680d95b1e8f661d",
+  "time" : {
+    "start" : 1619644084041,
+    "stop" : 1619644084073,
+    "duration" : 32
+  },
+  "description" : "",
+  "status" : "failed",
+  "statusMessage" : "expected: <1 second> but was: <>",
+  "statusTrace" : "org.opentest4j.AssertionFailedError: expected: <1 second> but was: <>\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\n\tat org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)\n\tat training.katas.HumanReadableDurationFormat.TimeFormatterTest.exampleTests(TimeFormatterTest.java:9)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:117)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:129)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.executeNonConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:135)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)\n\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)\n\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az182-932"
+  }, {
+    "name" : "thread",
+    "value" : "2750@fv-az182-932.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "training.katas.HumanReadableDurationFormat.TimeFormatterTest"
+  }, {
+    "name" : "testClass",
+    "value" : "training.katas.HumanReadableDurationFormat.TimeFormatterTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "exampleTests"
+  }, {
+    "name" : "suite",
+    "value" : "training.katas.HumanReadableDurationFormat.TimeFormatterTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 56,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 56
+      },
+      "items" : [ {
+        "uid" : "ece82a4126cff615",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/77//#testresult/ece82a4126cff615",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619546423549,
+          "stop" : 1619546423582,
+          "duration" : 33
+        }
+      }, {
+        "uid" : "2e5b1c7e87edf2b6",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/76//#testresult/2e5b1c7e87edf2b6",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619546189773,
+          "stop" : 1619546189818,
+          "duration" : 45
+        }
+      }, {
+        "uid" : "27dd1fc04e2dc93",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/75//#testresult/27dd1fc04e2dc93",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619546064521,
+          "stop" : 1619546064559,
+          "duration" : 38
+        }
+      }, {
+        "uid" : "da15b77a4c041e93",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/74//#testresult/da15b77a4c041e93",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619545885242,
+          "stop" : 1619545885278,
+          "duration" : 36
+        }
+      }, {
+        "uid" : "fcba61e2fc10dc22",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/73//#testresult/fcba61e2fc10dc22",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619545346606,
+          "stop" : 1619545346655,
+          "duration" : 49
+        }
+      }, {
+        "uid" : "f905c7aac0ecf4a2",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/72//#testresult/f905c7aac0ecf4a2",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619544569373,
+          "stop" : 1619544569461,
+          "duration" : 88
+        }
+      }, {
+        "uid" : "a4e084b05f548704",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/71//#testresult/a4e084b05f548704",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619544266992,
+          "stop" : 1619544267029,
+          "duration" : 37
+        }
+      }, {
+        "uid" : "7e03d287e8fd8173",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/70//#testresult/7e03d287e8fd8173",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619544220623,
+          "stop" : 1619544220678,
+          "duration" : 55
+        }
+      }, {
+        "uid" : "95cad2d4f980bbaa",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/69//#testresult/95cad2d4f980bbaa",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619544040907,
+          "stop" : 1619544040955,
+          "duration" : 48
+        }
+      }, {
+        "uid" : "b408e923a9bd795a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/68//#testresult/b408e923a9bd795a",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619543454540,
+          "stop" : 1619543454606,
+          "duration" : 66
+        }
+      }, {
+        "uid" : "c1d7366cfca25cdf",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/67//#testresult/c1d7366cfca25cdf",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619543336510,
+          "stop" : 1619543336561,
+          "duration" : 51
+        }
+      }, {
+        "uid" : "8c58832646d6ffbd",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/66//#testresult/8c58832646d6ffbd",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619536321095,
+          "stop" : 1619536321140,
+          "duration" : 45
+        }
+      }, {
+        "uid" : "98c6380984677e0a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/65//#testresult/98c6380984677e0a",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619535586434,
+          "stop" : 1619535586463,
+          "duration" : 29
+        }
+      }, {
+        "uid" : "f4b05e7a9a8b76cd",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/63//#testresult/f4b05e7a9a8b76cd",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619440006868,
+          "stop" : 1619440006903,
+          "duration" : 35
+        }
+      }, {
+        "uid" : "7672723ecd2cdeca",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/62//#testresult/7672723ecd2cdeca",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619427060613,
+          "stop" : 1619427060651,
+          "duration" : 38
+        }
+      }, {
+        "uid" : "a39ae87bee33037",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/61//#testresult/a39ae87bee33037",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619426778489,
+          "stop" : 1619426778540,
+          "duration" : 51
+        }
+      }, {
+        "uid" : "d7e4aa65bf9a4f26",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/60//#testresult/d7e4aa65bf9a4f26",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619385709594,
+          "stop" : 1619385709625,
+          "duration" : 31
+        }
+      }, {
+        "uid" : "b8c284fe059d0f24",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/59//#testresult/b8c284fe059d0f24",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619383586299,
+          "stop" : 1619383586333,
+          "duration" : 34
+        }
+      }, {
+        "uid" : "dd223325e52a3c8a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/57//#testresult/dd223325e52a3c8a",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1619266449474,
+          "stop" : 1619266449522,
+          "duration" : 48
+        }
+      }, {
+        "uid" : "b985535c44ac08d3",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/56//#testresult/b985535c44ac08d3",
+        "status" : "failed",
+        "statusDetails" : "expected: <1 second> but was: <>",
+        "time" : {
+          "start" : 1618946673470,
+          "stop" : 1618946673504,
+          "duration" : 34
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bd510e4ffdcc8c41.json",
+  "parameterValues" : [ ]
+}
