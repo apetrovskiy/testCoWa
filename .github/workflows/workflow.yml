@@ -375,17 +375,18 @@ jobs:
       # run: find -name '*_test.dart' | { read test; echo $test; pub run test $test; }
       run: find -name '*_test.dart' | while read test ; do echo $test ; pub run test $test ; done
 
-    - name: Look at Allure
-      if: always()
-      uses: ./.github/actions/allure-show
+    # Allure is not yet supported
+    # - name: Look at Allure
+    #   if: always()
+    #   uses: ./.github/actions/allure-show
 
-    # TODO: de-duplicate
-    - name: Archive Allure results
-      if: always()
-      uses: actions/upload-artifact@v2
-      with:
-        name: allure-results
-        path: allure-results
+    # # TODO: de-duplicate
+    # - name: Archive Allure results
+    #   if: always()
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: allure-results
+    #     path: allure-results
 
   allure:
     runs-on: ubuntu-latest
