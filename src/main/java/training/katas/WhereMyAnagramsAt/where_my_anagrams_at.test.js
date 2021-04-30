@@ -11,7 +11,7 @@ const assert = chai.assert;
 // const Test = require("@codewars/test-compat");
 const anagrams = require("./where_my_anagrams_at").anagrams;
 
-describe("Solution", function() {
+describe("Anagrams", function() {
     it("should test for something", function() {
         assert.strictEqual(anagrams("abba", ["aabb", "abcd", "bbaa", "dada"]), [
             "aabb",
