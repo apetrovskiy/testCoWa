@@ -14,7 +14,7 @@
         "applicationinsights": "^1.8.7"
     },
     "scripts": {
-        "_comment": "jest",
-        "test": "chai"
+        "_comment": "jest; chai not found",
+        "test": "mocha"
     }
 }
