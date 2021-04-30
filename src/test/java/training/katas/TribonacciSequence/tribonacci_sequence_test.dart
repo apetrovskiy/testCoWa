@@ -12,6 +12,7 @@ test("Test Description", () {
 
 import "package:test/test.dart";
 import "package:solution/solution.dart";
+import "../../../../../main/java/training/katas/TribonacciSequence/tribonacci_sequence.dart";
 
 void tester(List<num> sig, int n, List<num> exp) => test("tribonacci($sig, $n)", () => expect(tribonacci(sig, n), equals(exp)));
 void main() {

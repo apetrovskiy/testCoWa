@@ -1,5 +1,6 @@
 import "package:test/test.dart";
 import "package:solution/solution.dart";
+import "../../../../../main/java/training/katas/ConvertBooleanValuesToStringsYesOrNo/ConvertBooleanValuesToStringsYesOrNo.dart";
 
 void main() {
   test('Tests', () {
