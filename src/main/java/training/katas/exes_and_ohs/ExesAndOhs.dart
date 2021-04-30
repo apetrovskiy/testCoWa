@@ -1,3 +1,5 @@
+library training.katas.exes_and_ohs;
+
 bool XO(str) {
   // your code here
   var lowerCased = str.toLowerCase();

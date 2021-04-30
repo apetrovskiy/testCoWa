@@ -1,3 +1,5 @@
+library training.katas.ConvertBooleanValuesToStringsYesOrNo;
+
 import "package:test/test.dart";
 // import "package:solution/solution.dart";
 import '../../../../../main/java/training/katas/ConvertBooleanValuesToStringsYesOrNo/ConvertBooleanValuesToStringsYesOrNo.dart';
