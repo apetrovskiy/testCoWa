@@ -372,7 +372,8 @@ jobs:
     - name: Run tests
       # run: dart test
       if: always()
-      run: find -name '*_test.dart' | { read test; echo $test; pub run test $test; }
+      # run: find -name '*_test.dart' | { read test; echo $test; pub run test $test; }
+      run: find -name '*_test.dart' | while read test ; do echo $test ; pub run test $test ; done
 
     - name: Look at Allure
       if: always()
