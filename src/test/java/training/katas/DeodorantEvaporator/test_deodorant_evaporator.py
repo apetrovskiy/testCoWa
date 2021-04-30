@@ -1,6 +1,6 @@
 # test.assert_equals(evaporator(10, 10, 10), 22)
 import pytest
-from src.main.java.training.katas.DeodorantEvaporator.solution \
+from src.main.java.training.katas.DeodorantEvaporator.deodorant_evaporator \
     import evaporator
 
 
