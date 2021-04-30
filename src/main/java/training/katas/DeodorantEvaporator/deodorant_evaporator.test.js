@@ -1,7 +1,5 @@
 // Test.assertEquals(evaporator(10,10,10),22);
 
-// import { JasmineAllureReporter } from "allure-jasmine";
-// import { AllureRuntime, Status, TestResult } from "allure-js-commons";
 const chai = require("chai");
 const evaporator = require("../deodorant_evaporator");
 // const assert = chai.assert;
