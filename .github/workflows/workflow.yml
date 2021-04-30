@@ -372,7 +372,8 @@ jobs:
     - name: Run tests
       run: dart test
     - name: Run tests recursively
-      run: find -name '*_test.dart' | dart test
+      if: always()
+      run: find -name '*_test.dart' | pub run test
 
     - name: Look at Allure
       if: always()
