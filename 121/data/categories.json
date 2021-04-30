@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  {\"peaks\": [6, 3], \"pos\": [3, 7]}\n                Received:\n                  undefined\n                \n                Message:\n                  expected undefined to deeply equal { pos: [ 3, 7 ], peaks: [ 6, 3 ] }\n                \n                Difference:\n                \n                  Comparing two different types of values. Expected object but received undefined.\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/PickPeaks/pick_peaks.test.js:10:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "Tests",
+        "uid" : "230c84c04d97fc6d",
+        "parentUid" : "da04f284e21844a71e9b7173f7423154",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619804238806,
+          "stop" : 1619804238813,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da04f284e21844a71e9b7173f7423154"
+    }, {
+      "name" : "TypeError: anagrams is not a function",
+      "children" : [ {
+        "name" : "should test for something",
+        "uid" : "22614672d4235292",
+        "parentUid" : "1e61631886535a63525c1658b322745c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619804238997,
+          "stop" : 1619804238998,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e61631886535a63525c1658b322745c"
+    }, {
+      "name" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "should test for something",
+        "uid" : "16be8001a600c9fd",
+        "parentUid" : "df4f50f716fdbf3ea5a1cec0ad27342c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619804239480,
+          "stop" : 1619804239482,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df4f50f716fdbf3ea5a1cec0ad27342c"
+    }, {
+      "name" : "expected: <1 second> but was: <>",
+      "children" : [ {
+        "name" : "exampleTests()",
+        "uid" : "8b7955391c82d802",
+        "parentUid" : "de5d6573c5d45a3ca923f00b58548e35",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619804373051,
+          "stop" : 1619804373083,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de5d6573c5d45a3ca923f00b58548e35"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
