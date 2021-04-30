@@ -5,7 +5,9 @@ from src.main.java.training.katas.DeodorantEvaporator.solution \
 
 
 test_data = [
-    ()
+    (10, 10, 5, 29),
+    (10, 10, 10, 22),
+    (100, 5, 5, 59)
 ]
 
 
@@ -14,4 +16,5 @@ test_data = [
 def test_deodorant_evaporator(
         content: int, evap_per_day: int,
         threshold: int, expected_result: int):
-    assert expected_result == evaporator(input)
+    assert expected_result == \
+        evaporator(content, evap_per_day, threshold)
