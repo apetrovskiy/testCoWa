@@ -1,4 +1,4 @@
 String bool_to_word(bool boolean) {
   // your code goes here
-  return "";
+  return boolean ? "Yes" : "No";
 }
