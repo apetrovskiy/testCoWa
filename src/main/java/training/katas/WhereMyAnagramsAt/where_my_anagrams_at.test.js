@@ -1,5 +1,3 @@
-// import { JasmineAllureReporter } from "allure-jasmine";
-// import { AllureRuntime, Status, TestResult } from "allure-js-commons";
 // Since Node 10, we're using Mocha.
 // You can use `chai` for assertions.
 const chai = require("chai");
