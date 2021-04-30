@@ -1,0 +1,275 @@
+{
+  "uid" : "4e3e995021c3022e",
+  "name" : "test_pick_peaks[input0-expected_result0]",
+  "fullName" : "src.test.java.training.katas.PickPeaks.test_pick_peaks#test_pick_peaks",
+  "historyId" : "db933f052992a34886da9f5aded4b9c0",
+  "time" : {
+    "start" : 1619789705405,
+    "stop" : 1619789705405,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: TODO: no way of currently testing this",
+  "statusTrace" : "('/home/runner/work/testCoWa/testCoWa/src/test/java/training/katas/PickPeaks/test_pick_peaks.py', 22, 'Skipped: TODO: no way of currently testing this')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='TODO: no way of currently testing this')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.PickPeaks"
+  }, {
+    "name" : "suite",
+    "value" : "test_pick_peaks"
+  }, {
+    "name" : "host",
+    "value" : "fv-az278-574"
+  }, {
+    "name" : "thread",
+    "value" : "1809-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.PickPeaks.test_pick_peaks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "{'pos': [3, 7], 'peaks': [6, 3]}"
+  }, {
+    "name" : "input",
+    "value" : "[1, 2, 3, 6, 4, 1, 2, 3, 2, 1]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 87,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 87
+      },
+      "items" : [ {
+        "uid" : "4b7b91c5fe25076c",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/103//#testresult/4b7b91c5fe25076c",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619783085059,
+          "stop" : 1619783085059,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2d15307d0c188288",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/102//#testresult/2d15307d0c188288",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619779328362,
+          "stop" : 1619779328362,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3e799550f81d4fd6",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/101//#testresult/3e799550f81d4fd6",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619779233368,
+          "stop" : 1619779233368,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cf4637530be55bb8",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/100//#testresult/cf4637530be55bb8",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619778693863,
+          "stop" : 1619778693863,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "99efcf1f2ce6af53",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/99//#testresult/99efcf1f2ce6af53",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619773113470,
+          "stop" : 1619773113470,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7a2cb9ae5499b39f",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/98//#testresult/7a2cb9ae5499b39f",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619772872937,
+          "stop" : 1619772872937,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "dc4674fce448e833",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/97//#testresult/dc4674fce448e833",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619772421448,
+          "stop" : 1619772421448,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e79e973041065659",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/96//#testresult/e79e973041065659",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619772359926,
+          "stop" : 1619772359926,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "91188f5482aff69a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/95//#testresult/91188f5482aff69a",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619771889568,
+          "stop" : 1619771889568,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c12dcb0b293f2df3",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/94//#testresult/c12dcb0b293f2df3",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619769644904,
+          "stop" : 1619769644904,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "27b6c6e10915d73f",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/93//#testresult/27b6c6e10915d73f",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619768554051,
+          "stop" : 1619768554051,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6e54d96bb456fcce",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/92//#testresult/6e54d96bb456fcce",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619768420152,
+          "stop" : 1619768420152,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "befba698a8351656",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/91//#testresult/befba698a8351656",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619767887627,
+          "stop" : 1619767887627,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d780850fea261bb9",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/90//#testresult/d780850fea261bb9",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619767465863,
+          "stop" : 1619767465863,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b2103de5841ae99",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/89//#testresult/b2103de5841ae99",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619766444964,
+          "stop" : 1619766444964,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "377190b8eac527bf",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/88//#testresult/377190b8eac527bf",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619766217461,
+          "stop" : 1619766217461,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f8413155eb194294",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/87//#testresult/f8413155eb194294",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619766041386,
+          "stop" : 1619766041386,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b329f181b7146857",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/86//#testresult/b329f181b7146857",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619688764238,
+          "stop" : 1619688764238,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2722c8e6d09a6703",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/85//#testresult/2722c8e6d09a6703",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619683334377,
+          "stop" : 1619683334377,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "53bcfd9519bc85bb",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/84//#testresult/53bcfd9519bc85bb",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: no way of currently testing this",
+        "time" : {
+          "start" : 1619673893997,
+          "stop" : 1619673893997,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip(reason='TODO: no way of currently testing this')" ]
+  },
+  "source" : "4e3e995021c3022e.json",
+  "parameterValues" : [ "{'pos': [3, 7], 'peaks': [6, 3]}", "[1, 2, 3, 6, 4, 1, 2, 3, 2, 1]" ]
+}
