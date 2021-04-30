@@ -4,7 +4,7 @@ import '../../../../../main/java/training/katas/ConvertBooleanValuesToStringsYes
 
 void main() {
   group('Basic tests', () {
-    test('Yes/No, () {
+    test('Yes/No', () {
       expect(bool_to_word(true), equals("Yes"));
       expect(bool_to_word(false), equals("No"));
     });
