@@ -5,7 +5,8 @@ const evaporator = require("../deodorant_evaporator");
 // const assert = chai.assert;
 var assert = require("assert");
 chai.config.truncateThreshold = 0;
-
+var expect = require("chai").expect;
+/*
 describe("Deodorant Evaporator tests", function() {
     it("Tests", function() {
         // assert.equal(evaporator(10, 10, 10), 22);
@@ -15,7 +16,7 @@ describe("Deodorant Evaporator tests", function() {
         assert.strictEqual(evaporator(10, 10, 5), 29);
         assert.strictEqual(evaporator(100, 5, 5), 59);
     });
-});
+});*/
 test("10 10 10 -> 22", () => {
     expect(evaporator(10, 10, 10).toBe(22));
 });
