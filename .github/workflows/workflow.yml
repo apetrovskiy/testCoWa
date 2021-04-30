@@ -373,7 +373,8 @@ jobs:
       # run: dart test
       if: always()
       # run: find -name '*_test.dart' | { read test; echo $test; pub run test $test; }
-      run: find -name '*_test.dart' | while read test ; do echo $test ; pub run test $test ; done
+      # run: find -name '*_test.dart' | while read test ; do echo $test ; pub run test $test ; done
+      run: find -name '*_test.dart' | while read test ; do echo $test ; dart run test $test ; done
 
     # Allure is not yet supported
     # - name: Look at Allure
