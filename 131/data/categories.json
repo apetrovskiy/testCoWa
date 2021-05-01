@@ -1,0 +1,128 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  {\"peaks\": [6, 3], \"pos\": [3, 7]}\n                Received:\n                  undefined\n                \n                Message:\n                  expected undefined to deeply equal { pos: [ 3, 7 ], peaks: [ 6, 3 ] }\n                \n                Difference:\n                \n                  Comparing two different types of values. Expected object but received undefined.\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/PickPeaks/pick_peaks.test.js:8:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "Tests",
+        "uid" : "b529df84489d2ad",
+        "parentUid" : "0b515f2d37e5a1d6d39d97610c8826a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619899131095,
+          "stop" : 1619899131102,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b515f2d37e5a1d6d39d97610c8826a8"
+    }, {
+      "name" : "TypeError: anagrams is not a function",
+      "children" : [ {
+        "name" : "should test for something",
+        "uid" : "f7e9417abf992475",
+        "parentUid" : "1e61631886535a63525c1658b322745c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619899131424,
+          "stop" : 1619899131425,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e61631886535a63525c1658b322745c"
+    }, {
+      "name" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  1\n                Received:\n                  0\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "Tests",
+        "uid" : "88aa03b2f79a1d91",
+        "parentUid" : "d19f197bdcf5aeda12529082cf49b489",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619899131679,
+          "stop" : 1619899131681,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d19f197bdcf5aeda12529082cf49b489"
+    }, {
+      "name" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  1\n                Received:\n                  0\n                \n                Message:\n                  expected 0 to equal 1\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js:17:36)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "1-> 1",
+        "uid" : "f6f6cac1b9d8fd52",
+        "parentUid" : "86fb16ee1537dc99d88276c006fa82ab",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619899131682,
+          "stop" : 1619899131683,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86fb16ee1537dc99d88276c006fa82ab"
+    }, {
+      "name" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  74088\n                Received:\n                  0\n                \n                Message:\n                  expected 0 to equal 74088\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js:20:37)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "42-> 74088",
+        "uid" : "936563e278d7a0f7",
+        "parentUid" : "93a64144cb11bf71d8ef1005df7cb74d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619899131683,
+          "stop" : 1619899131684,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "93a64144cb11bf71d8ef1005df7cb74d"
+    }, {
+      "name" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "should test for something",
+        "uid" : "8e3329d470f5a082",
+        "parentUid" : "df4f50f716fdbf3ea5a1cec0ad27342c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619899131799,
+          "stop" : 1619899131800,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df4f50f716fdbf3ea5a1cec0ad27342c"
+    }, {
+      "name" : "expected: <1 second> but was: <>",
+      "children" : [ {
+        "name" : "exampleTests()",
+        "uid" : "2405a5039385d325",
+        "parentUid" : "de5d6573c5d45a3ca923f00b58548e35",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619899245287,
+          "stop" : 1619899245345,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de5d6573c5d45a3ca923f00b58548e35"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

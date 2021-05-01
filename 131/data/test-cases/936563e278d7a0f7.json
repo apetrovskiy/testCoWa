@@ -1,0 +1,93 @@
+{
+  "uid" : "936563e278d7a0f7",
+  "name" : "42-> 74088",
+  "fullName" : "src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js.42-> 74088",
+  "historyId" : "5cc50fffd6c9df7dee45f5105879ef68",
+  "time" : {
+    "start" : 1619899131683,
+    "stop" : 1619899131684,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  74088\n                Received:\n                  0\n                \n                Message:\n                  expected 0 to equal 74088\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js:20:37)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "statusTrace" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  74088\n                Received:\n                  0\n                \n                Message:\n                  expected 0 to equal 74088\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js:20:37)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js"
+  }, {
+    "name" : "testClass",
+    "value" : "src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js"
+  }, {
+    "name" : "testMethod",
+    "value" : "42-> 74088"
+  }, {
+    "name" : "package",
+    "value" : "src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "507afdb7189adbf9",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/130//#testresult/507afdb7189adbf9",
+        "status" : "failed",
+        "statusDetails" : "TypeError: rowSumOddNumbers is not a function",
+        "time" : {
+          "start" : 1619896609267,
+          "stop" : 1619896609267,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "47d5a9d933af7d78",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/129//#testresult/47d5a9d933af7d78",
+        "status" : "failed",
+        "statusDetails" : "TypeError: rowSumOddNumbers is not a function",
+        "time" : {
+          "start" : 1619896404714,
+          "stop" : 1619896404715,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9ec91e31471f3755",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/129//#testresult/9ec91e31471f3755",
+        "status" : "failed",
+        "statusDetails" : "TypeError: rowSumOddNumbers is not a function",
+        "time" : {
+          "start" : 1619895543787,
+          "stop" : 1619895543788,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "936563e278d7a0f7.json",
+  "parameterValues" : [ ]
+}
