@@ -1,0 +1,59 @@
+{
+  "uid" : "312ea940d8ef4e09",
+  "name" : "test_row_sum_odd_numbers[13-2197]",
+  "fullName" : "src.test.java.training.katas.SumOfOddNumbers.test_sum_of_odd_numbers#test_row_sum_odd_numbers",
+  "historyId" : "ce78927a0fd87b064080096f3fd03671",
+  "time" : {
+    "start" : 1619893811708,
+    "stop" : 1619893811709,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.SumOfOddNumbers"
+  }, {
+    "name" : "suite",
+    "value" : "test_sum_of_odd_numbers"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-872"
+  }, {
+    "name" : "thread",
+    "value" : "1815-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.SumOfOddNumbers.test_sum_of_odd_numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "2197"
+  }, {
+    "name" : "input",
+    "value" : "13"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "312ea940d8ef4e09.json",
+  "parameterValues" : [ "2197", "13" ]
+}
