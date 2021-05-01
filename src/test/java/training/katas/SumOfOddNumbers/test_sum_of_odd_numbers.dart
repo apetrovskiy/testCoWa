@@ -2,7 +2,7 @@ library training.katas.SumOfOddNumbers
 
 import "package:test/test.dart";
 // import "package:solution/solution.dart";
-import '../../../../../main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.dart;
+import '../../../../../main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.dart';
 
 void main() {
   group('Sum of odd numbers basic tests', () {
