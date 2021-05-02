@@ -12,11 +12,8 @@ describe("Basic tests", () => {
     })
 */
 
-// const chai = require("chai");
 const countBits = require("./bit_counting").countBits;
 const { assert, expect } = require("chai")
-    // chai.config.truncateThreshold = 0;
-    // const expect = require("chai").expect;
 
 describe("Bit Counting tests", function() {
     it("Tests", function() {
