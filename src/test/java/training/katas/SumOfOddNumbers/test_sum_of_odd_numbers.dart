@@ -12,7 +12,7 @@ void main() {
       expect(rowSumOddNumbers(13), equals(2197));
       expect(rowSumOddNumbers(19), equals(6859));
       expect(rowSumOddNumbers(41), equals(68921));
-        expect(rowSumOddNumbers(expect(rowSumOddNumbers(42), equals(74088));
+        expect(rowSumOddNumbers(42), equals(74088));
   expect(rowSumOddNumbers(74), equals(405224));
 expect(rowSumOddNumbers(86), equals(636056));
 expect(rowSumOddNumbers(93), equals(804357));
