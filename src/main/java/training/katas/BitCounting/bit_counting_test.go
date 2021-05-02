@@ -1,10 +1,12 @@
-package BitCounting_test
+package BitCounting
 
 import (
 	// . "codewarrior/kata"
 	"github.com/dailymotion/allure-go"
+	"github.com/joho/godotenv"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"log"
 	"testing"
 )
 
