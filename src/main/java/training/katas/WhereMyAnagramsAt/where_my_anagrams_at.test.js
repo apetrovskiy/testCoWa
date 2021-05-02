@@ -10,7 +10,7 @@ const assert = chai.assert;
 const anagrams = require("./where_my_anagrams_at").anagrams;
 
 describe("Anagrams", function() {
-    it("should test for something", function() {
+    it("abba", function() {
         assert.strictEqual(anagrams("abba", ["aabb", "abcd", "bbaa", "dada"]), [
             "aabb",
             "bbaa",

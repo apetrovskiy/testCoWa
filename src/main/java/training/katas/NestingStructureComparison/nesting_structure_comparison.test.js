@@ -9,7 +9,7 @@ const assert = chai.assert;
 // const Test = require("@codewars/test-compat");
 const evaporator = require("./nesting_structure_comparison");
 
-describe("Solution", function() {
+describe("Nesting structure comparison", function() {
     it("should test for something", function() {
         // Test.assertEquals(1 + 1, 2);
         // assert.strictEqual(1 + 1, 2);
