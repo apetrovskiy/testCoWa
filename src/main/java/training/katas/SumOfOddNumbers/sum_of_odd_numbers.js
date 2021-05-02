@@ -3,7 +3,7 @@ function rowSumOddNumbers(n) {
     var result = 0;
     var maxNum = n * (n + 1) - 1;
     var i;
-    for (i = maxNum; i > maxNum - 2 * n; i - 2) {
+    for (i = maxNum; i > maxNum - 2 * n; i -= 2) {
         result += i;
     }
     return result;
