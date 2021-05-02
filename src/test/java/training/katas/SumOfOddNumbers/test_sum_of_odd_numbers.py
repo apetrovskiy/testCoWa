@@ -17,13 +17,14 @@ from src.main.java.training.katas.SumOfOddNumbers.sum_of_odd_numbers \
 
 
 test_data = [
-    (1,1), 
-    (2,8),
-    (13,2197), 
-    (19,6859),
-    (41,68921)
+    (1, 1),
+    (2, 8),
+    (13, 2197),
+    (19, 6859),
+    (41, 68921)
 ]
 
-@pytest.mark.parametrize("input,expected_result",test_data)
-def test_row_sum_odd_numbers(input:int,expected_result:int):
-    assert expected_result==row_sum_odd_numbers(input)
+
+@pytest.mark.parametrize("input,expected_result", test_data)
+def test_row_sum_odd_numbers(input: int, expected_result: int):
+    assert expected_result == row_sum_odd_numbers(input)
