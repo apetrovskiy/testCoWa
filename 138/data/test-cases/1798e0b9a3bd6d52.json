@@ -1,0 +1,52 @@
+{
+  "uid" : "1798e0b9a3bd6d52",
+  "name" : "abba",
+  "fullName" : "Anagrams.abba",
+  "historyId" : "5220eb5fcd675e87fa40812bd0e137c9",
+  "time" : {
+    "start" : 1619935562775,
+    "stop" : 1619935562776,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: anagrams is not a function",
+  "statusTrace" : "TypeError: anagrams is not a function\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/WhereMyAnagramsAt/where_my_anagrams_at.test.js:14:28)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Anagrams"
+  }, {
+    "name" : "testClass",
+    "value" : "Anagrams"
+  }, {
+    "name" : "testMethod",
+    "value" : "abba"
+  }, {
+    "name" : "package",
+    "value" : "Anagrams"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1798e0b9a3bd6d52.json",
+  "parameterValues" : [ ]
+}

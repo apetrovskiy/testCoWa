@@ -1,0 +1,146 @@
+{
+  "uid" : "dcf656872ba6e307",
+  "name" : "1-> 1",
+  "fullName" : "src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js.1-> 1",
+  "historyId" : "a91e7d3e43f59b1bc5fe35efe3710cd9",
+  "time" : {
+    "start" : 1619935563047,
+    "stop" : 1619935563047,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js"
+  }, {
+    "name" : "testClass",
+    "value" : "src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js"
+  }, {
+    "name" : "testMethod",
+    "value" : "1-> 1"
+  }, {
+    "name" : "package",
+    "value" : "src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "4ee753d4663387e1",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/137//#testresult/4ee753d4663387e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619935239403,
+          "stop" : 1619935239403,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4b0558272e2b6cc6",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/135//#testresult/4b0558272e2b6cc6",
+        "status" : "failed",
+        "statusDetails" : "ReferenceError: i is not defined",
+        "time" : {
+          "start" : 1619933473058,
+          "stop" : 1619933473059,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "87b29d7b6ab9c7d1",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/134//#testresult/87b29d7b6ab9c7d1",
+        "status" : "failed",
+        "statusDetails" : "ReferenceError: i is not defined",
+        "time" : {
+          "start" : 1619933033985,
+          "stop" : 1619933033985,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5b0ecfcae838727e",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/133//#testresult/5b0ecfcae838727e",
+        "status" : "failed",
+        "statusDetails" : "ReferenceError: i is not defined",
+        "time" : {
+          "start" : 1619932984764,
+          "stop" : 1619932984765,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b3cc44bd48186205",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/132//#testresult/b3cc44bd48186205",
+        "status" : "failed",
+        "statusDetails" : "ReferenceError: i is not defined",
+        "time" : {
+          "start" : 1619930736321,
+          "stop" : 1619930736321,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f6f6cac1b9d8fd52",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/131//#testresult/f6f6cac1b9d8fd52",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  1\n                Received:\n                  0\n                \n                Message:\n                  expected 0 to equal 1\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js:17:36)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1619899131682,
+          "stop" : 1619899131683,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "6ebd554c8ce3aa43",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/130//#testresult/6ebd554c8ce3aa43",
+        "status" : "failed",
+        "statusDetails" : "TypeError: rowSumOddNumbers is not a function",
+        "time" : {
+          "start" : 1619896609266,
+          "stop" : 1619896609267,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4328b7eecab8bbfe",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/129//#testresult/4328b7eecab8bbfe",
+        "status" : "failed",
+        "statusDetails" : "TypeError: rowSumOddNumbers is not a function",
+        "time" : {
+          "start" : 1619896404714,
+          "stop" : 1619896404714,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5c204f6dc2d9db7a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/129//#testresult/5c204f6dc2d9db7a",
+        "status" : "failed",
+        "statusDetails" : "TypeError: rowSumOddNumbers is not a function",
+        "time" : {
+          "start" : 1619895543787,
+          "stop" : 1619895543787,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dcf656872ba6e307.json",
+  "parameterValues" : [ ]
+}
