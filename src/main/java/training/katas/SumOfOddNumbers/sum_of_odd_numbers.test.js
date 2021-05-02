@@ -3,9 +3,9 @@
 
 const chai = require("chai");
 const rowSumOddNumbers = require("./sum_of_odd_numbers").rowSumOddNumbers;
-var assert = require("assert");
+const assert = require("assert");
 chai.config.truncateThreshold = 0;
-var expect = require("chai").expect;
+const expect = require("chai").expect;
 
 describe("Sum of odd numbers tests", function() {
     it("Tests", function() {

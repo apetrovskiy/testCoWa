@@ -3,9 +3,9 @@
 const chai = require("chai");
 const evaporator = require("./deodorant_evaporator").evaporator;
 // const assert = chai.assert;
-var assert = require("assert");
+const assert = require("assert");
 chai.config.truncateThreshold = 0;
-var expect = require("chai").expect;
+const expect = require("chai").expect;
 
 describe("Deodorant Evaporator tests", function() {
     it("Tests", function() {
