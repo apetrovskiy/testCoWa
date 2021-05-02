@@ -1,7 +1,7 @@
 package BitCounting_test
 
 import (
-	. "codewarrior/kata"
+	// . "codewarrior/kata"
 	"github.com/dailymotion/allure-go"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
