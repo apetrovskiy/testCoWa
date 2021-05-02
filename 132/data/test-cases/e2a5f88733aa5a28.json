@@ -1,0 +1,103 @@
+{
+  "uid" : "e2a5f88733aa5a28",
+  "name" : "Tests",
+  "fullName" : "Sum of odd numbers tests.Tests",
+  "historyId" : "45c5a3a7566224ef28c6de5a7eed387f",
+  "time" : {
+    "start" : 1619930736318,
+    "stop" : 1619930736320,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "ReferenceError: i is not defined",
+  "statusTrace" : "ReferenceError: i is not defined\n                    at rowSumOddNumbers (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.js:5:11)\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js:12:28)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sum of odd numbers tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Sum of odd numbers tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Tests"
+  }, {
+    "name" : "package",
+    "value" : "Sum of odd numbers tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "88aa03b2f79a1d91",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/131//#testresult/88aa03b2f79a1d91",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  1\n                Received:\n                  0\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1619899131679,
+          "stop" : 1619899131681,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "de53a8aa28c597f5",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/130//#testresult/de53a8aa28c597f5",
+        "status" : "failed",
+        "statusDetails" : "TypeError: rowSumOddNumbers is not a function",
+        "time" : {
+          "start" : 1619896609264,
+          "stop" : 1619896609265,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "12aea3e77904606c",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/129//#testresult/12aea3e77904606c",
+        "status" : "failed",
+        "statusDetails" : "TypeError: rowSumOddNumbers is not a function",
+        "time" : {
+          "start" : 1619896404711,
+          "stop" : 1619896404712,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "5c402f00020b772b",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/129//#testresult/5c402f00020b772b",
+        "status" : "failed",
+        "statusDetails" : "TypeError: rowSumOddNumbers is not a function",
+        "time" : {
+          "start" : 1619895543785,
+          "stop" : 1619895543786,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e2a5f88733aa5a28.json",
+  "parameterValues" : [ ]
+}
