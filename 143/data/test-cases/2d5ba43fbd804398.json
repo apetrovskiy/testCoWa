@@ -1,0 +1,77 @@
+{
+  "uid" : "2d5ba43fbd804398",
+  "name" : "Tests",
+  "fullName" : "Bit Counting tests.Tests",
+  "historyId" : "51a4442f729565cb2975fba7bdedefe9",
+  "time" : {
+    "start" : 1619953838023,
+    "stop" : 1619953838025,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Bit Counting tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Bit Counting tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Tests"
+  }, {
+    "name" : "package",
+    "value" : "Bit Counting tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "7c5425f71652c69b",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/142//#testresult/7c5425f71652c69b",
+        "status" : "failed",
+        "statusDetails" : "TypeError: countBits is not a function",
+        "time" : {
+          "start" : 1619953202927,
+          "stop" : 1619953202930,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "a3930be11a6ee3b9",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/141//#testresult/a3930be11a6ee3b9",
+        "status" : "failed",
+        "statusDetails" : "TypeError: countBits is not a function",
+        "time" : {
+          "start" : 1619952480695,
+          "stop" : 1619952480698,
+          "duration" : 3
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2d5ba43fbd804398.json",
+  "parameterValues" : [ ]
+}

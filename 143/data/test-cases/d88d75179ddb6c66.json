@@ -1,0 +1,77 @@
+{
+  "uid" : "d88d75179ddb6c66",
+  "name" : "10 -> 2",
+  "fullName" : "src/main/java/training/katas/BitCounting/bit_counting.test.js.10 -> 2",
+  "historyId" : "f702b8d5c0e82d2547e927531beeb3cc",
+  "time" : {
+    "start" : 1619953838033,
+    "stop" : 1619953838033,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "src/main/java/training/katas/BitCounting/bit_counting.test.js"
+  }, {
+    "name" : "testClass",
+    "value" : "src/main/java/training/katas/BitCounting/bit_counting.test.js"
+  }, {
+    "name" : "testMethod",
+    "value" : "10 -> 2"
+  }, {
+    "name" : "package",
+    "value" : "src/main/java/training/katas/BitCounting/bit_counting.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "66cb45147910e3b1",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/142//#testresult/66cb45147910e3b1",
+        "status" : "failed",
+        "statusDetails" : "TypeError: countBits is not a function",
+        "time" : {
+          "start" : 1619953202948,
+          "stop" : 1619953202948,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6a7b9d96d803f274",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/141//#testresult/6a7b9d96d803f274",
+        "status" : "failed",
+        "statusDetails" : "TypeError: countBits is not a function",
+        "time" : {
+          "start" : 1619952480706,
+          "stop" : 1619952480714,
+          "duration" : 8
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d88d75179ddb6c66.json",
+  "parameterValues" : [ ]
+}
