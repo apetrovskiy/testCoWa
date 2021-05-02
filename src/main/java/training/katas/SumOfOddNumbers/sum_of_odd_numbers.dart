@@ -1,4 +1,4 @@
-library training.katas.SumOfOddNumbers
+library training.katas.SumOfOddNumbers;
 
 int rowSumOddNumbers(int n) {
   var maxNum = n * (n + 1) - 1;

@@ -1,4 +1,4 @@
-library training.katas.SumOfOddNumbers
+library training.katas.SumOfOddNumbers;
 
 import "package:test/test.dart";
 // import "package:solution/solution.dart";
