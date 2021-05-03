@@ -8,3 +8,4 @@ function pyramid(n) {
     }
     return result;
 }
+module.exports = { pyramid };
