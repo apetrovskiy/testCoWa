@@ -1,0 +1,67 @@
+{
+  "uid" : "e67c16eccf6c8e3",
+  "name" : "Testing for 1",
+  "fullName" : "Pyramid array basic tests.Testing for 1",
+  "historyId" : "60fcc3cba5300fa4d084ad972e548c54",
+  "time" : {
+    "start" : 1620035334642,
+    "stop" : 1620035334643,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Pyramid array basic tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Pyramid array basic tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Testing for 1"
+  }, {
+    "name" : "package",
+    "value" : "Pyramid array basic tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6247d48266d6da81",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/151//#testresult/6247d48266d6da81",
+        "status" : "failed",
+        "statusDetails" : "TypeError: pyramid is not a function",
+        "time" : {
+          "start" : 1620034933109,
+          "stop" : 1620034933109,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e67c16eccf6c8e3.json",
+  "parameterValues" : [ ]
+}
