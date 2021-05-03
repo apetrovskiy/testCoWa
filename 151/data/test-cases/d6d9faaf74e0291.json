@@ -1,0 +1,52 @@
+{
+  "uid" : "d6d9faaf74e0291",
+  "name" : "Testing for 1",
+  "fullName" : "Pyramid array basic tests.Testing for 1",
+  "historyId" : "60fcc3cba5300fa4d084ad972e548c54",
+  "time" : {
+    "start" : 1620034933109,
+    "stop" : 1620034933109,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: pyramid is not a function",
+  "statusTrace" : "TypeError: pyramid is not a function\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/PyramidArray/pyramid_array.test.js:6:48)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Pyramid array basic tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Pyramid array basic tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Testing for 1"
+  }, {
+    "name" : "package",
+    "value" : "Pyramid array basic tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d6d9faaf74e0291.json",
+  "parameterValues" : [ ]
+}
