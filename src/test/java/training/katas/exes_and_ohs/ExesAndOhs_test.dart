@@ -1,8 +1,10 @@
+library training.katas.exes_and_ohs;
+
 import "package:test/test.dart";
 import '../../../../../main/java/training/katas/exes_and_ohs/ExesAndOhs.dart';
 
 void main() {
-  group('Fixed tests', () {
+  group('Exes and ohs tests', () {
     test("Testing for xo", () {
       expect(XO('xo'), equals(true));
     });

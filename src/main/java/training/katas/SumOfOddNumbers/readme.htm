@@ -1,0 +1,100 @@
+<div class="w-full panel bg-ui-section">
+    <div class="markdown prose max-w-5xl mx-auto" id="description">
+        <p>Given the triangle of consecutive odd numbers:</p>
+        <pre><code>             1
+              3     5
+           7     9    11
+       13    15    17    19
+    21    23    25    27    29
+    ...
+    </code></pre>
+        <p>Calculate the sum of the numbers in the n<sup>th</sup> row of this triangle (starting at index 1) e.g.:</p>
+        <pre style="display: none;"><code class="language-javascript"><span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">1</span>); <span class="cm-comment">// 1</span>
+    <span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">2</span>); <span class="cm-comment">// 3 + 5 = 8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-ocaml"><span class="cm-variable">rowSumOddNumbers</span> <span class="cm-number">1</span> <span class="cm-comment">(* 1 *)</span>
+    <span class="cm-variable">rowSumOddNumbers</span> <span class="cm-number">2</span> <span class="cm-comment">(* 3 + 5 = 8 *)</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-dart"><span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">1</span>); <span class="cm-comment">// 1</span>
+    <span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">2</span>); <span class="cm-comment">// 3 + 5 = 8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-lua"><span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">1</span>); <span class="cm-comment">-- 1</span>
+    <span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">2</span>); <span class="cm-comment">-- 3 + 5 = 8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-php"><span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">1</span>); <span class="cm-comment">// 1</span>
+    <span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">2</span>); <span class="cm-comment">// 3 + 5 = 8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-reason"><span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">1</span>); <span class="cm-comment">/* 1 */</span>
+    <span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">2</span>); <span class="cm-comment">/* 3 + 5 = 8 */</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-coffeescript"><span class="cm-variable">rowSumOddNumbers</span><span class="cm-punctuation">(</span><span class="cm-number">1</span><span class="cm-punctuation">)</span> <span class="cm-comment"># 1</span>
+    <span class="cm-variable">rowSumOddNumbers</span><span class="cm-punctuation">(</span><span class="cm-number">2</span><span class="cm-punctuation">)</span> <span class="cm-comment"># 3 + 5 = 8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-typescript"><span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">1</span>); <span class="cm-comment">// 1</span>
+    <span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">2</span>); <span class="cm-comment">// 3 + 5 = 8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-ruby"><span class="cm-variable">row_sum_odd_numbers</span>(<span class="cm-number">1</span>); <span class="cm-comment"># 1</span>
+    <span class="cm-variable">row_sum_odd_numbers</span>(<span class="cm-number">2</span>); <span class="cm-comment"># 3 + 5 = 8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-rust"><span class="cm-variable">row_sum_odd_numbers</span>(<span class="cm-number">1</span>); # <span class="cm-number">1</span>
+    <span class="cm-variable">row_sum_odd_numbers</span>(<span class="cm-number">2</span>); # <span class="cm-number">3</span> <span class="cm-operator">+</span> <span class="cm-number">5</span> <span class="cm-operator">=</span> <span class="cm-number">8</span>
+    </code></pre>
+        <pre><code class="language-python"><span class="cm-variable">row_sum_odd_numbers</span>(<span class="cm-number">1</span>); <span class="cm-comment"># 1</span>
+    <span class="cm-variable">row_sum_odd_numbers</span>(<span class="cm-number">2</span>); <span class="cm-comment"># 3 + 5 = 8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-java"><span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">1</span>); <span class="cm-comment">// 1</span>
+    <span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">2</span>); <span class="cm-comment">// 3 + 5 = 8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-csharp"><span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">1</span>); <span class="cm-comment">// 1</span>
+    <span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">2</span>); <span class="cm-comment">// 3 + 5 = 8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-fsharp"><span class="cm-variable">rowSumOddNumbers</span> <span class="cm-number">1</span> <span class="cm-comment">// 1</span>
+    <span class="cm-variable">rowSumOddNumbers</span> <span class="cm-number">2</span> <span class="cm-comment">// 3 + 5 = 8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-haskell"><span class="cm-variable">rowSumOddNumbers</span> <span class="cm-number">1</span> <span class="cm-comment">-- 1</span>
+    <span class="cm-variable">rowSumOddNumbers</span> <span class="cm-number">2</span> <span class="cm-comment">-- 3 + 5 = 8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-r"><span class="cm-variable">row_sum_odd_numbers</span>(<span class="cm-number">1</span>) <span class="cm-comment"># 1</span>
+    [<span class="cm-number">1</span>] <span class="cm-number">1</span>
+    <span class="cm-variable">row_sum_odd_numbers</span>(<span class="cm-number">2</span>) <span class="cm-comment"># 3 + 5</span>
+    [<span class="cm-number">1</span>] <span class="cm-number">8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-nasm"><span class="cm-keyword">mov</span> <span class="cm-builtin">rdi</span> <span class="cm-number">1</span>
+    <span class="cm-keyword">call</span> row_sum_odd_numbers    <span class="cm-comment">; rax &lt;- 1</span>
+    
+    <span class="cm-keyword">mov</span> <span class="cm-builtin">rdi</span> <span class="cm-number">2</span>
+    <span class="cm-keyword">call</span> row_sum_odd_numbers   <span class="cm-comment">; rax &lt;- 3 + 5</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-clojure"><span class="cm-bracket">(</span><span class="cm-builtin">row-sum-odd-numbers</span> <span class="cm-number">1</span><span class="cm-bracket">)</span> <span class="cm-meta">#</span> <span class="cm-number">1</span>
+    <span class="cm-bracket">(</span><span class="cm-builtin">row-sum-odd-numbers</span> <span class="cm-number">2</span><span class="cm-bracket">)</span> <span class="cm-meta">#</span> <span class="cm-number">3</span> <span class="cm-keyword">+</span> <span class="cm-number">5</span> <span class="cm-keyword">=</span> <span class="cm-number">8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-julia"><span class="cm-variable">rowsumoddnumbers</span>(<span class="cm-number">1</span>) <span class="cm-comment"># 1</span>
+    <span class="cm-variable">rowsumoddnumbers</span>(<span class="cm-number">2</span>) <span class="cm-comment"># 3 + 5 = 8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-scala"><span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">1</span>) <span class="cm-comment">// 1</span>
+    <span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">2</span>) <span class="cm-comment">// 3 + 5 = 8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-swift"><span class="cm-variable">rowSumOddNumbers</span><span class="cm-punctuation">(</span><span class="cm-number">1</span><span class="cm-punctuation">)</span> <span class="cm-comment">// 1</span>
+    <span class="cm-variable">rowSumOddNumbers</span><span class="cm-punctuation">(</span><span class="cm-number">2</span><span class="cm-punctuation">)</span> <span class="cm-comment">// 3 + 5 = 8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-elixir"><span class="cm-tag">SumOfOdd</span><span class="cm-operator">.</span><span class="cm-property">row_sum_odd_numbers</span>(<span class="cm-number">1</span>) <span class="cm-string-2">//</span> <span class="cm-number">1</span>
+    <span class="cm-tag">SumOfOdd</span><span class="cm-operator">.</span><span class="cm-property">row_sum_odd_numbers</span>(<span class="cm-number">2</span>) <span class="cm-string-2">//</span> <span class="cm-number">3</span> <span class="cm-operator">+</span> <span class="cm-number">5</span> <span class="cm-operator">=</span> <span class="cm-number">8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-prolog"><span class="cm-atom">row_sum_odd_numbers</span><span class="cm-paren">(</span><span class="cm-number">1</span><span class="cm-paren">)</span><span class="cm-comment"> % 1</span>
+    <span class="cm-atom">row_sum_odd_numbers</span><span class="cm-paren">(</span><span class="cm-number">2</span><span class="cm-paren">)</span><span class="cm-comment"> % 3 + 5 = 8</span>
+    </code></pre>
+        <pre style="display: none;"><code class="language-haxe"><span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">1</span>) <span class="cm-comment">// 1</span>
+    <span class="cm-variable">rowSumOddNumbers</span>(<span class="cm-number">2</span>) <span class="cm-comment">// 3 + 5 = 8</span>
+    </code></pre>
+    </div>
+    <div class="mt-15px"><span><i class="icon-moon-tag "></i></span>
+        <div class="keyword-tag">Fundamentals</div>
+        <div class="keyword-tag">Arrays</div>
+        <div class="keyword-tag">Lists</div>
+        <div class="keyword-tag">Data Structures</div>
+        <div class="keyword-tag">Numbers</div>
+        <div class="keyword-tag">Arithmetic</div>
+        <div class="keyword-tag">Mathematics</div>
+        <div class="keyword-tag">Algorithms</div>
+    </div>
+</div>

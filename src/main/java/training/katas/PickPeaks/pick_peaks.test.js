@@ -1,11 +1,9 @@
-// import { JasmineAllureReporter } from "allure-jasmine";
-// import { AllureRuntime, Status, TestResult } from "allure-js-commons";
 const chai = require("chai");
-const pickPeaks = require('../pick_peaks');
+const pickPeaks = require('./pick_peaks').pickPeaks;
 const assert = chai.assert;
 chai.config.truncateThreshold = 0;
 
-describe("Sample tests", function() {
+describe("Pick peaks", function() {
     it("Tests", function() {
         assert.deepEqual(pickPeaks([1, 2, 3, 6, 4, 1, 2, 3, 2, 1]), { pos: [3, 7], peaks: [6, 3] });
         assert.deepEqual(pickPeaks([3, 2, 3, 6, 4, 1, 2, 3, 2, 1, 2, 3]), { pos: [3, 7], peaks: [6, 3] });
@@ -19,4 +17,3 @@ describe("Sample tests", function() {
         assert.deepEqual(pickPeaks([1, 1, 1, 1]), { pos: [], peaks: [] });
     });
 });
-// 11
