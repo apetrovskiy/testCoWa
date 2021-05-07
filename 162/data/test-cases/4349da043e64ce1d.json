@@ -1,0 +1,59 @@
+{
+  "uid" : "4349da043e64ce1d",
+  "name" : "test_human_readable_duration_format[4341633-50 days, 6 hours and 33 seconds]",
+  "fullName" : "src.test.java.training.katas.HumanReadableDurationFormat.test_human_readable_duration_format#test_human_readable_duration_format",
+  "historyId" : "630dc7ed58375af961522d455877570b",
+  "time" : {
+    "start" : 1620415537490,
+    "stop" : 1620415537490,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.HumanReadableDurationFormat"
+  }, {
+    "name" : "suite",
+    "value" : "test_human_readable_duration_format"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-496"
+  }, {
+    "name" : "thread",
+    "value" : "2397-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.HumanReadableDurationFormat.test_human_readable_duration_format"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'50 days, 6 hours and 33 seconds'"
+  }, {
+    "name" : "seconds",
+    "value" : "4341633"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4349da043e64ce1d.json",
+  "parameterValues" : [ "'50 days, 6 hours and 33 seconds'", "4341633" ]
+}

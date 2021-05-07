@@ -1,0 +1,59 @@
+{
+  "uid" : "7f269c84573b02f9",
+  "name" : "test_human_readable_duration_format[1-1 second]",
+  "fullName" : "src.test.java.training.katas.HumanReadableDurationFormat.test_human_readable_duration_format#test_human_readable_duration_format",
+  "historyId" : "df71497d01bfaf99fed6c49babf228a7",
+  "time" : {
+    "start" : 1620415537439,
+    "stop" : 1620415537439,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.HumanReadableDurationFormat"
+  }, {
+    "name" : "suite",
+    "value" : "test_human_readable_duration_format"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-496"
+  }, {
+    "name" : "thread",
+    "value" : "2397-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.HumanReadableDurationFormat.test_human_readable_duration_format"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'1 second'"
+  }, {
+    "name" : "seconds",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f269c84573b02f9.json",
+  "parameterValues" : [ "'1 second'", "1" ]
+}

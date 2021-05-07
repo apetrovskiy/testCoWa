@@ -1,0 +1,59 @@
+{
+  "uid" : "8a69587008810a6d",
+  "name" : "test_human_readable_duration_format[5792789-67 days, 1 hour, 6 minutes and 29 seconds]",
+  "fullName" : "src.test.java.training.katas.HumanReadableDurationFormat.test_human_readable_duration_format#test_human_readable_duration_format",
+  "historyId" : "aea31b2ccad19a80a2e94c5bdcca8282",
+  "time" : {
+    "start" : 1620415537476,
+    "stop" : 1620415537477,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.HumanReadableDurationFormat"
+  }, {
+    "name" : "suite",
+    "value" : "test_human_readable_duration_format"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-496"
+  }, {
+    "name" : "thread",
+    "value" : "2397-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.HumanReadableDurationFormat.test_human_readable_duration_format"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'67 days, 1 hour, 6 minutes and 29 seconds'"
+  }, {
+    "name" : "seconds",
+    "value" : "5792789"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a69587008810a6d.json",
+  "parameterValues" : [ "'67 days, 1 hour, 6 minutes and 29 seconds'", "5792789" ]
+}
