@@ -2,7 +2,6 @@ package training.katas.number_of_people_in_the_bus
 
 import kotlin.test.assertEquals
 import org.junit.Test
-import training.katas.number_of_people_in_the_bus.people
 
 class TestExample {
     @Test
