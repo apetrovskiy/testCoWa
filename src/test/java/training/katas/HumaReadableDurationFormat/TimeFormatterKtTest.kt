@@ -1,9 +1,11 @@
 package training.katas.HumanReadableDurationFormat
 
-import kotlin.test.assertEquals
+import org.junit.Ignore
 import org.junit.Test
+import kotlin.test.assertEquals
 
 class TimeFormatterKtTest {
+    @Ignore
     @Test
     fun testFormatDurationExamples() {
         // Example Test Cases
