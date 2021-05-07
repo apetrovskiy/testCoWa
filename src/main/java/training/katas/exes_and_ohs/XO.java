@@ -1,5 +1,6 @@
 package training.katas.exes_and_ohs;
 
+@SuppressWarnings("PMD")
 public class XO {
 
   public static boolean getXO(String str) {
