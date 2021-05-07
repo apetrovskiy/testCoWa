@@ -1,5 +1,5 @@
 package training.katas.HumanReadableDurationFormat
-/*
+
 object TimeFormatterKt {
 
     fun formatDuration(seconds: Int): String {
@@ -7,4 +7,3 @@ object TimeFormatterKt {
         return ""
     }
 }
-*/
