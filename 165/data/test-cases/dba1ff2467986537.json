@@ -1,0 +1,62 @@
+{
+  "uid" : "dba1ff2467986537",
+  "name" : "test_single_color[R-G-B]",
+  "fullName" : "src.test.java.training.katas.ColouredTriangles.test_coloured_triangles#test_single_color",
+  "historyId" : "8f635c337ab3ed6b00333b91e408b06b",
+  "time" : {
+    "start" : 1620459206546,
+    "stop" : 1620459206546,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.ColouredTriangles"
+  }, {
+    "name" : "suite",
+    "value" : "test_coloured_triangles"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-439"
+  }, {
+    "name" : "thread",
+    "value" : "2386-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.ColouredTriangles.test_coloured_triangles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "color1",
+    "value" : "'R'"
+  }, {
+    "name" : "color2",
+    "value" : "'G'"
+  }, {
+    "name" : "expected_result",
+    "value" : "'B'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dba1ff2467986537.json",
+  "parameterValues" : [ "'R'", "'G'", "'B'" ]
+}
