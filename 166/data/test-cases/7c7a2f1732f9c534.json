@@ -1,0 +1,79 @@
+{
+  "uid" : "7c7a2f1732f9c534",
+  "name" : "test_coloured_triangles[RGBG-B]",
+  "fullName" : "src.test.java.training.katas.ColouredTriangles.test_coloured_triangles#test_coloured_triangles",
+  "historyId" : "808fd59655ea85dd9cc8837be2a17c73",
+  "time" : {
+    "start" : 1620459523919,
+    "stop" : 1620459523919,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.ColouredTriangles"
+  }, {
+    "name" : "suite",
+    "value" : "test_coloured_triangles"
+  }, {
+    "name" : "host",
+    "value" : "fv-az269-349"
+  }, {
+    "name" : "thread",
+    "value" : "2367-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.ColouredTriangles.test_coloured_triangles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'B'"
+  }, {
+    "name" : "input",
+    "value" : "'RGBG'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8fff2374198748b9",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/165//#testresult/8fff2374198748b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620459206531,
+          "stop" : 1620459206531,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7c7a2f1732f9c534.json",
+  "parameterValues" : [ "'B'", "'RGBG'" ]
+}
