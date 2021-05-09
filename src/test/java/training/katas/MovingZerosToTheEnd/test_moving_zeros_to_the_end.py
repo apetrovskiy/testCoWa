@@ -14,10 +14,11 @@ def youarecute():
     test.assert_equals(move_zeros([0]), [0])
     test.assert_equals(move_zeros([]), [])
 '''
+
 import pytest
 from typing import List
-from src.main.java.training.katas.MovingZerosToTheEnd.moving_zeros_to_the_end \
-    import moving_zeros
+from src.main.java.training.katas.MovingZerosToTheEnd. \
+    moving_zeros_to_the_end import move_zeros
 
 
 test_data = [
