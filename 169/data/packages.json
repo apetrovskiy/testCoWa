@@ -1,0 +1,493 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "training.katas",
+    "children" : [ {
+      "name" : "exes_and_ohs.SolutionTest",
+      "children" : [ {
+        "name" : "ExesAndOhsTests",
+        "uid" : "704a55a6ead69a7d",
+        "parentUid" : "4a481d2669f599e9f9e90d2ab29dbbec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620540830647,
+          "stop" : 1620540830675,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "exes_and_ohs.SolutionTest"
+    }, {
+      "name" : "number_of_people_in_the_bus.MyTest",
+      "children" : [ {
+        "name" : "FirstTest",
+        "uid" : "25fc2e6ba9a2f339",
+        "parentUid" : "cdf59f09d0b1f3f949c241ac47862732",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620540830715,
+          "stop" : 1620540830718,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "SecondTest",
+        "uid" : "83a0dc7816d0984f",
+        "parentUid" : "cdf59f09d0b1f3f949c241ac47862732",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620540830719,
+          "stop" : 1620540830719,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ThirdTest",
+        "uid" : "4df6ed1ea01ffdee",
+        "parentUid" : "cdf59f09d0b1f3f949c241ac47862732",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620540830720,
+          "stop" : 1620540830720,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "number_of_people_in_the_bus.MyTest"
+    }, {
+      "name" : "SplitStrings.SplitStringTests",
+      "children" : [ {
+        "name" : "BasicTests",
+        "uid" : "eb457d7b426ef10d",
+        "parentUid" : "4faff3d535c399dbaec9ea9382ea964d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620540830721,
+          "stop" : 1620540830725,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "SplitStrings.SplitStringTests"
+    }, {
+      "name" : "ValidParentheses.SolutionTest",
+      "children" : [ {
+        "name" : "SampleTest2",
+        "uid" : "b7d2db75c98eb478",
+        "parentUid" : "99fcd7b81bc47be2c2e7ba9f63c1f36a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620540830729,
+          "stop" : 1620540830729,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ValidParentheses.SolutionTest"
+    } ],
+    "uid" : "training.katas"
+  }, {
+    "name" : "Array diff tests",
+    "children" : [ {
+      "name" : "Tests",
+      "uid" : "950ae53ffb96924a",
+      "parentUid" : "5aa73c805bd6961c87264ccb69ea33b5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1620540833640,
+        "stop" : 1620540833649,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5aa73c805bd6961c87264ccb69ea33b5"
+  }, {
+    "name" : "src/main/java/training/katas/Array_diff/array.diff.test.js",
+    "children" : [ {
+      "name" : "[], [4, 5] -> []",
+      "uid" : "26fd20c96387e17d",
+      "parentUid" : "50f8464cd87ceda0dca0d9035d76c148",
+      "status" : "failed",
+      "time" : {
+        "start" : 1620540833654,
+        "stop" : 1620540833655,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3, 4], [3] -> [4]",
+      "uid" : "5d62eef68cb93626",
+      "parentUid" : "50f8464cd87ceda0dca0d9035d76c148",
+      "status" : "failed",
+      "time" : {
+        "start" : 1620540833655,
+        "stop" : 1620540833656,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[1, 8, 2], [] -> [1, 8, 2]",
+      "uid" : "ad001e2f50614a76",
+      "parentUid" : "50f8464cd87ceda0dca0d9035d76c148",
+      "status" : "failed",
+      "time" : {
+        "start" : 1620540833656,
+        "stop" : 1620540833658,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[1, 2, 3], [1, 2] -> [3]",
+      "uid" : "18fc8d238bbe0ede",
+      "parentUid" : "50f8464cd87ceda0dca0d9035d76c148",
+      "status" : "failed",
+      "time" : {
+        "start" : 1620540833658,
+        "stop" : 1620540833666,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "src/main/java/training/katas/Array_diff/array.diff.test.js"
+  }, {
+    "name" : "Pick peaks",
+    "children" : [ {
+      "name" : "Tests",
+      "uid" : "8287b83acfd1ef97",
+      "parentUid" : "73ec3138b8e441abc0d3ba2be2a692dc",
+      "status" : "failed",
+      "time" : {
+        "start" : 1620540833870,
+        "stop" : 1620540833872,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "73ec3138b8e441abc0d3ba2be2a692dc"
+  }, {
+    "name" : "Bit Counting tests",
+    "children" : [ {
+      "name" : "Tests",
+      "uid" : "d02d69161c9c9608",
+      "parentUid" : "c1f4c46adca60292f01bc258bb6fec4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834020,
+        "stop" : 1620540834021,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c1f4c46adca60292f01bc258bb6fec4a"
+  }, {
+    "name" : "src/main/java/training/katas/BitCounting/bit_counting.test.js",
+    "children" : [ {
+      "name" : "0 -> 0",
+      "uid" : "b129ce2ce4563214",
+      "parentUid" : "edd460f5e361e0debbe65c486034ecda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834022,
+        "stop" : 1620540834022,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "4 -> 1",
+      "uid" : "efb8d5d4459f514d",
+      "parentUid" : "edd460f5e361e0debbe65c486034ecda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834023,
+        "stop" : 1620540834023,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "7 -> 3",
+      "uid" : "5f5d084a6eb85ca6",
+      "parentUid" : "edd460f5e361e0debbe65c486034ecda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834023,
+        "stop" : 1620540834023,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "9 -> 2",
+      "uid" : "64535b6697b5407f",
+      "parentUid" : "edd460f5e361e0debbe65c486034ecda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834023,
+        "stop" : 1620540834023,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "10 -> 2",
+      "uid" : "5ffdf7d184355dca",
+      "parentUid" : "edd460f5e361e0debbe65c486034ecda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834023,
+        "stop" : 1620540834023,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "src/main/java/training/katas/BitCounting/bit_counting.test.js"
+  }, {
+    "name" : "Deodorant Evaporator tests",
+    "children" : [ {
+      "name" : "Tests",
+      "uid" : "918ae8010da372a4",
+      "parentUid" : "3b5f93cd25b019243952e747e4b92669",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834172,
+        "stop" : 1620540834172,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3b5f93cd25b019243952e747e4b92669"
+  }, {
+    "name" : "src/main/java/training/katas/DeodorantEvaporator/deodorant_evaporator.test.js",
+    "children" : [ {
+      "name" : "10 10 5 -> 29",
+      "uid" : "83b41d4cf2d880ac",
+      "parentUid" : "c1f9b9e7210a4806e9a288e3ec1d82bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834173,
+        "stop" : 1620540834174,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "10 10 10 -> 22",
+      "uid" : "c9ee3bec85a12ad0",
+      "parentUid" : "c1f9b9e7210a4806e9a288e3ec1d82bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834173,
+        "stop" : 1620540834173,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "100 5 5 -> 59",
+      "uid" : "aeaf00d0a7bac33e",
+      "parentUid" : "c1f9b9e7210a4806e9a288e3ec1d82bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834174,
+        "stop" : 1620540834174,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "src/main/java/training/katas/DeodorantEvaporator/deodorant_evaporator.test.js"
+  }, {
+    "name" : "Anagrams",
+    "children" : [ {
+      "name" : "abba",
+      "uid" : "2009528e5c670bf4",
+      "parentUid" : "930cd5144d1c32caf6464d45858e9a42",
+      "status" : "failed",
+      "time" : {
+        "start" : 1620540834301,
+        "stop" : 1620540834302,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "930cd5144d1c32caf6464d45858e9a42"
+  }, {
+    "name" : "Nesting structure comparison",
+    "children" : [ {
+      "name" : "should test for something",
+      "uid" : "a8829883fdb1e4a5",
+      "parentUid" : "ff0fea54f568ea96e32916366d89a569",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834417,
+        "stop" : 1620540834417,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ff0fea54f568ea96e32916366d89a569"
+  }, {
+    "name" : "Sum of odd numbers tests",
+    "children" : [ {
+      "name" : "Tests",
+      "uid" : "e1aecbba10ade9da",
+      "parentUid" : "fcc86733fed0b1cab56fdb14be985f17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834549,
+        "stop" : 1620540834549,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fcc86733fed0b1cab56fdb14be985f17"
+  }, {
+    "name" : "src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js",
+    "children" : [ {
+      "name" : "1-> 1",
+      "uid" : "88665741fa020667",
+      "parentUid" : "6fbdfebdbffe3b3fd3d10c23905ddbcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834550,
+        "stop" : 1620540834550,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "42-> 74088",
+      "uid" : "b84841aa7442a151",
+      "parentUid" : "6fbdfebdbffe3b3fd3d10c23905ddbcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834550,
+        "stop" : 1620540834551,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js"
+  }, {
+    "name" : "Pyramid array basic tests",
+    "children" : [ {
+      "name" : "Testing for 0",
+      "uid" : "d2b633b59bad00f7",
+      "parentUid" : "547e284626a957c84d6bdaa7fab880dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834667,
+        "stop" : 1620540834667,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Testing for 1",
+      "uid" : "5a1a0f77cb608d09",
+      "parentUid" : "547e284626a957c84d6bdaa7fab880dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834667,
+        "stop" : 1620540834668,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Testing for 2",
+      "uid" : "edb5132f762602cf",
+      "parentUid" : "547e284626a957c84d6bdaa7fab880dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834668,
+        "stop" : 1620540834668,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Testing for 3",
+      "uid" : "a8c84261ba63f30",
+      "parentUid" : "547e284626a957c84d6bdaa7fab880dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620540834668,
+        "stop" : 1620540834668,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "547e284626a957c84d6bdaa7fab880dd"
+  }, {
+    "name" : "Valid parentheses",
+    "children" : [ {
+      "name" : "empty string",
+      "uid" : "fedd63e504c84483",
+      "parentUid" : "757edc1173616f20d453c8bbdb764066",
+      "status" : "failed",
+      "time" : {
+        "start" : 1620540834774,
+        "stop" : 1620540834775,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "757edc1173616f20d453c8bbdb764066"
+  } ],
+  "name" : "packages"
+}
