@@ -28,6 +28,7 @@ test_data = [
 ]
 
 
-@pytest.mark.parametrize("input,expected_result", test_data)
-def test_moving_zeros_to_the_end(input_array: List[int], expected_result: List[int]):
+@pytest.mark.parametrize("input_array,expected_result", test_data)
+def test_moving_zeros_to_the_end(
+        input_array: List[int], expected_result: List[int]):
     assert expected_result == move_zeros(input_array)
