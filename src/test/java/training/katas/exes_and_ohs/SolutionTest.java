@@ -1,7 +1,8 @@
 package training.katas.exes_and_ohs;
 
-import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
 
 @SuppressWarnings("PMD")
 public class SolutionTest {

@@ -10,10 +10,9 @@ class ExesAndOhsTest extends FlatSpec with Matchers {
     ("xxxoo", false)
   )
 
-  tests.foreach {
-    case (input, expected) =>
-      s"xo($input)" should s"return $expected" in {
-        ExesAndOhs.xo(input) should be (expected)
-      }
+  tests.foreach { case (input, expected) =>
+    s"xo($input)" should s"return $expected" in {
+      ExesAndOhs.xo(input) should be(expected)
+    }
   }
 }
