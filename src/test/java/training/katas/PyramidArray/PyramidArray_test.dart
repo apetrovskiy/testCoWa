@@ -1,6 +1,6 @@
 import "package:test/test.dart";
 // import "package:solution/solution.dart";
-import '../../../../../main/java/training/katas/PyramidArray/PyramidArray.dart'
+import '../../../../../main/java/training/katas/PyramidArray/PyramidArray.dart';
 
 void main() {
   void tester(int n, List<List<int>> exp) => test("Testing for $n", () => expect(pyramid(n), equals(exp)));
