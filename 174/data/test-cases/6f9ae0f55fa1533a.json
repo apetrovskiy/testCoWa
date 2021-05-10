@@ -1,0 +1,116 @@
+{
+  "uid" : "6f9ae0f55fa1533a",
+  "name" : "test_insane_coloured_triangles[RRR-R]",
+  "fullName" : "src.test.java.training.katas.InsaneColouredTriangles.test_insane_coloured_triangles#test_insane_coloured_triangles",
+  "historyId" : "36adee5e84c975042706ca8fc8e7b160",
+  "time" : {
+    "start" : 1620636084369,
+    "stop" : 1620636084369,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.InsaneColouredTriangles"
+  }, {
+    "name" : "suite",
+    "value" : "test_insane_coloured_triangles"
+  }, {
+    "name" : "host",
+    "value" : "fv-az190-354"
+  }, {
+    "name" : "thread",
+    "value" : "2377-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.InsaneColouredTriangles.test_insane_coloured_triangles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'R'"
+  }, {
+    "name" : "input",
+    "value" : "'RRR'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "515274b9a6edca1c",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/173//#testresult/515274b9a6edca1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620635803445,
+          "stop" : 1620635803445,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "da483da74d45bcc4",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/172//#testresult/da483da74d45bcc4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620635192430,
+          "stop" : 1620635192430,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a116e94e3e83005e",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/171//#testresult/a116e94e3e83005e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620543751250,
+          "stop" : 1620543751251,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "dbbe09d32d0a674b",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/170//#testresult/dbbe09d32d0a674b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620541620287,
+          "stop" : 1620541620287,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9682f120640d55a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/166//#testresult/9682f120640d55a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'R' == None\n +  where None = triangle('RRR')",
+        "time" : {
+          "start" : 1620459524067,
+          "stop" : 1620459524068,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6f9ae0f55fa1533a.json",
+  "parameterValues" : [ "'R'", "'RRR'" ]
+}
