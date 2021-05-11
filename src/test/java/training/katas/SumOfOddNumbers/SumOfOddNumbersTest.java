@@ -1,2 +1,2 @@
-package training.katas.SumOfOddNumbers
+package training.katas.SumOfOddNumbers;
 
