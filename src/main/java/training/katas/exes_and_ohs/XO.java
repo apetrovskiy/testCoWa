@@ -9,6 +9,7 @@ public class XO {
     var lowerCasedString = str.toLowerCase();
     var x = 'x';
     var o = 'o';
-    return lowerCasedString.chars().filter(i -> i == x).count() == lowerCasedString.chars().filter(i -> i == o).count();
+    return lowerCasedString.chars().filter(i -> i == x).count()
+        == lowerCasedString.chars().filter(i -> i == o).count();
   }
 }

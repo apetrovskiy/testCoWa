@@ -1,0 +1,4 @@
+namespace training.katas.RomanNumeralsEncoder
+{
+
+}

@@ -19,7 +19,7 @@ test_data = [
 ]
 
 
-@pytest.mark.skip(reason="TODO: no way of currently testing this")
+# @pytest.mark.skip(reason="TODO: no way of currently testing this")
 @pytest.mark.parametrize("input,expected_result", test_data)
 def test_pick_peaks(input: List[int], expected_result: Dict):
     assert expected_result == pick_peaks(input)

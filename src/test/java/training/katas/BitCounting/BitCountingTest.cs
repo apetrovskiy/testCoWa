@@ -1,0 +1,3 @@
+namespace training.katas.BitCounting {
+
+}
