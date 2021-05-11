@@ -1,1 +1,1 @@
-
+package training.katas.PyramidArray;

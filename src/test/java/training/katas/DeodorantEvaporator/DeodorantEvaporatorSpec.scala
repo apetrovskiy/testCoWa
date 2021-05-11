@@ -1,5 +1,7 @@
+package training.katas.DeodorantEvaporator
+
 // You can test using ScalaTest (http://www.scalatest.org/).
-import org.scalatest._
+import org.scalatest.{FlatSpec, Matchers}
 
 // TODO: replace this example test with your own, this is just here to demonstrate usage.
 // See http://www.scalatest.org/at_a_glance for example usages

@@ -1,3 +1,5 @@
+package training.katas.DeodorantEvaporator
+
 object Sol {
   def evaporator(content: Double, evapPerDay: Int, threshold: Int): Int = {
     // your code here
