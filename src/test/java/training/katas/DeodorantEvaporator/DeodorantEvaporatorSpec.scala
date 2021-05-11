@@ -33,7 +33,7 @@ class DeodorantEvaporatorScalaTest {
       threshold: Int,
       expectedResult: Int
   ) = {
-    assertEquals(Sol.evaporator(content, evapPerDay, threshold), expectedResult)
+    assertEquals(expectedResult, Sol.evaporator(content, evapPerDay, threshold))
   }
 }
 object DeodorantEvaporatorScalaTest {

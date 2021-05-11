@@ -26,7 +26,7 @@ class ExesAndOhsScalaTest {
   @ParameterizedTest
   @MethodSource(Array("getInputData"))
   def shouldCheckExesAndOhs(input: String, expectedResult: Boolean) = {
-    assertEquals(ExesAndOhs.xo(input), expectedResult)
+    assertEquals(expectedResult, ExesAndOhs.xo(input))
   }
 }
 object ExesAndOhsScalaTest {
