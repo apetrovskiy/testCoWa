@@ -1,8 +1,9 @@
 package training.katas.exes_and_ohs
 
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class ExesAndOhsTest extends FlatSpec with Matchers {
+class ExesAndOhsTest extends AnyFlatSpec with Matchers {
 
   val tests = Seq(
     ("xo", true),

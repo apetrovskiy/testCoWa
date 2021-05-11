@@ -1,11 +1,14 @@
 package training.katas.DeodorantEvaporator
 
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
+
 // You can test using ScalaTest (http://www.scalatest.org/).
-import org.scalatest.{FlatSpec, Matchers}
+//import org.scalatest.{FlatSpec, Matchers}
 
 // TODO: replace this example test with your own, this is just here to demonstrate usage.
 // See http://www.scalatest.org/at_a_glance for example usages
-class DeodorantEvaporatorSpec extends FlatSpec with Matchers {
+class DeodorantEvaporatorSpec extends AnyFlatSpec with Matchers {
   "evaporator(10,10,10)" should "return 22" in {
     Sol.evaporator(10, 10, 10) should be(22)
   }
