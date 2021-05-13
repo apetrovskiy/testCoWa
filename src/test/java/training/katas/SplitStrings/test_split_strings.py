@@ -96,7 +96,7 @@ test_data = [
 ]
 
 
-@pytest.mark.skip(reason="TODO: no way of currently testing this")
+# @pytest.mark.skip(reason="TODO: no way of currently testing this")
 @ pytest.mark.parametrize("input,expected_result", test_data)
 def test_split_strings(input: str, expected_result: List[str]):
     assert expected_result == solution(input)
