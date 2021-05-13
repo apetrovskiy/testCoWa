@@ -15,9 +15,10 @@ from src.main.java.training.katas.SumByFactors.sum_by_factors \
 
 
 test_data = [
-   ([],[])
+    ([], [])
 ]
 
-@pytest.mark.parametrize("input_array,expected_result",test_data)
-def test_sum_by_factors(input_array:List[int],expected_result:List[List[int]]):
+
+@pytest.mark.parametrize("input_array,expected_result", test_data)
+def test_sum_by_factors(input_array: List[int], expected_result: List[List[int]]):
     assert expected_result == sum_for_list(input_array)
