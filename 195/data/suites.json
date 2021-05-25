@@ -1,0 +1,2800 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Array diff tests",
+    "children" : [ {
+      "name" : "Tests",
+      "uid" : "27c04807efb7abff",
+      "parentUid" : "e772fcf2ee8233a9556383abbdf14fd2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621953296894,
+        "stop" : 1621953296905,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e772fcf2ee8233a9556383abbdf14fd2"
+  }, {
+    "name" : "src/main/java/training/katas/Array_diff/array.diff.test.js",
+    "children" : [ {
+      "name" : "[], [4, 5] -> []",
+      "uid" : "918200a426fc6779",
+      "parentUid" : "44c27ccbb0db578ba78af802e63484ba",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621953296912,
+        "stop" : 1621953296913,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3, 4], [3] -> [4]",
+      "uid" : "99dd36bfc135eeec",
+      "parentUid" : "44c27ccbb0db578ba78af802e63484ba",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621953296913,
+        "stop" : 1621953296914,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[1, 8, 2], [] -> [1, 8, 2]",
+      "uid" : "c9e7fa3b6163152a",
+      "parentUid" : "44c27ccbb0db578ba78af802e63484ba",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621953296914,
+        "stop" : 1621953296916,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[1, 2, 3], [1, 2] -> [3]",
+      "uid" : "4160583358ae2d1b",
+      "parentUid" : "44c27ccbb0db578ba78af802e63484ba",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621953296916,
+        "stop" : 1621953296917,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "44c27ccbb0db578ba78af802e63484ba"
+  }, {
+    "name" : "Pick peaks",
+    "children" : [ {
+      "name" : "Tests",
+      "uid" : "b16e5d3cbc858b37",
+      "parentUid" : "4a0b2da17ce24bdb24d24674da03e3eb",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621953297178,
+        "stop" : 1621953297180,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4a0b2da17ce24bdb24d24674da03e3eb"
+  }, {
+    "name" : "Bit Counting tests",
+    "children" : [ {
+      "name" : "Tests",
+      "uid" : "c9cc866e5b72c979",
+      "parentUid" : "bfc4ea000da5611af95e121ca95520a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953297356,
+        "stop" : 1621953297357,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bfc4ea000da5611af95e121ca95520a5"
+  }, {
+    "name" : "src/main/java/training/katas/BitCounting/bit_counting.test.js",
+    "children" : [ {
+      "name" : "0 -> 0",
+      "uid" : "207f01a669d408d4",
+      "parentUid" : "7e59c45d16716100be4138a601642c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953297358,
+        "stop" : 1621953297359,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "10 -> 2",
+      "uid" : "51916d4e87ac7c8d",
+      "parentUid" : "7e59c45d16716100be4138a601642c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953297359,
+        "stop" : 1621953297360,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "9 -> 2",
+      "uid" : "9295165ef537082b",
+      "parentUid" : "7e59c45d16716100be4138a601642c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953297359,
+        "stop" : 1621953297359,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "7 -> 3",
+      "uid" : "2bc7e515c370206f",
+      "parentUid" : "7e59c45d16716100be4138a601642c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953297359,
+        "stop" : 1621953297359,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "4 -> 1",
+      "uid" : "37fbba899b71c423",
+      "parentUid" : "7e59c45d16716100be4138a601642c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953297360,
+        "stop" : 1621953297360,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7e59c45d16716100be4138a601642c49"
+  }, {
+    "name" : "ExesAndOhsTests",
+    "uid" : "6929ccbe0bf510ad",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621953297395,
+      "stop" : 1621953297420,
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "FirstTest",
+    "uid" : "87ef5034dbd45676",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621953297453,
+      "stop" : 1621953297456,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "SecondTest",
+    "uid" : "6df9028b7f3f972b",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621953297456,
+      "stop" : 1621953297457,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ThirdTest",
+    "uid" : "528fa1d7ec01f706",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621953297457,
+      "stop" : 1621953297458,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "BasicTests",
+    "uid" : "dc590e5a95c3a2",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621953297458,
+      "stop" : 1621953297462,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "SampleTest2",
+    "uid" : "93fe9f6066926713",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621953297463,
+      "stop" : 1621953297467,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Deodorant Evaporator tests",
+    "children" : [ {
+      "name" : "Tests",
+      "uid" : "3074b912a4b3d0b8",
+      "parentUid" : "a541c470e6bcbbc4f0b41bf08f2929f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953297512,
+        "stop" : 1621953297513,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a541c470e6bcbbc4f0b41bf08f2929f0"
+  }, {
+    "name" : "src/main/java/training/katas/DeodorantEvaporator/deodorant_evaporator.test.js",
+    "children" : [ {
+      "name" : "10 10 5 -> 29",
+      "uid" : "5bb0c5877cfb6374",
+      "parentUid" : "f3a009907efa2646e475dceddab214d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953297514,
+        "stop" : 1621953297515,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "10 10 10 -> 22",
+      "uid" : "bc7aef65402aa61f",
+      "parentUid" : "f3a009907efa2646e475dceddab214d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953297514,
+        "stop" : 1621953297514,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "100 5 5 -> 59",
+      "uid" : "8a7c4ddcec1b31ab",
+      "parentUid" : "f3a009907efa2646e475dceddab214d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953297515,
+        "stop" : 1621953297515,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f3a009907efa2646e475dceddab214d1"
+  }, {
+    "name" : "Anagrams",
+    "children" : [ {
+      "name" : "abba",
+      "uid" : "989d4cf5da1f6ae6",
+      "parentUid" : "b39a196c2d93ff0ee70fad14f40d6974",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621953297655,
+        "stop" : 1621953297655,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b39a196c2d93ff0ee70fad14f40d6974"
+  }, {
+    "name" : "Nesting structure comparison",
+    "children" : [ {
+      "name" : "should test for something",
+      "uid" : "344dfecd9dc07ae9",
+      "parentUid" : "38beca2675e72de6aa23d7bc11aeddef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953297781,
+        "stop" : 1621953297782,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "38beca2675e72de6aa23d7bc11aeddef"
+  }, {
+    "name" : "Sum of odd numbers tests",
+    "children" : [ {
+      "name" : "Tests",
+      "uid" : "110eb51bff362a89",
+      "parentUid" : "67b8dfff85ef7c23e856dc391b337284",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953297921,
+        "stop" : 1621953297922,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "67b8dfff85ef7c23e856dc391b337284"
+  }, {
+    "name" : "src/main/java/training/katas/SumOfOddNumbers/sum_of_odd_numbers.test.js",
+    "children" : [ {
+      "name" : "1-> 1",
+      "uid" : "1724857a53babc0",
+      "parentUid" : "532af48763a3d4b40ed6713f621ca1e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953297923,
+        "stop" : 1621953297924,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "42-> 74088",
+      "uid" : "158b4d22d0af99ce",
+      "parentUid" : "532af48763a3d4b40ed6713f621ca1e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953297924,
+        "stop" : 1621953297924,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "532af48763a3d4b40ed6713f621ca1e8"
+  }, {
+    "name" : "Pyramid array basic tests",
+    "children" : [ {
+      "name" : "Testing for 0",
+      "uid" : "9191a436d68b097f",
+      "parentUid" : "3df8bbb3c40c7c53f31f36ee56c35d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953298047,
+        "stop" : 1621953298048,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Testing for 2",
+      "uid" : "37df31aaa6456695",
+      "parentUid" : "3df8bbb3c40c7c53f31f36ee56c35d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953298048,
+        "stop" : 1621953298049,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Testing for 1",
+      "uid" : "61b2297a274a1067",
+      "parentUid" : "3df8bbb3c40c7c53f31f36ee56c35d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953298048,
+        "stop" : 1621953298048,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Testing for 3",
+      "uid" : "9986709990acb0b0",
+      "parentUid" : "3df8bbb3c40c7c53f31f36ee56c35d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953298049,
+        "stop" : 1621953298049,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3df8bbb3c40c7c53f31f36ee56c35d41"
+  }, {
+    "name" : "Valid parentheses",
+    "children" : [ {
+      "name" : "empty string",
+      "uid" : "387a939118a9bcc2",
+      "parentUid" : "842682e81be58ad02907f77ed605896b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621953298162,
+        "stop" : 1621953298163,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "842682e81be58ad02907f77ed605896b"
+  }, {
+    "name" : "src.test.java.training.katas.ColouredTriangles",
+    "children" : [ {
+      "name" : "test_coloured_triangles",
+      "children" : [ {
+        "name" : "test_coloured_triangles[RRGBRGBB-G]",
+        "uid" : "b4c557e8153c7ccc",
+        "parentUid" : "7c2d4e9df0116faaceb2d60264de6284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298850,
+          "stop" : 1621953298850,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'G'", "'RRGBRGBB'" ]
+      }, {
+        "name" : "test_coloured_triangles[GB-R]",
+        "uid" : "cafacded5ee6561d",
+        "parentUid" : "7c2d4e9df0116faaceb2d60264de6284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298852,
+          "stop" : 1621953298852,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'R'", "'GB'" ]
+      }, {
+        "name" : "test_coloured_triangles[RRR-R]",
+        "uid" : "2ff827654921409b",
+        "parentUid" : "7c2d4e9df0116faaceb2d60264de6284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298854,
+          "stop" : 1621953298854,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'R'", "'RRR'" ]
+      }, {
+        "name" : "test_coloured_triangles[RGBG-B]",
+        "uid" : "e294eebcc69329e5",
+        "parentUid" : "7c2d4e9df0116faaceb2d60264de6284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298856,
+          "stop" : 1621953298856,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'B'", "'RGBG'" ]
+      }, {
+        "name" : "test_coloured_triangles[RBRGBRB-G]",
+        "uid" : "9cc6a5a9810926fc",
+        "parentUid" : "7c2d4e9df0116faaceb2d60264de6284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298858,
+          "stop" : 1621953298858,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'G'", "'RBRGBRB'" ]
+      }, {
+        "name" : "test_coloured_triangles[RBRGBRBGGRRRBGBBBGG-G]",
+        "uid" : "a5ce5932c2dee28",
+        "parentUid" : "7c2d4e9df0116faaceb2d60264de6284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298861,
+          "stop" : 1621953298861,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'G'", "'RBRGBRBGGRRRBGBBBGG'" ]
+      }, {
+        "name" : "test_coloured_triangles[B-B]",
+        "uid" : "9d5c0cfbb6ccb481",
+        "parentUid" : "7c2d4e9df0116faaceb2d60264de6284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298863,
+          "stop" : 1621953298863,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'B'", "'B'" ]
+      }, {
+        "name" : "test_single_color[R-R-R]",
+        "uid" : "8c9ba54a36e12f9d",
+        "parentUid" : "7c2d4e9df0116faaceb2d60264de6284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298865,
+          "stop" : 1621953298865,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'R'", "'R'", "'R'" ]
+      }, {
+        "name" : "test_single_color[G-G-G]",
+        "uid" : "1c149c0aa487c82a",
+        "parentUid" : "7c2d4e9df0116faaceb2d60264de6284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298867,
+          "stop" : 1621953298867,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'G'", "'G'", "'G'" ]
+      }, {
+        "name" : "test_single_color[B-B-B]",
+        "uid" : "32dc0f2ee6a178eb",
+        "parentUid" : "7c2d4e9df0116faaceb2d60264de6284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298870,
+          "stop" : 1621953298870,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'B'", "'B'", "'B'" ]
+      }, {
+        "name" : "test_single_color[R-G-B]",
+        "uid" : "324e61c2b07cda35",
+        "parentUid" : "7c2d4e9df0116faaceb2d60264de6284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298872,
+          "stop" : 1621953298872,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'R'", "'G'", "'B'" ]
+      }, {
+        "name" : "test_single_color[G-B-R]",
+        "uid" : "ebe8fb923a7c6d56",
+        "parentUid" : "7c2d4e9df0116faaceb2d60264de6284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298874,
+          "stop" : 1621953298874,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'G'", "'B'", "'R'" ]
+      }, {
+        "name" : "test_single_color[B-R-G]",
+        "uid" : "564ba060f6ab6112",
+        "parentUid" : "7c2d4e9df0116faaceb2d60264de6284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298877,
+          "stop" : 1621953298877,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'B'", "'R'", "'G'" ]
+      } ],
+      "uid" : "7c2d4e9df0116faaceb2d60264de6284"
+    } ],
+    "uid" : "b567ba29e4041ed24273ee5d376d40b7"
+  }, {
+    "name" : "src.test.java.training.katas.DeodorantEvaporator",
+    "children" : [ {
+      "name" : "test_deodorant_evaporator",
+      "children" : [ {
+        "name" : "test_deodorant_evaporator[10-10-5-29]",
+        "uid" : "8f2c295c1f31d49f",
+        "parentUid" : "17020cc4a692992e6e3e6536a8e990a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298880,
+          "stop" : 1621953298880,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "10", "10", "29", "5" ]
+      }, {
+        "name" : "test_deodorant_evaporator[10-10-10-22]",
+        "uid" : "5a8ac59a0b9db02c",
+        "parentUid" : "17020cc4a692992e6e3e6536a8e990a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298883,
+          "stop" : 1621953298883,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "10", "10", "22", "10" ]
+      }, {
+        "name" : "test_deodorant_evaporator[100-5-5-59]",
+        "uid" : "463e91b8a5c842de",
+        "parentUid" : "17020cc4a692992e6e3e6536a8e990a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298885,
+          "stop" : 1621953298885,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "100", "5", "59", "5" ]
+      } ],
+      "uid" : "17020cc4a692992e6e3e6536a8e990a4"
+    } ],
+    "uid" : "fecbbffa47fd3bd92181980ac8bc046e"
+  }, {
+    "name" : "src.test.java.training.katas.HumanReadableDurationFormat",
+    "children" : [ {
+      "name" : "test_human_readable_duration_format",
+      "children" : [ {
+        "name" : "test_human_readable_duration_format[1-1 second]",
+        "uid" : "f0d4bac70ba99d01",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298887,
+          "stop" : 1621953298888,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'1 second'", "1" ]
+      }, {
+        "name" : "test_human_readable_duration_format[62-1 minute and 2 seconds]",
+        "uid" : "f76b02f9127dcce0",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298889,
+          "stop" : 1621953298889,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'1 minute and 2 seconds'", "62" ]
+      }, {
+        "name" : "test_human_readable_duration_format[120-2 minutes]",
+        "uid" : "41369dbe69de9d2a",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298891,
+          "stop" : 1621953298891,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'2 minutes'", "120" ]
+      }, {
+        "name" : "test_human_readable_duration_format[3600-1 hour]",
+        "uid" : "6aaaff83d0ae5a35",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298893,
+          "stop" : 1621953298893,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'1 hour'", "3600" ]
+      }, {
+        "name" : "test_human_readable_duration_format[3662-1 hour, 1 minute and 2 seconds]",
+        "uid" : "44694f0f0431b991",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298895,
+          "stop" : 1621953298895,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'1 hour, 1 minute and 2 seconds'", "3662" ]
+      }, {
+        "name" : "test_human_readable_duration_format[0-now]",
+        "uid" : "b44dab04f5b977ff",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298896,
+          "stop" : 1621953298896,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'now'", "0" ]
+      }, {
+        "name" : "test_human_readable_duration_format[15731080-182 days, 1 hour, 44 minutes and 40 seconds]",
+        "uid" : "8be8e87dedc2a82f",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298898,
+          "stop" : 1621953298899,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'182 days, 1 hour, 44 minutes and 40 seconds'", "15731080" ]
+      }, {
+        "name" : "test_human_readable_duration_format[132030240-4 years, 68 days, 3 hours and 4 minutes]",
+        "uid" : "5ff15ff92bff61f0",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298900,
+          "stop" : 1621953298900,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'4 years, 68 days, 3 hours and 4 minutes'", "132030240" ]
+      }, {
+        "name" : "test_human_readable_duration_format[205851834-6 years, 192 days, 13 hours, 3 minutes and 54 seconds]",
+        "uid" : "5b42d9098035264b",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298902,
+          "stop" : 1621953298902,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'6 years, 192 days, 13 hours, 3 minutes and 54 seconds'", "205851834" ]
+      }, {
+        "name" : "test_human_readable_duration_format[253374061-8 years, 12 days, 13 hours, 41 minutes and 1 second]",
+        "uid" : "2b54738fa4b6e910",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298904,
+          "stop" : 1621953298904,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'8 years, 12 days, 13 hours, 41 minutes and 1 second'", "253374061" ]
+      }, {
+        "name" : "test_human_readable_duration_format[101956166-3 years, 85 days, 1 hour, 9 minutes and 26 seconds]",
+        "uid" : "ac3a4cfa893a573",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298906,
+          "stop" : 1621953298906,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'3 years, 85 days, 1 hour, 9 minutes and 26 seconds'", "101956166" ]
+      }, {
+        "name" : "test_human_readable_duration_format[7106407-82 days, 6 hours and 7 seconds]",
+        "uid" : "e256985605749de1",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298908,
+          "stop" : 1621953298908,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'82 days, 6 hours and 7 seconds'", "7106407" ]
+      }, {
+        "name" : "test_human_readable_duration_format[8601960-99 days, 13 hours and 26 minutes]",
+        "uid" : "13805b09bf2b4cb1",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298909,
+          "stop" : 1621953298909,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'99 days, 13 hours and 26 minutes'", "8601960" ]
+      }, {
+        "name" : "test_human_readable_duration_format[5792789-67 days, 1 hour, 6 minutes and 29 seconds]",
+        "uid" : "53dbc843d7ae170",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298911,
+          "stop" : 1621953298911,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'67 days, 1 hour, 6 minutes and 29 seconds'", "5792789" ]
+      }, {
+        "name" : "test_human_readable_duration_format[3595920-41 days, 14 hours and 52 minutes]",
+        "uid" : "13b891faf6b57a26",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298913,
+          "stop" : 1621953298913,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'41 days, 14 hours and 52 minutes'", "3595920" ]
+      }, {
+        "name" : "test_human_readable_duration_format[2165051-25 days, 1 hour, 24 minutes and 11 seconds]",
+        "uid" : "28011de737aab2e3",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298915,
+          "stop" : 1621953298916,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'25 days, 1 hour, 24 minutes and 11 seconds'", "2165051" ]
+      }, {
+        "name" : "test_human_readable_duration_format[8990744-104 days, 1 hour, 25 minutes and 44 seconds]",
+        "uid" : "7a2c4087a4fb2293",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298917,
+          "stop" : 1621953298918,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'104 days, 1 hour, 25 minutes and 44 seconds'", "8990744" ]
+      }, {
+        "name" : "test_human_readable_duration_format[1820944-21 days, 1 hour, 49 minutes and 4 seconds]",
+        "uid" : "c349a882d10fbac7",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298919,
+          "stop" : 1621953298920,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'21 days, 1 hour, 49 minutes and 4 seconds'", "1820944" ]
+      }, {
+        "name" : "test_human_readable_duration_format[4341633-50 days, 6 hours and 33 seconds]",
+        "uid" : "181f46dbe0910794",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298921,
+          "stop" : 1621953298922,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'50 days, 6 hours and 33 seconds'", "4341633" ]
+      }, {
+        "name" : "test_human_readable_duration_format[9979254-115 days, 12 hours and 54 seconds]",
+        "uid" : "8b3ac5341bed87e2",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298924,
+          "stop" : 1621953298924,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'115 days, 12 hours and 54 seconds'", "9979254" ]
+      }, {
+        "name" : "test_human_readable_duration_format[5015292-58 days, 1 hour, 8 minutes and 12 seconds]",
+        "uid" : "d7392159636b055d",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298925,
+          "stop" : 1621953298926,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'58 days, 1 hour, 8 minutes and 12 seconds'", "5015292" ]
+      }, {
+        "name" : "test_human_readable_duration_format[7178033-83 days, 1 hour, 53 minutes and 53 seconds]",
+        "uid" : "345074758d19c179",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298928,
+          "stop" : 1621953298928,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'83 days, 1 hour, 53 minutes and 53 seconds'", "7178033" ]
+      }, {
+        "name" : "test_human_readable_duration_format[5216422-60 days, 9 hours and 22 seconds]",
+        "uid" : "4aca44cbc3d1fedc",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298930,
+          "stop" : 1621953298930,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'60 days, 9 hours and 22 seconds'", "5216422" ]
+      }, {
+        "name" : "test_human_readable_duration_format[7167617-82 days, 23 hours and 17 seconds]",
+        "uid" : "afc9f9bd32684ac6",
+        "parentUid" : "cdee199cf9feb46bee530dd4389875dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298932,
+          "stop" : 1621953298932,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'82 days, 23 hours and 17 seconds'", "7167617" ]
+      } ],
+      "uid" : "cdee199cf9feb46bee530dd4389875dc"
+    } ],
+    "uid" : "1532844dc6369db348e124787d67f6f3"
+  }, {
+    "name" : "src.test.java.training.katas.IQTest",
+    "children" : [ {
+      "name" : "test_iq_test",
+      "children" : [ {
+        "name" : "test_iq_test[input_array0-3]",
+        "uid" : "9fd2119d18400487",
+        "parentUid" : "f42dfc41f806e540f39f7ee7ec567ee8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298935,
+          "stop" : 1621953298935,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "[2, 4, 7, 8, 10]" ]
+      }, {
+        "name" : "test_iq_test[input_array1-1]",
+        "uid" : "d1454968556c5fbb",
+        "parentUid" : "f42dfc41f806e540f39f7ee7ec567ee8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298937,
+          "stop" : 1621953298937,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "[1, 2, 2]" ]
+      } ],
+      "uid" : "f42dfc41f806e540f39f7ee7ec567ee8"
+    } ],
+    "uid" : "4808272eb28d1b3d5099c7e7941bbb5f"
+  }, {
+    "name" : "src.test.java.training.katas.InsaneColouredTriangles",
+    "children" : [ {
+      "name" : "test_insane_coloured_triangles",
+      "children" : [ {
+        "name" : "test_insane_coloured_triangles[B-B]",
+        "uid" : "fab62f179860812e",
+        "parentUid" : "8a306ba6e1734193bf69ed39d76904e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298939,
+          "stop" : 1621953298939,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'B'", "'B'" ]
+      }, {
+        "name" : "test_insane_coloured_triangles[GB-R]",
+        "uid" : "429696213354b471",
+        "parentUid" : "8a306ba6e1734193bf69ed39d76904e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298941,
+          "stop" : 1621953298941,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'R'", "'GB'" ]
+      }, {
+        "name" : "test_insane_coloured_triangles[RRR-R]",
+        "uid" : "1a11d8af75402121",
+        "parentUid" : "8a306ba6e1734193bf69ed39d76904e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298943,
+          "stop" : 1621953298943,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'R'", "'RRR'" ]
+      }, {
+        "name" : "test_insane_coloured_triangles[RGBG-B]",
+        "uid" : "ee8a89482b4d55af",
+        "parentUid" : "8a306ba6e1734193bf69ed39d76904e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298945,
+          "stop" : 1621953298945,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'B'", "'RGBG'" ]
+      }, {
+        "name" : "test_insane_coloured_triangles[RBRGBRB-G]",
+        "uid" : "6098344c01934630",
+        "parentUid" : "8a306ba6e1734193bf69ed39d76904e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298947,
+          "stop" : 1621953298947,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'G'", "'RBRGBRB'" ]
+      }, {
+        "name" : "test_insane_coloured_triangles[RBRGBRBGGRRRBGBBBGG-G]",
+        "uid" : "77d688d575194e3c",
+        "parentUid" : "8a306ba6e1734193bf69ed39d76904e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298949,
+          "stop" : 1621953298949,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'G'", "'RBRGBRBGGRRRBGBBBGG'" ]
+      } ],
+      "uid" : "8a306ba6e1734193bf69ed39d76904e2"
+    } ],
+    "uid" : "b3a22a28ed0124d977434f4dc802a610"
+  }, {
+    "name" : "src.test.java.training.katas.MovingZerosToTheEnd",
+    "children" : [ {
+      "name" : "test_moving_zeros_to_the_end",
+      "children" : [ {
+        "name" : "test_moving_zeros_to_the_end[input_array0-expected_result0]",
+        "uid" : "e0429d5f76b9f0ba",
+        "parentUid" : "c8f7aee7bbd4e1e978d9611c17e64822",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298951,
+          "stop" : 1621953298951,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 1, 2, 1, 3, 0, 0]", "[1, 0, 1, 2, 0, 1, 3]" ]
+      }, {
+        "name" : "test_moving_zeros_to_the_end[input_array1-expected_result1]",
+        "uid" : "cc3a53f8725f4090",
+        "parentUid" : "c8f7aee7bbd4e1e978d9611c17e64822",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298953,
+          "stop" : 1621953298954,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[9, 9, 1, 2, 1, 1, 3, 1, 9, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]", "[9, 0, 0, 9, 1, 2, 0, 1, 0, 1, 0, 3, 0, 1, 9, 0, 0, 0, 0, 9]" ]
+      } ],
+      "uid" : "c8f7aee7bbd4e1e978d9611c17e64822"
+    } ],
+    "uid" : "6f60586e5fe4ba0dcac694d9950ccde5"
+  }, {
+    "name" : "src.test.java.training.katas.Nesting Structure ComparisonNestingStructureComparison",
+    "children" : [ {
+      "name" : "test_nesting_structure_comparison",
+      "children" : [ {
+        "name" : "test_nesting_structure_comparison[original0-other0-True]",
+        "uid" : "67a41ee827f37da4",
+        "parentUid" : "a747ca05d03aad3e238163be5fad6dbe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298956,
+          "stop" : 1621953298957,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "[1, [1, 1]]", "[2, [2, 2]]" ]
+      }, {
+        "name" : "test_nesting_structure_comparison[original1-other1-False]",
+        "uid" : "820d520a6a239842",
+        "parentUid" : "a747ca05d03aad3e238163be5fad6dbe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298959,
+          "stop" : 1621953298959,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "[1, [1, 1]]", "[[2, 2], 2]" ]
+      }, {
+        "name" : "test_nesting_structure_comparison[original2-1-False]",
+        "uid" : "7935ac1c507d3e0f",
+        "parentUid" : "a747ca05d03aad3e238163be5fad6dbe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298961,
+          "stop" : 1621953298962,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "[]", "1" ]
+      }, {
+        "name" : "test_nesting_structure_comparison[original3-other3-True]",
+        "uid" : "8c883ac1ddead7cb",
+        "parentUid" : "a747ca05d03aad3e238163be5fad6dbe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953298964,
+          "stop" : 1621953298964,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "[1, '[', ']']", "['[', ']', 1]" ]
+      } ],
+      "uid" : "a747ca05d03aad3e238163be5fad6dbe"
+    } ],
+    "uid" : "4f56d1601eb190566bbf1502c398406f"
+  }, {
+    "name" : "src.test.java.training.katas.PickPeaks",
+    "children" : [ {
+      "name" : "test_pick_peaks",
+      "children" : [ {
+        "name" : "test_pick_peaks[input0-expected_result0]",
+        "uid" : "553374aefaf1d8e3",
+        "parentUid" : "1acd9a1b33856690a5fc894a75dea8c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953298966,
+          "stop" : 1621953298966,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [3, 7], 'peaks': [6, 3]}", "[1, 2, 3, 6, 4, 1, 2, 3, 2, 1]" ]
+      }, {
+        "name" : "test_pick_peaks[input1-expected_result1]",
+        "uid" : "8f0d5fa70d655565",
+        "parentUid" : "1acd9a1b33856690a5fc894a75dea8c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953298993,
+          "stop" : 1621953298994,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [3, 7], 'peaks': [6, 3]}", "[3, 2, 3, 6, 4, 1, 2, 3, 2, 1, 2, 3]" ]
+      }, {
+        "name" : "test_pick_peaks[input2-expected_result2]",
+        "uid" : "12d7c4cc12392d69",
+        "parentUid" : "1acd9a1b33856690a5fc894a75dea8c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953298998,
+          "stop" : 1621953298998,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [3, 7, 10], 'peaks': [6, 3, 2]}", "[3, 2, 3, 6, 4, 1, 2, 3, 2, 1, 2, 2, 2, 1]" ]
+      }, {
+        "name" : "test_pick_peaks[input3-expected_result3]",
+        "uid" : "6f538189be1fb773",
+        "parentUid" : "1acd9a1b33856690a5fc894a75dea8c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953299002,
+          "stop" : 1621953299003,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [2, 4], 'peaks': [3, 2]}", "[2, 1, 3, 1, 2, 2, 2, 2, 1]" ]
+      }, {
+        "name" : "test_pick_peaks[input4-expected_result4]",
+        "uid" : "c264913722789978",
+        "parentUid" : "1acd9a1b33856690a5fc894a75dea8c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953299006,
+          "stop" : 1621953299006,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [2], 'peaks': [3]}", "[2, 1, 3, 1, 2, 2, 2, 2]" ]
+      }, {
+        "name" : "test_pick_peaks[input5-expected_result5]",
+        "uid" : "bc8fa9ce0a64700",
+        "parentUid" : "1acd9a1b33856690a5fc894a75dea8c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953299010,
+          "stop" : 1621953299010,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [2], 'peaks': [3]}", "[2, 1, 3, 2, 2, 2, 2, 5, 6]" ]
+      }, {
+        "name" : "test_pick_peaks[input6-expected_result6]",
+        "uid" : "e89f1705d2169c56",
+        "parentUid" : "1acd9a1b33856690a5fc894a75dea8c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953299014,
+          "stop" : 1621953299014,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [2], 'peaks': [3]}", "[2, 1, 3, 2, 2, 2, 2, 1]" ]
+      }, {
+        "name" : "test_pick_peaks[input7-expected_result7]",
+        "uid" : "190f76a7019d032",
+        "parentUid" : "1acd9a1b33856690a5fc894a75dea8c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953299018,
+          "stop" : 1621953299018,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [2, 7, 14, 20], 'peaks': [5, 6, 5, 5]}", "[1, 2, 5, 4, 3, 2, 3, 6, 4, 1, 2, 3, 3, 4, 5, 3, 2, 1, 2, 3, 5, 5, 4, 3]" ]
+      }, {
+        "name" : "test_pick_peaks[input8-expected_result8]",
+        "uid" : "731d67a9e1fb4717",
+        "parentUid" : "1acd9a1b33856690a5fc894a75dea8c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953299022,
+          "stop" : 1621953299022,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [], 'peaks': []}", "[]" ]
+      }, {
+        "name" : "test_pick_peaks[input9-expected_result9]",
+        "uid" : "bdd8043f6fae63e4",
+        "parentUid" : "1acd9a1b33856690a5fc894a75dea8c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953299026,
+          "stop" : 1621953299027,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [], 'peaks': []}", "[1, 1, 1, 1]" ]
+      } ],
+      "uid" : "1acd9a1b33856690a5fc894a75dea8c8"
+    } ],
+    "uid" : "cb418b0924024d3a8d32f36612ef94c5"
+  }, {
+    "name" : "src.test.java.training.katas.PyramidArray",
+    "children" : [ {
+      "name" : "test_pyramid_array",
+      "children" : [ {
+        "name" : "test_pyramid_array[0-expected_result0]",
+        "uid" : "db2efee96ba106c6",
+        "parentUid" : "8b8911b21fa7e779a4318b298ea8e322",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299030,
+          "stop" : 1621953299031,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[]", "0" ]
+      }, {
+        "name" : "test_pyramid_array[1-expected_result1]",
+        "uid" : "d107dc743f9fd18e",
+        "parentUid" : "8b8911b21fa7e779a4318b298ea8e322",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299032,
+          "stop" : 1621953299032,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[[1]]", "1" ]
+      }, {
+        "name" : "test_pyramid_array[2-expected_result2]",
+        "uid" : "5e381888acf1865f",
+        "parentUid" : "8b8911b21fa7e779a4318b298ea8e322",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299034,
+          "stop" : 1621953299034,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[[1], [1, 1]]", "2" ]
+      }, {
+        "name" : "test_pyramid_array[3-expected_result3]",
+        "uid" : "72ad6997e16c2700",
+        "parentUid" : "8b8911b21fa7e779a4318b298ea8e322",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299036,
+          "stop" : 1621953299036,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[[1], [1, 1], [1, 1, 1]]", "3" ]
+      } ],
+      "uid" : "8b8911b21fa7e779a4318b298ea8e322"
+    } ],
+    "uid" : "893bb255c55408e60b1cc73981c8f57b"
+  }, {
+    "name" : "src.test.java.training.katas.SplitStrings",
+    "children" : [ {
+      "name" : "test_split_strings",
+      "children" : [ {
+        "name" : "test_split_strings[abc-expected_result0]",
+        "uid" : "a214664cff3829d4",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299038,
+          "stop" : 1621953299038,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['ab', 'c_']", "'abc'" ]
+      }, {
+        "name" : "test_split_strings[abcdef-expected_result1]",
+        "uid" : "c439fe8029b109ad",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299040,
+          "stop" : 1621953299040,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['ab', 'cd', 'ef']", "'abcdef'" ]
+      }, {
+        "name" : "test_split_strings[asdfadsf-expected_result2]",
+        "uid" : "25a7d3dae3bbd2e6",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299042,
+          "stop" : 1621953299042,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['as', 'df', 'ad', 'sf']", "'asdfadsf'" ]
+      }, {
+        "name" : "test_split_strings[asdfads-expected_result3]",
+        "uid" : "99ae3173be09e8f1",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299044,
+          "stop" : 1621953299044,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['as', 'df', 'ad', 's_']", "'asdfads'" ]
+      }, {
+        "name" : "test_split_strings[-expected_result4]",
+        "uid" : "6f18d03e9bd0d703",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299046,
+          "stop" : 1621953299046,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[]", "''" ]
+      }, {
+        "name" : "test_split_strings[x-expected_result5]",
+        "uid" : "cbfa1b28668286b2",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299048,
+          "stop" : 1621953299048,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['x_']", "'x'" ]
+      }, {
+        "name" : "test_split_strings[ulnckdcoygljbbkrjxmxmdxafyippuflgwaquathcrswadnbjgl\n     szozwtarkjtuojnamzzntnxpznjyrmjlskkkwmuzgyyxkju-expected_result6]",
+        "uid" : "76d30a2efa5a6bc8",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953299050,
+          "stop" : 1621953299050,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['ul', 'nc', 'kd', 'co', 'yg', 'lj', 'bb', 'kr', 'jx', 'mx', 'md', 'xa', 'fy', 'ip', 'pu', 'fl', 'gw', 'aq', 'ua', 'th', 'cr', 'sw', 'ad', 'nb', 'jg', 'ls', 'zo', 'zw', 'ta', 'rk', 'jt', 'uo', 'jn', 'am', 'zz', 'nt', 'nx', 'pz', 'nj', 'yr', 'mj', 'ls', 'kk', 'kw', 'mu', 'zg', 'yy', 'xk', 'ju']", "'ulnckdcoygljbbkrjxmxmdxafyippuflgwaquathcrswadnbjgl\n     szozwtarkjtuojnamzzntnxpznjyrmjlskkkwmuzgyyxkju'" ]
+      }, {
+        "name" : "test_split_strings[whugsw-expected_result7]",
+        "uid" : "da541b98c1d7cacc",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299056,
+          "stop" : 1621953299056,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['wh', 'ug', 'sw']", "'whugsw'" ]
+      }, {
+        "name" : "test_split_strings[coamiagcohvpavjynitnjyaqzhmmtpmgtcpgebftxfrhwymhacmhouzumbbl-expected_result8]",
+        "uid" : "d8bf03c343e94268",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299058,
+          "stop" : 1621953299058,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['co', 'am', 'ia', 'gc', 'oh', 'vp', 'av', 'jy', 'ni', 'tn', 'jy', 'aq', 'zh', 'mm', 'tp', 'mg', 'tc', 'pg', 'eb', 'ft', 'xf', 'rh', 'wy', 'mh', 'ac', 'mh', 'ou', 'zu', 'mb', 'bl']", "'coamiagcohvpavjynitnjyaqzhmmtpmgtcpgebftxfrhwymhacmhouzumbbl'" ]
+      }, {
+        "name" : "test_split_strings[totcmbfekgqgsltdlxtofeqmpmhblxetzovltijrqpztjrgmvnf\n     lunbbtnhvydwuudrsrgpylhcrhri-expected_result9]",
+        "uid" : "164ce6183cd39388",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953299060,
+          "stop" : 1621953299060,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['to', 'tc', 'mb', 'fe', 'kg', 'qg', 'sl', 'td', 'lx', 'to', 'fe', 'qm', 'pm', 'hb', 'lx', 'et', 'zo', 'vl', 'ti', 'jr', 'qp', 'zt', 'jr', 'gm', 'vn', 'fl', 'un', 'bb', 'tn', 'hv', 'yd', 'wu', 'ud', 'rs', 'rg', 'py', 'lh', 'cr', 'hr', 'i_']", "'totcmbfekgqgsltdlxtofeqmpmhblxetzovltijrqpztjrgmvnf\n     lunbbtnhvydwuudrsrgpylhcrhri'" ]
+      }, {
+        "name" : "test_split_strings[sfteoemjgyziwhickxjtxrrhjmzpywfkjxyxlvhplnd-expected_result10]",
+        "uid" : "a4136172f9f8cc78",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299065,
+          "stop" : 1621953299065,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['sf', 'te', 'oe', 'mj', 'gy', 'zi', 'wh', 'ic', 'kx', 'jt', 'xr', 'rh', 'jm', 'zp', 'yw', 'fk', 'jx', 'yx', 'lv', 'hp', 'ln', 'd_']", "'sfteoemjgyziwhickxjtxrrhjmzpywfkjxyxlvhplnd'" ]
+      }, {
+        "name" : "test_split_strings[ltwtthafxxqtghfvwwmvfyxyyekypglqsejmivxytwufiewi\n     czgzvyjezhasdjqbeglmwrcxgwgvtuiyjoghpofdfjhwvok-expected_result11]",
+        "uid" : "a509a7b0d7c6c01b",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953299067,
+          "stop" : 1621953299067,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['lt', 'wt', 'th', 'af', 'xx', 'qt', 'gh', 'fv', 'ww', 'mv', 'fy', 'xy', 'ye', 'ky', 'pg', 'lq', 'se', 'jm', 'iv', 'xy', 'tw', 'uf', 'ie', 'wi', 'cz', 'gz', 'vy', 'je', 'zh', 'as', 'dj', 'qb', 'eg', 'lm', 'wr', 'cx', 'gw', 'gv', 'tu', 'iy', 'jo', 'gh', 'po', 'fd', 'fj', 'hw', 'vo', 'k_']", "'ltwtthafxxqtghfvwwmvfyxyyekypglqsejmivxytwufiewi\n     czgzvyjezhasdjqbeglmwrcxgwgvtuiyjoghpofdfjhwvok'" ]
+      }, {
+        "name" : "test_split_strings[lpdrbuwhoohiiagjsopchwuannfrfupsznxbgbwqgnfb\n     dqenhgwpofrcmfvptbinwxrjhdtfanczc-expected_result12]",
+        "uid" : "41b2903b3de475e5",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953299073,
+          "stop" : 1621953299074,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['lp', 'dr', 'bu', 'wh', 'oo', 'hi', 'ia', 'gj', 'so', 'pc', 'hw', 'ua', 'nn', 'fr', 'fu', 'ps', 'zn', 'xb', 'gb', 'wq', 'gn', 'fb', 'dq', 'en', 'hg', 'wp', 'of', 'rc', 'mf', 'vp', 'tb', 'in', 'wx', 'rj', 'hd', 'tf', 'an', 'cz', 'c_']", "'lpdrbuwhoohiiagjsopchwuannfrfupsznxbgbwqgnfb\n     dqenhgwpofrcmfvptbinwxrjhdtfanczc'" ]
+      }, {
+        "name" : "test_split_strings[ateikmopkqrsnodfbizjqvyttancjxaomsjlwznopcdoxsjzdjthnnuszvnhrrscfvu-expected_result13]",
+        "uid" : "45b8d2c703f176e2",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299079,
+          "stop" : 1621953299079,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['at', 'ei', 'km', 'op', 'kq', 'rs', 'no', 'df', 'bi', 'zj', 'qv', 'yt', 'ta', 'nc', 'jx', 'ao', 'ms', 'jl', 'wz', 'no', 'pc', 'do', 'xs', 'jz', 'dj', 'th', 'nn', 'us', 'zv', 'nh', 'rr', 'sc', 'fv', 'u_']", "'ateikmopkqrsnodfbizjqvyttancjxaomsjlwznopcdoxsjzdjthnnuszvnhrrscfvu'" ]
+      }, {
+        "name" : "test_split_strings[nlxikxqyhjttmovhdwguztwposwisfzbxzmyaxxjtff\n     iklbmgnrfspcjemcfrpfkmbiewhcyytxfcrwu-expected_result14]",
+        "uid" : "9993127b78ff9425",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953299081,
+          "stop" : 1621953299081,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['nl', 'xi', 'kx', 'qy', 'hj', 'tt', 'mo', 'vh', 'dw', 'gu', 'zt', 'wp', 'os', 'wi', 'sf', 'zb', 'xz', 'my', 'ax', 'xj', 'tf', 'fi', 'kl', 'bm', 'gn', 'rf', 'sp', 'cj', 'em', 'cf', 'rp', 'fk', 'mb', 'ie', 'wh', 'cy', 'yt', 'xf', 'cr', 'wu']", "'nlxikxqyhjttmovhdwguztwposwisfzbxzmyaxxjtff\n     iklbmgnrfspcjemcfrpfkmbiewhcyytxfcrwu'" ]
+      }, {
+        "name" : "test_split_strings[igdiavqsfbdfptqrvcpkoavztvkxzyed-expected_result15]",
+        "uid" : "5f21c5e37e633c31",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299087,
+          "stop" : 1621953299087,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['ig', 'di', 'av', 'qs', 'fb', 'df', 'pt', 'qr', 'vc', 'pk', 'oa', 'vz', 'tv', 'kx', 'zy', 'ed']", "'igdiavqsfbdfptqrvcpkoavztvkxzyed'" ]
+      }, {
+        "name" : "test_split_strings[ohuyfrdrmujpghhwftxitzbtakizfzvockvraymvawbbyfmdapdxutks-expected_result16]",
+        "uid" : "e8408e72df8fae93",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299089,
+          "stop" : 1621953299089,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['oh', 'uy', 'fr', 'dr', 'mu', 'jp', 'gh', 'hw', 'ft', 'xi', 'tz', 'bt', 'ak', 'iz', 'fz', 'vo', 'ck', 'vr', 'ay', 'mv', 'aw', 'bb', 'yf', 'md', 'ap', 'dx', 'ut', 'ks']", "'ohuyfrdrmujpghhwftxitzbtakizfzvockvraymvawbbyfmdapdxutks'" ]
+      }, {
+        "name" : "test_split_strings[jgrpcmnfzizy-expected_result17]",
+        "uid" : "f0171f69c05105c6",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299091,
+          "stop" : 1621953299091,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['jg', 'rp', 'cm', 'nf', 'zi', 'zy']", "'jgrpcmnfzizy'" ]
+      }, {
+        "name" : "test_split_strings[gpmwiyaqnydmbilityhzmexgyrpq-expected_result18]",
+        "uid" : "386639d9cf6fde1a",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299093,
+          "stop" : 1621953299093,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['gp', 'mw', 'iy', 'aq', 'ny', 'dm', 'bi', 'li', 'ty', 'hz', 'me', 'xg', 'yr', 'pq']", "'gpmwiyaqnydmbilityhzmexgyrpq'" ]
+      }, {
+        "name" : "test_split_strings[jiavwuvizxrycmlucxtihpsglggxhmfzxoakcrdcavbpg-expected_result19]",
+        "uid" : "f0c7d8ad9f8c26db",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299095,
+          "stop" : 1621953299095,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['ji', 'av', 'wu', 'vi', 'zx', 'ry', 'cm', 'lu', 'cx', 'ti', 'hp', 'sg', 'lg', 'gx', 'hm', 'fz', 'xo', 'ak', 'cr', 'dc', 'av', 'bp', 'g_']", "'jiavwuvizxrycmlucxtihpsglggxhmfzxoakcrdcavbpg'" ]
+      }, {
+        "name" : "test_split_strings[whekvncjntetndmqmndyhdjeekrgbepifvvsmoxmbldwneik-expected_result20]",
+        "uid" : "1eb40b1b07034d33",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299097,
+          "stop" : 1621953299098,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['wh', 'ek', 'vn', 'cj', 'nt', 'et', 'nd', 'mq', 'mn', 'dy', 'hd', 'je', 'ek', 'rg', 'be', 'pi', 'fv', 'vs', 'mo', 'xm', 'bl', 'dw', 'ne', 'ik']", "'whekvncjntetndmqmndyhdjeekrgbepifvvsmoxmbldwneik'" ]
+      }, {
+        "name" : "test_split_strings[rtcgobkejfxbilgitvexzmlqdwjkvjhfpcwaqjlmujujwjh-expected_result21]",
+        "uid" : "9c140e8b7b86d4c1",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299100,
+          "stop" : 1621953299100,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['rt', 'cg', 'ob', 'ke', 'jf', 'xb', 'il', 'gi', 'tv', 'ex', 'zm', 'lq', 'dw', 'jk', 'vj', 'hf', 'pc', 'wa', 'qj', 'lm', 'uj', 'uj', 'wj', 'h_']", "'rtcgobkejfxbilgitvexzmlqdwjkvjhfpcwaqjlmujujwjh'" ]
+      }, {
+        "name" : "test_split_strings[ryolejzthujgrpynsxkejjxnkzhkpcjbvehtnwoijgquqokyazeqjgvmjr-expected_result22]",
+        "uid" : "c5d851378dfbbfe6",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299102,
+          "stop" : 1621953299102,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['ry', 'ol', 'ej', 'zt', 'hu', 'jg', 'rp', 'yn', 'sx', 'ke', 'jj', 'xn', 'kz', 'hk', 'pc', 'jb', 've', 'ht', 'nw', 'oi', 'jg', 'qu', 'qo', 'ky', 'az', 'eq', 'jg', 'vm', 'jr']", "'ryolejzthujgrpynsxkejjxnkzhkpcjbvehtnwoijgquqokyazeqjgvmjr'" ]
+      }, {
+        "name" : "test_split_strings[adyzbvtwrmqnwkutry-expected_result23]",
+        "uid" : "8eee4349c68b2918",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299104,
+          "stop" : 1621953299104,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['ad', 'yz', 'bv', 'tw', 'rm', 'qn', 'wk', 'ut', 'ry']", "'adyzbvtwrmqnwkutry'" ]
+      }, {
+        "name" : "test_split_strings[vvtys-expected_result24]",
+        "uid" : "e2bb9900edf4d784",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299106,
+          "stop" : 1621953299106,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['vv', 'ty', 's_']", "'vvtys'" ]
+      }, {
+        "name" : "test_split_strings[ft-expected_result25]",
+        "uid" : "92377ad578399d3c",
+        "parentUid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299108,
+          "stop" : 1621953299108,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['ft']", "'ft'" ]
+      } ],
+      "uid" : "82ff42b7e89d4cd6558dfc7aea8ed4b1"
+    } ],
+    "uid" : "9e2608bd5dd412909dca411d6050e995"
+  }, {
+    "name" : "src.test.java.training.katas.SumByFactors",
+    "children" : [ {
+      "name" : "test_sum_by_factors",
+      "children" : [ {
+        "name" : "test_sum_by_factors[input_array0-expected_result0]",
+        "uid" : "b912b718eaef874c",
+        "parentUid" : "470a22963ed8423d42bd1d7dc95aeb17",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953299110,
+          "stop" : 1621953299110,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[]", "[]" ]
+      } ],
+      "uid" : "470a22963ed8423d42bd1d7dc95aeb17"
+    } ],
+    "uid" : "718050c19e8f8139d92a369b0cef404e"
+  }, {
+    "name" : "src.test.java.training.katas.SumOfOddNumbers",
+    "children" : [ {
+      "name" : "test_sum_of_odd_numbers",
+      "children" : [ {
+        "name" : "test_row_sum_odd_numbers[1-1]",
+        "uid" : "255c25fcf0b0138d",
+        "parentUid" : "02a288c6c679176ab500543f56648088",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299113,
+          "stop" : 1621953299113,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "1" ]
+      }, {
+        "name" : "test_row_sum_odd_numbers[2-8]",
+        "uid" : "ccdd3fc4cbc4a67c",
+        "parentUid" : "02a288c6c679176ab500543f56648088",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299115,
+          "stop" : 1621953299115,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "8", "2" ]
+      }, {
+        "name" : "test_row_sum_odd_numbers[13-2197]",
+        "uid" : "e6c2a8781b208fb5",
+        "parentUid" : "02a288c6c679176ab500543f56648088",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299117,
+          "stop" : 1621953299117,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2197", "13" ]
+      }, {
+        "name" : "test_row_sum_odd_numbers[19-6859]",
+        "uid" : "de8643265d48aed",
+        "parentUid" : "02a288c6c679176ab500543f56648088",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299119,
+          "stop" : 1621953299119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "6859", "19" ]
+      }, {
+        "name" : "test_row_sum_odd_numbers[41-68921]",
+        "uid" : "cc10240a8063c62e",
+        "parentUid" : "02a288c6c679176ab500543f56648088",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299121,
+          "stop" : 1621953299121,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "68921", "41" ]
+      } ],
+      "uid" : "02a288c6c679176ab500543f56648088"
+    } ],
+    "uid" : "16a567203fb685fe497e117c08c99b14"
+  }, {
+    "name" : "src.test.java.training.katas.ValidParentheses",
+    "children" : [ {
+      "name" : "test_valid_parentheses",
+      "children" : [ {
+        "name" : "test_valid_parentheses[  (-False]",
+        "uid" : "1b56ba474f3019c1",
+        "parentUid" : "4eb286dd3156e0c6e0234adf7943b66e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299123,
+          "stop" : 1621953299123,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'  ('" ]
+      }, {
+        "name" : "test_valid_parentheses[)test-False]",
+        "uid" : "ac8d72eb23d806f4",
+        "parentUid" : "4eb286dd3156e0c6e0234adf7943b66e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299125,
+          "stop" : 1621953299125,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "')test'" ]
+      }, {
+        "name" : "test_valid_parentheses[-True]",
+        "uid" : "995e60347a750834",
+        "parentUid" : "4eb286dd3156e0c6e0234adf7943b66e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299126,
+          "stop" : 1621953299127,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "''" ]
+      }, {
+        "name" : "test_valid_parentheses[hi())(-False]",
+        "uid" : "f87470cb26a957e4",
+        "parentUid" : "4eb286dd3156e0c6e0234adf7943b66e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299128,
+          "stop" : 1621953299128,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'hi())('" ]
+      }, {
+        "name" : "test_valid_parentheses[hi(hi)()-True]",
+        "uid" : "4121039d621e635d",
+        "parentUid" : "4eb286dd3156e0c6e0234adf7943b66e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299130,
+          "stop" : 1621953299130,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'hi(hi)()'" ]
+      }, {
+        "name" : "test_valid_parentheses[(-False]",
+        "uid" : "40f9a3b60168c738",
+        "parentUid" : "4eb286dd3156e0c6e0234adf7943b66e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299131,
+          "stop" : 1621953299131,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'('" ]
+      }, {
+        "name" : "test_valid_parentheses[)-False]",
+        "uid" : "b3115492cd7af394",
+        "parentUid" : "4eb286dd3156e0c6e0234adf7943b66e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299133,
+          "stop" : 1621953299133,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "')'" ]
+      }, {
+        "name" : "test_valid_parentheses[hi)(-False]",
+        "uid" : "15e0068db78f7f45",
+        "parentUid" : "4eb286dd3156e0c6e0234adf7943b66e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299136,
+          "stop" : 1621953299136,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'hi)('" ]
+      }, {
+        "name" : "test_valid_parentheses[hi(hi)(-False]",
+        "uid" : "fa8f0499650828f3",
+        "parentUid" : "4eb286dd3156e0c6e0234adf7943b66e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299138,
+          "stop" : 1621953299138,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'hi(hi)('" ]
+      }, {
+        "name" : "test_valid_parentheses[((())()())-True]",
+        "uid" : "fc1c3cdd9915862a",
+        "parentUid" : "4eb286dd3156e0c6e0234adf7943b66e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299140,
+          "stop" : 1621953299140,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'((())()())'" ]
+      }, {
+        "name" : "test_valid_parentheses[(c(b(a)))(d)-True]",
+        "uid" : "2b4c53e40043c435",
+        "parentUid" : "4eb286dd3156e0c6e0234adf7943b66e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299142,
+          "stop" : 1621953299142,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'(c(b(a)))(d)'" ]
+      }, {
+        "name" : "test_valid_parentheses[hi(hi))(-False]",
+        "uid" : "297c31cecc70ce8e",
+        "parentUid" : "4eb286dd3156e0c6e0234adf7943b66e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299144,
+          "stop" : 1621953299144,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'hi(hi))('" ]
+      }, {
+        "name" : "test_valid_parentheses[())(()-False]",
+        "uid" : "a6a5f63e42775963",
+        "parentUid" : "4eb286dd3156e0c6e0234adf7943b66e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299146,
+          "stop" : 1621953299146,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'())(()'" ]
+      }, {
+        "name" : "test_valid_parentheses[(x)(dq()p)(c)eomxfm-True]",
+        "uid" : "954fdeb8edbfd52b",
+        "parentUid" : "4eb286dd3156e0c6e0234adf7943b66e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299148,
+          "stop" : 1621953299148,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'(x)(dq()p)(c)eomxfm'" ]
+      } ],
+      "uid" : "4eb286dd3156e0c6e0234adf7943b66e"
+    } ],
+    "uid" : "6e4f9507efc1f5afae1f0b2273901790"
+  }, {
+    "name" : "src.test.java.training.katas.WhereMyAnagramsAt",
+    "children" : [ {
+      "name" : "test_where_my_anagrams_at",
+      "children" : [ {
+        "name" : "test_where_my_anagrams_at[abba-words0-expected_result0]",
+        "uid" : "1ab3a8c83199e1fb",
+        "parentUid" : "0678f305771a57fb293f9bff6069f5ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299150,
+          "stop" : 1621953299151,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['aabb', 'bbaa']", "'abba'", "['aabb', 'abcd', 'bbaa', 'dada']" ]
+      }, {
+        "name" : "test_where_my_anagrams_at[racer-words1-expected_result1]",
+        "uid" : "fa2e91858d9cc85e",
+        "parentUid" : "0678f305771a57fb293f9bff6069f5ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299153,
+          "stop" : 1621953299153,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['carer', 'racer']", "'racer'", "['crazer', 'carer', 'racar', 'caers', 'racer']" ]
+      }, {
+        "name" : "test_where_my_anagrams_at[laser-words2-expected_result2]",
+        "uid" : "a0862c6388dad523",
+        "parentUid" : "0678f305771a57fb293f9bff6069f5ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299154,
+          "stop" : 1621953299155,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[]", "'laser'", "['lazing', 'lazy', 'lacer']" ]
+      } ],
+      "uid" : "0678f305771a57fb293f9bff6069f5ff"
+    } ],
+    "uid" : "33ae05cbafae55c6e0b167cc0619c5a0"
+  }, {
+    "name" : "src.test.java.training.katas.disemvowel_trolls",
+    "children" : [ {
+      "name" : "test_disemvowel",
+      "children" : [ {
+        "name" : "test_disemvowel_trolls",
+        "uid" : "310ef88ce0876000",
+        "parentUid" : "1d2403cf7e088cde66ca22952ea01608",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299157,
+          "stop" : 1621953299157,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d2403cf7e088cde66ca22952ea01608"
+    } ],
+    "uid" : "358ced2833cf26f5e8a42f913ee2d8b8"
+  }, {
+    "name" : "src.test.java.training.katas.exes_and_ohs",
+    "children" : [ {
+      "name" : "test_exes_and_ohs",
+      "children" : [ {
+        "name" : "test_xo[ooxx-True]",
+        "uid" : "fa3be2eba29654d6",
+        "parentUid" : "0fb08636b0bc4364f03f00aa84a82f0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299159,
+          "stop" : 1621953299159,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'ooxx'" ]
+      }, {
+        "name" : "test_xo[xooxx-False]",
+        "uid" : "1859d55a1b16cc06",
+        "parentUid" : "0fb08636b0bc4364f03f00aa84a82f0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299161,
+          "stop" : 1621953299161,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'xooxx'" ]
+      }, {
+        "name" : "test_xo[ooxXm-True]",
+        "uid" : "7eb8cafb71583778",
+        "parentUid" : "0fb08636b0bc4364f03f00aa84a82f0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299163,
+          "stop" : 1621953299163,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'ooxXm'" ]
+      }, {
+        "name" : "test_xo[zpzpzpp-True]",
+        "uid" : "54bc5c84735d824a",
+        "parentUid" : "0fb08636b0bc4364f03f00aa84a82f0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299165,
+          "stop" : 1621953299165,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "'zpzpzpp'" ]
+      }, {
+        "name" : "test_xo[zzoo-False]",
+        "uid" : "d08a5a124a352bba",
+        "parentUid" : "0fb08636b0bc4364f03f00aa84a82f0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299167,
+          "stop" : 1621953299167,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "'zzoo'" ]
+      } ],
+      "uid" : "0fb08636b0bc4364f03f00aa84a82f0e"
+    } ],
+    "uid" : "d3691234cac2645536b6fbc82b21831d"
+  }, {
+    "name" : "src.test.java.training.katas.find_odd",
+    "children" : [ {
+      "name" : "test_find_the_odd_int",
+      "children" : [ {
+        "name" : "test_find_odd",
+        "uid" : "be8cf30d09413554",
+        "parentUid" : "c32040bdbba83265aaade9b38647ff03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299169,
+          "stop" : 1621953299169,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c32040bdbba83265aaade9b38647ff03"
+    } ],
+    "uid" : "5106112cb742bac8bbbf32441c58adfa"
+  }, {
+    "name" : "src.test.java.training.katas.largest_5_digit_number_in_a_series",
+    "children" : [ {
+      "name" : "largest_5_digit_number_in_a_series_test",
+      "children" : [ {
+        "name" : "test_largest_5_digit_number_in_a_series",
+        "uid" : "4fa8c9bb8fd56bb7",
+        "parentUid" : "3f0605ec8eb0de4e068d52533a41c6db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299171,
+          "stop" : 1621953299172,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f0605ec8eb0de4e068d52533a41c6db"
+    } ],
+    "uid" : "0545a0263113b3068351583d142b7847"
+  }, {
+    "name" : "src.test.java.training.katas.narcissistic",
+    "children" : [ {
+      "name" : "test_narcissistic",
+      "children" : [ {
+        "name" : "test_7",
+        "uid" : "2d9bd1117d07aaa9",
+        "parentUid" : "d0efa81c1fee8e5df510504440a4cddf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299173,
+          "stop" : 1621953299173,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_371",
+        "uid" : "a391fe41982a8cda",
+        "parentUid" : "d0efa81c1fee8e5df510504440a4cddf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299174,
+          "stop" : 1621953299174,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_122",
+        "uid" : "186328813996be1",
+        "parentUid" : "d0efa81c1fee8e5df510504440a4cddf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299176,
+          "stop" : 1621953299176,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_4887",
+        "uid" : "8c6cea0c94b806fa",
+        "parentUid" : "d0efa81c1fee8e5df510504440a4cddf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299177,
+          "stop" : 1621953299177,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d0efa81c1fee8e5df510504440a4cddf"
+    }, {
+      "name" : "test_narcissistis_unittest",
+      "children" : [ {
+        "name" : "NarcissisticTest",
+        "children" : [ {
+          "name" : "test_122",
+          "uid" : "e7ded2b368c49975",
+          "parentUid" : "dee28744e34e8d2aa573481951756533",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621953299178,
+            "stop" : 1621953299179,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_371",
+          "uid" : "ee1afccbff88c09a",
+          "parentUid" : "dee28744e34e8d2aa573481951756533",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621953299180,
+            "stop" : 1621953299180,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_4887",
+          "uid" : "493d862a217664ec",
+          "parentUid" : "dee28744e34e8d2aa573481951756533",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621953299181,
+            "stop" : 1621953299182,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_7",
+          "uid" : "26de37bd52b5e8be",
+          "parentUid" : "dee28744e34e8d2aa573481951756533",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621953299183,
+            "stop" : 1621953299183,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dee28744e34e8d2aa573481951756533"
+      } ],
+      "uid" : "600570f0899def7c91f6676244649398"
+    } ],
+    "uid" : "d1fd89d3256f5b0eca51c69063debd53"
+  }, {
+    "name" : "src.test.java.training.katas.number_of_people_in_the_bus",
+    "children" : [ {
+      "name" : "number_of_people_in_the_bus_test",
+      "children" : [ {
+        "name" : "test_number_of_people_in_the_bus",
+        "uid" : "840e3a80f12362f2",
+        "parentUid" : "d8091c61dc2cea2e09c1b9cd41781501",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299185,
+          "stop" : 1621953299185,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8091c61dc2cea2e09c1b9cd41781501"
+    } ],
+    "uid" : "3c9d48d851bb5c526562aa6221f77fdd"
+  }, {
+    "name" : "src.test.java.training.katas.roman_numerals_encoder",
+    "children" : [ {
+      "name" : "test_roman_numerals_encoder",
+      "children" : [ {
+        "name" : "test_roman_numerals_encoder[1-I]",
+        "uid" : "77a893a8d6331cbd",
+        "parentUid" : "7c8ee9a427cd19533db9902341bd8ce2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299187,
+          "stop" : 1621953299187,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'I'", "1" ]
+      }, {
+        "name" : "test_roman_numerals_encoder[4-IV]",
+        "uid" : "73c267cfec3cf598",
+        "parentUid" : "7c8ee9a427cd19533db9902341bd8ce2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299189,
+          "stop" : 1621953299189,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'IV'", "4" ]
+      }, {
+        "name" : "test_roman_numerals_encoder[6-VI]",
+        "uid" : "2030c37a26a85a13",
+        "parentUid" : "7c8ee9a427cd19533db9902341bd8ce2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299191,
+          "stop" : 1621953299192,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'VI'", "6" ]
+      }, {
+        "name" : "test_roman_numerals_encoder[14-XIV]",
+        "uid" : "f0623e85fe7a2201",
+        "parentUid" : "7c8ee9a427cd19533db9902341bd8ce2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299193,
+          "stop" : 1621953299193,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'XIV'", "14" ]
+      }, {
+        "name" : "test_roman_numerals_encoder[21-XXI]",
+        "uid" : "b645856790e7866d",
+        "parentUid" : "7c8ee9a427cd19533db9902341bd8ce2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299195,
+          "stop" : 1621953299195,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'XXI'", "21" ]
+      }, {
+        "name" : "test_roman_numerals_encoder[89-LXXXIX]",
+        "uid" : "86847609434392c6",
+        "parentUid" : "7c8ee9a427cd19533db9902341bd8ce2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299198,
+          "stop" : 1621953299198,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'LXXXIX'", "89" ]
+      }, {
+        "name" : "test_roman_numerals_encoder[91-XCI]",
+        "uid" : "12a9916a8a1932bd",
+        "parentUid" : "7c8ee9a427cd19533db9902341bd8ce2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299199,
+          "stop" : 1621953299199,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'XCI'", "91" ]
+      }, {
+        "name" : "test_roman_numerals_encoder[984-CMLXXXIV]",
+        "uid" : "4d3ee5ade78bae11",
+        "parentUid" : "7c8ee9a427cd19533db9902341bd8ce2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299201,
+          "stop" : 1621953299201,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CMLXXXIV'", "984" ]
+      }, {
+        "name" : "test_roman_numerals_encoder[1000-M]",
+        "uid" : "4260dcf142580d39",
+        "parentUid" : "7c8ee9a427cd19533db9902341bd8ce2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299203,
+          "stop" : 1621953299203,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'M'", "1000" ]
+      }, {
+        "name" : "test_roman_numerals_encoder[1889-MDCCCLXXXIX]",
+        "uid" : "2f76af6c1e6c713f",
+        "parentUid" : "7c8ee9a427cd19533db9902341bd8ce2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299205,
+          "stop" : 1621953299205,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'MDCCCLXXXIX'", "1889" ]
+      }, {
+        "name" : "test_roman_numerals_encoder[1989-MCMLXXXIX]",
+        "uid" : "8635c3bbe8881606",
+        "parentUid" : "7c8ee9a427cd19533db9902341bd8ce2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621953299207,
+          "stop" : 1621953299208,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'MCMLXXXIX'", "1989" ]
+      } ],
+      "uid" : "7c8ee9a427cd19533db9902341bd8ce2"
+    } ],
+    "uid" : "8fd709b6f08c9112e7406cd055c01f74"
+  }, {
+    "name" : "training.katas.HumanReadableDurationFormat.TimeFormatterKtTest",
+    "children" : [ {
+      "name" : "testFormatDurationExamples",
+      "uid" : "be284609368c5360",
+      "parentUid" : "0e8b3b2e3e0b855a760757a246210ffc",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621953506159,
+        "stop" : 1621953506160,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0e8b3b2e3e0b855a760757a246210ffc"
+  }, {
+    "name" : "training.katas.number_of_people_in_the_bus.TestExample",
+    "children" : [ {
+      "name" : "Basic Tests",
+      "uid" : "3ac5f1668071ac89",
+      "parentUid" : "cfa0b7782f02ffd92d91bc88e38f1fac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953506230,
+        "stop" : 1621953506416,
+        "duration" : 186
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cfa0b7782f02ffd92d91bc88e38f1fac"
+  }, {
+    "name" : "testCoWa.LibraryTest",
+    "children" : [ {
+      "name" : "testSomeLibraryMethod",
+      "uid" : "4fa041f398cb3df5",
+      "parentUid" : "66f59946588f30dfb566bac893c72bde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953506816,
+        "stop" : 1621953506830,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "66f59946588f30dfb566bac893c72bde"
+  }, {
+    "name" : "training.katas.number_of_people_in_the_bus.NumberOfPeopleInTheBusTest",
+    "children" : [ {
+      "name" : "test1()",
+      "uid" : "106ea409fef252db",
+      "parentUid" : "8500953101c9a910e6d0266a6dff8706",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953506848,
+        "stop" : 1621953506905,
+        "duration" : 57
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8500953101c9a910e6d0266a6dff8706"
+  }, {
+    "name" : "training.katas.exes_and_ohs.ExesAndOhsScalaTest",
+    "children" : [ {
+      "name" : "[2] input=xo0, expectedResult=true",
+      "uid" : "6452f949ee1e6b6",
+      "parentUid" : "ec6253791927938ea89c54e2c09b8e49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953506947,
+        "stop" : 1621953507028,
+        "duration" : 81
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[1] input=xo, expectedResult=true",
+      "uid" : "4b052b2f92ae10cf",
+      "parentUid" : "ec6253791927938ea89c54e2c09b8e49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953507043,
+        "stop" : 1621953507046,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3] input=xxxoo, expectedResult=false",
+      "uid" : "7b21d998ce16d746",
+      "parentUid" : "ec6253791927938ea89c54e2c09b8e49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953507051,
+        "stop" : 1621953507058,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ec6253791927938ea89c54e2c09b8e49"
+  }, {
+    "name" : "training.katas.exes_and_ohs.SolutionTest",
+    "children" : [ {
+      "name" : "testSomething7()",
+      "uid" : "8c5e5dfd20cadfc6",
+      "parentUid" : "979a571ee36279d4ccca0118475536c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953506969,
+        "stop" : 1621953506995,
+        "duration" : 26
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testSomething6()",
+      "uid" : "edac8b8734260ec6",
+      "parentUid" : "979a571ee36279d4ccca0118475536c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953507002,
+        "stop" : 1621953507008,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testSomething5()",
+      "uid" : "775e05cb644bdd0b",
+      "parentUid" : "979a571ee36279d4ccca0118475536c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953507022,
+        "stop" : 1621953507024,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testSomething4()",
+      "uid" : "3c3d1e3c66044f8a",
+      "parentUid" : "979a571ee36279d4ccca0118475536c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953507033,
+        "stop" : 1621953507038,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testSomething3()",
+      "uid" : "71613f1bd7ec92e7",
+      "parentUid" : "979a571ee36279d4ccca0118475536c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953507040,
+        "stop" : 1621953507040,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testSomething2()",
+      "uid" : "7b4c141c33bc5ed1",
+      "parentUid" : "979a571ee36279d4ccca0118475536c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953507054,
+        "stop" : 1621953507068,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testSomething1()",
+      "uid" : "d883e4063b8f9c99",
+      "parentUid" : "979a571ee36279d4ccca0118475536c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621953507067,
+        "stop" : 1621953507072,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "979a571ee36279d4ccca0118475536c5"
+  }, {
+    "name" : "training.katas.HumanReadableDurationFormat.TimeFormatterTest",
+    "children" : [ {
+      "name" : "exampleTests()",
+      "uid" : "f6df42973f0d64ba",
+      "parentUid" : "8caa7a3378bae587944959514baa7fd9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621953507214,
+        "stop" : 1621953507214,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8caa7a3378bae587944959514baa7fd9"
+  }, {
+    "name" : "training.katas.DeodorantEvaporator.DeodorantEvaporatorScalaTest",
+    "children" : [ {
+      "name" : "[1] content=10, evapPerDay=10, threshold=10, expectedResult=22",
+      "uid" : "7748ad77ed7f4e7e",
+      "parentUid" : "30c7b54d59596022294a45ec8df08c13",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621953507260,
+        "stop" : 1621953507346,
+        "duration" : 86
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3] content=100, evapPerDay=5, threshold=10, expectedResult=59",
+      "uid" : "439a864adb6c526",
+      "parentUid" : "30c7b54d59596022294a45ec8df08c13",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621953507288,
+        "stop" : 1621953507365,
+        "duration" : 77
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] content=10, evapPerDay=10, threshold=5, expectedResult=29",
+      "uid" : "61b07ec5b9962f3b",
+      "parentUid" : "30c7b54d59596022294a45ec8df08c13",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621953507359,
+        "stop" : 1621953507362,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "30c7b54d59596022294a45ec8df08c13"
+  } ],
+  "name" : "suites"
+}
