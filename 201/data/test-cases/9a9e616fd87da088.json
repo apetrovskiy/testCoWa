@@ -1,0 +1,53 @@
+{
+  "uid" : "9a9e616fd87da088",
+  "name" : "Step Deodorant Evaporator",
+  "fullName" : "/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/DeodorantEvaporator/deodorant_evaporator_test.go:TestStepDeodorantEvaporator",
+  "time" : {
+    "start" : 1622021528899,
+    "stop" : 1622021528899,
+    "duration" : 0
+  },
+  "description" : "TestStepDeodorantEvaporator",
+  "descriptionHtml" : "<p>TestStepDeodorantEvaporator</p>\n",
+  "status" : "broken",
+  "statusMessage" : "You are trying to make an assertion, but Gomega's fail handler is nil.\nIf you're using Ginkgo then you probably forgot to put your assertion in an It().\nAlternatively, you may have forgotten to register a fail handler with RegisterFailHandler() or RegisterTestingT().\nDepending on your vendoring solution you may be inadvertently importing gomega and subpackages (e.g. ghhtp, gexec,...) from different locations.\n",
+  "statusTrace" : "goroutine 6 [running]:\nruntime/debug.Stack(0x643654, 0x3, 0xc0001058f0)\n\t/opt/hostedtoolcache/go/1.16.4/x64/src/runtime/debug/stack.go:24 +0x9f\npanic(0x5f76c0, 0x68d3a0)\n\t/opt/hostedtoolcache/go/1.16.4/x64/src/runtime/panic.go:965 +0x1b9\ngithub.com/onsi/gomega.ExpectWithOffset(...)\n\t/home/runner/work/testCoWa/testCoWa/vendor/github.com/onsi/gomega/gomega_dsl.go:165\ngithub.com/onsi/gomega.Expect(...)\n\t/home/runner/work/testCoWa/testCoWa/vendor/github.com/onsi/gomega/gomega_dsl.go:151\ngithub.com/apetrovskiy/testCoWa/src/main/java/training/katas/DeodorantEvaporator.TestStepDeodorantEvaporator.func1()\n\t/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/DeodorantEvaporator/deodorant_evaporator_test.go:48 +0x345\ngithub.com/jtolds/gls.(*ContextManager).SetValues.func1(0x0)\n\t/home/runner/work/testCoWa/testCoWa/vendor/github.com/jtolds/gls/context.go:97 +0x462\ngithub.com/jtolds/gls.EnsureGoroutineId.func1()\n\t/home/runner/work/testCoWa/testCoWa/vendor/github.com/jtolds/gls/gid.go:24 +0x2e\ngithub.com/jtolds/gls._m(0x0, 0xc00000e390)\n\t/home/runner/work/testCoWa/testCoWa/vendor/github.com/jtolds/gls/stack_tags.go:108 +0x31\ngithub.com/jtolds/gls.github_com_jtolds_gls_markS(0x0, 0xc00000e390)\n\t/home/runner/work/testCoWa/testCoWa/vendor/github.com/jtolds/gls/stack_tags.go:56 +0x35\ngithub.com/jtolds/gls.addStackTag(...)\n\t/home/runner/work/testCoWa/testCoWa/vendor/github.com/jtolds/gls/stack_tags.go:49\ngithub.com/jtolds/gls.EnsureGoroutineId(0xc000077950)\n\t/home/runner/work/testCoWa/testCoWa/vendor/github.com/jtolds/gls/gid.go:24 +0xfd\ngithub.com/jtolds/gls.(*ContextManager).SetValues(0xc00002a550, 0xc0000778c0, 0x65fb30)\n\t/home/runner/work/testCoWa/testCoWa/vendor/github.com/jtolds/gls/context.go:63 +0x153\ngithub.com/apetrovskiy/testCoWa/src/main/java/training/katas/DeodorantEvaporator.TestStepDeodorantEvaporator(0xc000001b00)\n\t/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/DeodorantEvaporator/deodorant_evaporator_test.go:47 +0x87\ntesting.tRunner(0xc000001b00, 0x65fb38)\n\t/opt/hostedtoolcache/go/1.16.4/x64/src/testing/testing.go:1193 +0xef\ncreated by testing.(*T).Run\n\t/opt/hostedtoolcache/go/1.16.4/x64/src/testing/testing.go:1238 +0x2b3\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "home.runner.work.testCoWa.testCoWa.src.main.java.training.katas.DeodorantEvaporator.deodorant_evaporator_test"
+  }, {
+    "name" : "testClass",
+    "value" : "home.runner.work.testCoWa.testCoWa.src.main.java.training.katas.DeodorantEvaporator.deodorant_evaporator_test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestStepDeodorantEvaporator"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-192"
+  }, {
+    "name" : "language",
+    "value" : "golang"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9a9e616fd87da088.json",
+  "parameterValues" : [ ]
+}

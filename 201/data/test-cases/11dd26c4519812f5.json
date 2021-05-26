@@ -1,0 +1,263 @@
+{
+  "uid" : "11dd26c4519812f5",
+  "name" : "[1, 2, 3], [1, 2] -> [3]",
+  "fullName" : "src/main/java/training/katas/Array_diff/array.diff.test.js.[1, 2, 3], [1, 2] -> [3]",
+  "historyId" : "5864319836c06e75303f9492a5e46f4c",
+  "time" : {
+    "start" : 1622021522433,
+    "stop" : 1622021522434,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "statusTrace" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "src/main/java/training/katas/Array_diff/array.diff.test.js"
+  }, {
+    "name" : "testClass",
+    "value" : "src/main/java/training/katas/Array_diff/array.diff.test.js"
+  }, {
+    "name" : "testMethod",
+    "value" : "[1, 2, 3], [1, 2] -> [3]"
+  }, {
+    "name" : "package",
+    "value" : "src/main/java/training/katas/Array_diff/array.diff.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 54,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 54
+      },
+      "items" : [ {
+        "uid" : "1c11bbbaafbc5c89",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/200//#testresult/1c11bbbaafbc5c89",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1622015192657,
+          "stop" : 1622015192659,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "647a4452929bb8a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/199//#testresult/647a4452929bb8a",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1622014441020,
+          "stop" : 1622014441021,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cc9142493241f86d",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/198//#testresult/cc9142493241f86d",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1622013558564,
+          "stop" : 1622013558565,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "931ca6a49ff27f2e",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/197//#testresult/931ca6a49ff27f2e",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1622011563139,
+          "stop" : 1622011563141,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "db1624af1a456255",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/196//#testresult/db1624af1a456255",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1622011042505,
+          "stop" : 1622011042506,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4160583358ae2d1b",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/195//#testresult/4160583358ae2d1b",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1621953296916,
+          "stop" : 1621953296917,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "6d90425dcd904e0c",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/194//#testresult/6d90425dcd904e0c",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620950125116,
+          "stop" : 1620950125117,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "bdf58b04a81535ce",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/193//#testresult/bdf58b04a81535ce",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620934925299,
+          "stop" : 1620934925300,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3e18dbad6595402c",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/192//#testresult/3e18dbad6595402c",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620916699764,
+          "stop" : 1620916699765,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "c2e7367205e081d",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/191//#testresult/c2e7367205e081d",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620892522562,
+          "stop" : 1620892522563,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "8bd0d2722193c1b0",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/190//#testresult/8bd0d2722193c1b0",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620892213869,
+          "stop" : 1620892213870,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "f85319558b51f801",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/189//#testresult/f85319558b51f801",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620891410893,
+          "stop" : 1620891410894,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3382d51a08e68953",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/188//#testresult/3382d51a08e68953",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620890720409,
+          "stop" : 1620890720410,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3a044f6af3d2bb8d",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/186//#testresult/3a044f6af3d2bb8d",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620842317044,
+          "stop" : 1620842317044,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5a26a9cc011ba9fd",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/185//#testresult/5a26a9cc011ba9fd",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620842173227,
+          "stop" : 1620842173242,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "35cf35fe4fae97f3",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/184//#testresult/35cf35fe4fae97f3",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620765116345,
+          "stop" : 1620765116346,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b5b1043cea4494d1",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/183//#testresult/b5b1043cea4494d1",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620765097656,
+          "stop" : 1620765097657,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b1d79e60d9f4617b",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/182//#testresult/b1d79e60d9f4617b",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620731439088,
+          "stop" : 1620731439089,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "5f53101453db8f5",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/181//#testresult/5f53101453db8f5",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620730733260,
+          "stop" : 1620730733261,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "7398eb2d132d62e5",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/180//#testresult/7398eb2d132d62e5",
+        "status" : "failed",
+        "statusDetails" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620729164203,
+          "stop" : 1620729164204,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "11dd26c4519812f5.json",
+  "parameterValues" : [ ]
+}
