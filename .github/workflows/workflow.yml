@@ -179,16 +179,10 @@ jobs:
 
         echo "PWD"
         echo $PWD
-        echo "root"
-        echo /
         echo "GOPATH"
         echo $GOPATH
         echo "GOROOT"
         echo $GOROOT
-
-        echo "ALLURE_RESULTS_PATH=$PWD"
-        echo $PWD/variables.env
-        echo "$PWD/variables.env"
         echo "ALLURE_RESULTS_PATH=$PWD" > "$PWD/variables.env"
 
         go build -v ./...
