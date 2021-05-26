@@ -186,6 +186,8 @@ jobs:
         echo "GOROOT"
         echo $GOROOT
 
+        $PWD > ./variables.env
+
         go build -v ./...
 
     - name: Test
