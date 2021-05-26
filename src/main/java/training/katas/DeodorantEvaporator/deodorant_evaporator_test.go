@@ -46,7 +46,11 @@ func TestStepDeodorantEvaporator(t *testing.T) {
 	goDotEnvVariable("ALLURE_RESULTS_PATH")
 	allure.Test(t, allure.Action(func() {
 		Expect(Evaporator(10, 10, 10)).To(Equal(22))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(Evaporator(10, 10, 5)).To(Equal(29))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(Evaporator(100, 5, 5)).To(Equal(59))
 	}))
 }

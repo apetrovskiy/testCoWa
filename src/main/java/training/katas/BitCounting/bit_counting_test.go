@@ -46,9 +46,17 @@ func TestStepBitCounting(t *testing.T) {
 	goDotEnvVariable("ALLURE_RESULTS_PATH")
 	allure.Test(t, allure.Action(func() {
 		Expect(CountBits(0)).To(Equal(0))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(CountBits(4)).To(Equal(1))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(CountBits(7)).To(Equal(3))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(CountBits(9)).To(Equal(2))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(CountBits(10)).To(Equal(2))
 	}))
 }
