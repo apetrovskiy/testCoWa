@@ -42,7 +42,7 @@ var _ = Describe("Tests Evaporator", func() {
 })
 
 func TestStepDeodorantEvaporator(t *testing.T) {
-	dotenv := goDotEnvVariable("ALLURE_RESULTS_PATH")
+	goDotEnvVariable("ALLURE_RESULTS_PATH")
 	allure.Test(t, allure.Action(func() {
 		Expect(Evaporator(10, 10, 10)).To(Equal(22))
 		Expect(Evaporator(10, 10, 5)).To(Equal(29))

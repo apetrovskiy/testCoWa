@@ -35,7 +35,7 @@ var _ = Describe("Example Tests", func() {
 })
 
 func TestStepValidParentheses(t *testing.T) {
-	dotenv := goDotEnvVariable("ALLURE_RESULTS_PATH")
+	goDotEnvVariable("ALLURE_RESULTS_PATH")
 	allure.Test(t, allure.Action(func() {
 		Expect(ValidParentheses("()")).To(Equal(true))
 		Expect(ValidParentheses(")")).To(Equal(false))
