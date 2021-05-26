@@ -177,6 +177,10 @@ jobs:
         GCO_ENABLED=0
         go mod vendor
 
+        echo "PWD"
+        echo $PWD
+        echo "root"
+        echo /
         echo "GOPATH"
         echo $GOPATH
         echo "GOROOT"
