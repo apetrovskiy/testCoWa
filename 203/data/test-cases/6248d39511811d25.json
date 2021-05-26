@@ -1,0 +1,216 @@
+{
+  "uid" : "6248d39511811d25",
+  "name" : "test_sum_by_factors[input_array0-expected_result0]",
+  "fullName" : "src.test.java.training.katas.SumByFactors.test_sum_by_factors#test_sum_by_factors",
+  "historyId" : "1c2221c5caf9df96b823dc2c652df3b4",
+  "time" : {
+    "start" : 1622029301936,
+    "stop" : 1622029301936,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert [] == [[], [], []]\n  Right contains 3 more items, first extra item: []\n  Use -v to get the full diff",
+  "statusTrace" : "input_array = [], expected_result = []\n\n    @pytest.mark.parametrize(\"input_array,expected_result\", test_data)\n    def test_sum_by_factors(input_array: List[int], expected_result: List[List[int]]):\n>       assert expected_result == sum_for_list(input_array)\nE       assert [] == [[], [], []]\nE         Right contains 3 more items, first extra item: []\nE         Use -v to get the full diff\n\nsrc/test/java/training/katas/SumByFactors/test_sum_by_factors.py:24: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.SumByFactors"
+  }, {
+    "name" : "suite",
+    "value" : "test_sum_by_factors"
+  }, {
+    "name" : "host",
+    "value" : "fv-az190-850"
+  }, {
+    "name" : "thread",
+    "value" : "2028-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.SumByFactors.test_sum_by_factors"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "[]"
+  }, {
+    "name" : "input_array",
+    "value" : "[]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 15,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "1f34642d9960645e",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/202//#testresult/1f34642d9960645e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [] == [[], [], []]\n  Right contains 3 more items, first extra item: []\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1622022978727,
+          "stop" : 1622022978727,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8fe3b95a3ed80607",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/201//#testresult/8fe3b95a3ed80607",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [] == [[], [], []]\n  Right contains 3 more items, first extra item: []\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1622021556024,
+          "stop" : 1622021556025,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "efeb1bb77e10ffdc",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/200//#testresult/efeb1bb77e10ffdc",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [] == [[], [], []]\n  Right contains 3 more items, first extra item: []\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1622015187099,
+          "stop" : 1622015187099,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1d50926c37bde74a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/199//#testresult/1d50926c37bde74a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [] == [[], [], []]\n  Right contains 3 more items, first extra item: []\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1622014448900,
+          "stop" : 1622014448901,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d806c0b65be207bc",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/198//#testresult/d806c0b65be207bc",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [] == [[], [], []]\n  Right contains 3 more items, first extra item: []\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1622013574560,
+          "stop" : 1622013574560,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "26764d78f5e1137c",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/197//#testresult/26764d78f5e1137c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [] == [[], [], []]\n  Right contains 3 more items, first extra item: []\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1622011579070,
+          "stop" : 1622011579070,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4b53857df6f46f92",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/196//#testresult/4b53857df6f46f92",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [] == [[], [], []]\n  Right contains 3 more items, first extra item: []\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1622011051171,
+          "stop" : 1622011051172,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b912b718eaef874c",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/195//#testresult/b912b718eaef874c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [] == [[], [], []]\n  Right contains 3 more items, first extra item: []\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1621953299110,
+          "stop" : 1621953299110,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c997e7088074c5ad",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/194//#testresult/c997e7088074c5ad",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [] == [[], [], []]\n  Right contains 3 more items, first extra item: []\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620950103430,
+          "stop" : 1620950103431,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "22bbac0f41358411",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/193//#testresult/22bbac0f41358411",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [] == [[], [], []]\n  Right contains 3 more items, first extra item: []\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620934928270,
+          "stop" : 1620934928271,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "dc8e9d329a42fe9e",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/192//#testresult/dc8e9d329a42fe9e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [] == [[], [], []]\n  Right contains 3 more items, first extra item: []\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620916705332,
+          "stop" : 1620916705333,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "8438ab7705d4509a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/191//#testresult/8438ab7705d4509a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [] == [[], [], []]\n  Right contains 3 more items, first extra item: []\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620892542803,
+          "stop" : 1620892542803,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "37187a1c1021af50",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/190//#testresult/37187a1c1021af50",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [] == [[], [], []]\n  Right contains 3 more items, first extra item: []\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620892225851,
+          "stop" : 1620892225851,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d5d4b6af54c67dac",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/189//#testresult/d5d4b6af54c67dac",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert [] == [[], [], []]\n  Right contains 3 more items, first extra item: []\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1620891410717,
+          "stop" : 1620891410717,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6248d39511811d25.json",
+  "parameterValues" : [ "[]", "[]" ]
+}
