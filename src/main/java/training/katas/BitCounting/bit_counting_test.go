@@ -1,13 +1,15 @@
 package BitCounting
 
 import (
+	"log"
+	"os"
+	"testing"
+
 	// . "codewarrior/kata"
 	"github.com/dailymotion/allure-go"
 	"github.com/joho/godotenv"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"log"
-	"testing"
 )
 
 var _ = Describe("CountBits()", func() {
@@ -26,7 +28,7 @@ var _ = Describe("CountBits()", func() {
 func goDotEnvVariable(key string) string {
 
 	// load .env file
-	err := godotenv.Load("variables.env")
+	err := godotenv.Load("../../../../../../variables.env")
 
 	if err != nil {
 		log.Fatalf("Error loading .env file")
@@ -41,12 +43,20 @@ func dotest(input uint, exp int) {
 }
 
 func TestStepBitCounting(t *testing.T) {
-	dotenv := goDotEnvVariable("ALLURE_RESULTS_PATH")
+	goDotEnvVariable("ALLURE_RESULTS_PATH")
 	allure.Test(t, allure.Action(func() {
 		Expect(CountBits(0)).To(Equal(0))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(CountBits(4)).To(Equal(1))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(CountBits(7)).To(Equal(3))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(CountBits(9)).To(Equal(2))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(CountBits(10)).To(Equal(2))
 	}))
 }

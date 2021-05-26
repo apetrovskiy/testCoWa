@@ -1,14 +1,15 @@
 package DeodorantEvaporator
 
 import (
+	"log"
+	"os"
+	"testing"
+
 	// . "codewarrior/kata"
 	"github.com/dailymotion/allure-go"
 	"github.com/joho/godotenv"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"log"
-	"os"
-	"testing"
 )
 
 // https://towardsdatascience.com/use-environment-variable-in-your-next-golang-project-39e17c3aaa66
@@ -17,7 +18,7 @@ import (
 func goDotEnvVariable(key string) string {
 
 	// load .env file
-	err := godotenv.Load("variables.env")
+	err := godotenv.Load("../../../../../../variables.env")
 
 	if err != nil {
 		log.Fatalf("Error loading .env file")
@@ -42,10 +43,14 @@ var _ = Describe("Tests Evaporator", func() {
 })
 
 func TestStepDeodorantEvaporator(t *testing.T) {
-	dotenv := goDotEnvVariable("ALLURE_RESULTS_PATH")
+	goDotEnvVariable("ALLURE_RESULTS_PATH")
 	allure.Test(t, allure.Action(func() {
 		Expect(Evaporator(10, 10, 10)).To(Equal(22))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(Evaporator(10, 10, 5)).To(Equal(29))
+	}))
+	allure.Test(t, allure.Action(func() {
 		Expect(Evaporator(100, 5, 5)).To(Equal(59))
 	}))
 }
