@@ -189,7 +189,7 @@ jobs:
         echo "ALLURE_RESULTS_PATH=$PWD"
         echo $PWD/variables.env
         echo "$PWD/variables.env"
-        "ALLURE_RESULTS_PATH=$PWD" > "$PWD/variables.env"
+        echo "ALLURE_RESULTS_PATH=$PWD" > "$PWD/variables.env"
 
         go build -v ./...
 
