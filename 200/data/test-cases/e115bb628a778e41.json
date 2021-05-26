@@ -1,0 +1,263 @@
+{
+  "uid" : "e115bb628a778e41",
+  "name" : "empty string",
+  "fullName" : "Valid parentheses.empty string",
+  "historyId" : "8087af0f7b43a3abe230a5f81b0201ca",
+  "time" : {
+    "start" : 1622015193908,
+    "stop" : 1622015193909,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "statusTrace" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Valid parentheses"
+  }, {
+    "name" : "testClass",
+    "value" : "Valid parentheses"
+  }, {
+    "name" : "testMethod",
+    "value" : "empty string"
+  }, {
+    "name" : "package",
+    "value" : "Valid parentheses"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 62,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 62
+      },
+      "items" : [ {
+        "uid" : "4f8cea83f096ad56",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/199//#testresult/4f8cea83f096ad56",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1622014442388,
+          "stop" : 1622014442389,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b31d8a285413aadb",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/198//#testresult/b31d8a285413aadb",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1622013559936,
+          "stop" : 1622013559938,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "d8264b492d33332c",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/197//#testresult/d8264b492d33332c",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1622011564359,
+          "stop" : 1622011564360,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "750cf1d9ac353b7",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/196//#testresult/750cf1d9ac353b7",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1622011043530,
+          "stop" : 1622011043531,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "387a939118a9bcc2",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/195//#testresult/387a939118a9bcc2",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1621953298162,
+          "stop" : 1621953298163,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e0ce621066b361c3",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/194//#testresult/e0ce621066b361c3",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620950126945,
+          "stop" : 1620950126946,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "67652c13e8e6e5d8",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/193//#testresult/67652c13e8e6e5d8",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620934926323,
+          "stop" : 1620934926324,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "2cda3451e932c6f6",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/192//#testresult/2cda3451e932c6f6",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620916700992,
+          "stop" : 1620916700993,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "6f1fb9808110a98c",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/191//#testresult/6f1fb9808110a98c",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620892523452,
+          "stop" : 1620892523453,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "825cac0ffb868469",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/190//#testresult/825cac0ffb868469",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620892214821,
+          "stop" : 1620892214822,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e8a7bf6e2395bc05",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/189//#testresult/e8a7bf6e2395bc05",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620891412090,
+          "stop" : 1620891412091,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "2e29fdbb9089119a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/188//#testresult/2e29fdbb9089119a",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620890721407,
+          "stop" : 1620890721408,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "bf2376b18b4aa6b2",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/186//#testresult/bf2376b18b4aa6b2",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620842318334,
+          "stop" : 1620842318336,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "4a6c2b826c33e589",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/185//#testresult/4a6c2b826c33e589",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620842174277,
+          "stop" : 1620842174278,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "16631f1c0c2de25e",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/184//#testresult/16631f1c0c2de25e",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620765117641,
+          "stop" : 1620765117642,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b6102462883939b6",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/183//#testresult/b6102462883939b6",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620765098810,
+          "stop" : 1620765098811,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "5b7a2623726e88de",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/182//#testresult/5b7a2623726e88de",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620731440247,
+          "stop" : 1620731440248,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "7cff8f59d4f282fc",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/181//#testresult/7cff8f59d4f282fc",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620730734438,
+          "stop" : 1620730734439,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "518e32f941a47a89",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/180//#testresult/518e32f941a47a89",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620729165272,
+          "stop" : 1620729165273,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b3078041d59e9564",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/179//#testresult/b3078041d59e9564",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+        "time" : {
+          "start" : 1620728364738,
+          "stop" : 1620728364739,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e115bb628a778e41.json",
+  "parameterValues" : [ ]
+}

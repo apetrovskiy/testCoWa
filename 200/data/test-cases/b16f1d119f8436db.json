@@ -1,0 +1,276 @@
+{
+  "uid" : "b16f1d119f8436db",
+  "name" : "test_pick_peaks[input7-expected_result7]",
+  "fullName" : "src.test.java.training.katas.PickPeaks.test_pick_peaks#test_pick_peaks",
+  "historyId" : "908248b4b835f854832ef064a4c2449b",
+  "time" : {
+    "start" : 1622015186994,
+    "stop" : 1622015186994,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+  "statusTrace" : "input = [1, 2, 5, 4, 3, 2, ...]\nexpected_result = {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]}\n\n    @pytest.mark.parametrize(\"input,expected_result\", test_data)\n    def test_pick_peaks(input: List[int], expected_result: Dict):\n>       assert expected_result == pick_peaks(input)\nE       AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\nE        +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])\n\nsrc/test/java/training/katas/PickPeaks/test_pick_peaks.py:25: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.PickPeaks"
+  }, {
+    "name" : "suite",
+    "value" : "test_pick_peaks"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-355"
+  }, {
+    "name" : "thread",
+    "value" : "1901-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.PickPeaks.test_pick_peaks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "{'pos': [2, 7, 14, 20], 'peaks': [5, 6, 5, 5]}"
+  }, {
+    "name" : "input",
+    "value" : "[1, 2, 5, 4, 3, 2, 3, 6, 4, 1, 2, 3, 3, 4, 5, 3, 2, 1, 2, 3, 5, 5, 4, 3]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 29,
+        "broken" : 0,
+        "skipped" : 149,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 178
+      },
+      "items" : [ {
+        "uid" : "b98c41153dfbad47",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/199//#testresult/b98c41153dfbad47",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1622014448779,
+          "stop" : 1622014448779,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "48494c12db964d3a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/198//#testresult/48494c12db964d3a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1622013574456,
+          "stop" : 1622013574457,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "a99e2fcb10f10443",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/197//#testresult/a99e2fcb10f10443",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1622011578951,
+          "stop" : 1622011578951,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7f45d79b372ca861",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/196//#testresult/7f45d79b372ca861",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1622011051039,
+          "stop" : 1622011051039,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "190f76a7019d032",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/195//#testresult/190f76a7019d032",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1621953299018,
+          "stop" : 1621953299018,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5d265c8db3d4d341",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/194//#testresult/5d265c8db3d4d341",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1620950103312,
+          "stop" : 1620950103312,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "92f0d0730a17051a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/193//#testresult/92f0d0730a17051a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1620934928172,
+          "stop" : 1620934928172,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "383a4f1fcda6cb9f",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/192//#testresult/383a4f1fcda6cb9f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1620916705212,
+          "stop" : 1620916705212,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4d44f766cba62e82",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/191//#testresult/4d44f766cba62e82",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1620892542701,
+          "stop" : 1620892542702,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "45a9864072995cd7",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/190//#testresult/45a9864072995cd7",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1620892225745,
+          "stop" : 1620892225745,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a39279fc68b62bc",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/189//#testresult/a39279fc68b62bc",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1620891410590,
+          "stop" : 1620891410590,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "66372b85a915174f",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/187//#testresult/66372b85a915174f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1620886625349,
+          "stop" : 1620886625350,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ecd3f2d555f106f1",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/186//#testresult/ecd3f2d555f106f1",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1620842336819,
+          "stop" : 1620842336819,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d942ca50074979fa",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/185//#testresult/d942ca50074979fa",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1620842184953,
+          "stop" : 1620842184954,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b8a957f243e187aa",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/184//#testresult/b8a957f243e187aa",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1620765115219,
+          "stop" : 1620765115220,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "6c2ea6e04ba8bb4a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/183//#testresult/6c2ea6e04ba8bb4a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1620765102456,
+          "stop" : 1620765102457,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "2b794245a6fe275b",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/182//#testresult/2b794245a6fe275b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1620731440381,
+          "stop" : 1620731440382,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "de8666f3d2b9a933",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/181//#testresult/de8666f3d2b9a933",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1620730738092,
+          "stop" : 1620730738092,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "435a1bc8c6127b17",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/180//#testresult/435a1bc8c6127b17",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1620729139944,
+          "stop" : 1620729139945,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ce46ab02e94f7396",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/179//#testresult/ce46ab02e94f7396",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+        "time" : {
+          "start" : 1620728359370,
+          "stop" : 1620728359370,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b16f1d119f8436db.json",
+  "parameterValues" : [ "{'pos': [2, 7, 14, 20], 'peaks': [5, 6, 5, 5]}", "[1, 2, 5, 4, 3, 2, 3, 6, 4, 1, 2, 3, 3, 4, 5, 3, 2, 1, 2, 3, 5, 5, 4, 3]" ]
+}
