@@ -1,15 +1,16 @@
 package ValidParentheses
 
 import (
+	"log"
+	"os"
+	"testing"
+
 	// . "codewarrior/kata"
 	// k "."
 	"github.com/dailymotion/allure-go"
 	"github.com/joho/godotenv"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"log"
-	"os"
-	"testing"
 )
 
 // https://towardsdatascience.com/use-environment-variable-in-your-next-golang-project-39e17c3aaa66
@@ -18,7 +19,7 @@ import (
 func goDotEnvVariable(key string) string {
 
 	// load .env file
-	err := godotenv.Load("variables.env")
+	err := godotenv.Load("../../../../../../variables.env")
 
 	if err != nil {
 		log.Fatalf("Error loading .env file")
