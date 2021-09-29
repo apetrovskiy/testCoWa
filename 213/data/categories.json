@@ -1,0 +1,464 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [4]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to deeply equal [ 4 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   4,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:18:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "Tests",
+        "uid" : "701bdc7cb1a58674",
+        "parentUid" : "55ffed1ea9535004427228b3f95c11b2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897657641,
+          "stop" : 1632897657648,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "55ffed1ea9535004427228b3f95c11b2"
+    }, {
+      "name" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  []\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal []\n                \n                Difference:\n                \n                Compared values have no visual difference.\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:24:38)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "[], [4, 5] -> []",
+        "uid" : "a2d66bec468c9b7e",
+        "parentUid" : "067ba1c588b8da1253ee7720ff96909a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897657652,
+          "stop" : 1632897657653,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "067ba1c588b8da1253ee7720ff96909a"
+    }, {
+      "name" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [1, 8, 2]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 1, 8, 2 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   1,\n                -   8,\n                -   2,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:30:41)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "[1, 8, 2], [] -> [1, 8, 2]",
+        "uid" : "2ac75b35447064d6",
+        "parentUid" : "5a980a48249d9d799e66c9e720fcb7a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897657653,
+          "stop" : 1632897657654,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5a980a48249d9d799e66c9e720fcb7a6"
+    }, {
+      "name" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [4]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 4 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   4,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:27:39)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "[3, 4], [3] -> [4]",
+        "uid" : "733081627263a78d",
+        "parentUid" : "b872738bc1dad174aa51a9cacc4fa038",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897657653,
+          "stop" : 1632897657653,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b872738bc1dad174aa51a9cacc4fa038"
+    }, {
+      "name" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  [3]\n                Received:\n                  []\n                \n                Message:\n                  expected [] to equal [ 3 ]\n                \n                Difference:\n                \n                - Expected\n                + Received\n                \n                - Array [\n                -   3,\n                - ]\n                + Array []\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/Array_diff/array.diff.test.js:33:45)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "[1, 2, 3], [1, 2] -> [3]",
+        "uid" : "aa8201a40458adef",
+        "parentUid" : "20e12b3986af62b3903bff8f5d0410dd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897657654,
+          "stop" : 1632897657655,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20e12b3986af62b3903bff8f5d0410dd"
+    }, {
+      "name" : "assert.deepStrictEqual(received, expected)\n                \n                Expected value to deeply and strictly equal to:\n                  {\"peaks\": [6, 3], \"pos\": [3, 7]}\n                Received:\n                  undefined\n                \n                Message:\n                  expected undefined to deeply equal { pos: [ 3, 7 ], peaks: [ 6, 3 ] }\n                \n                Difference:\n                \n                  Comparing two different types of values. Expected object but received undefined.\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/PickPeaks/pick_peaks.test.js:8:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "Tests",
+        "uid" : "f867af8031ab759f",
+        "parentUid" : "0b515f2d37e5a1d6d39d97610c8826a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897657814,
+          "stop" : 1632897657816,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b515f2d37e5a1d6d39d97610c8826a8"
+    }, {
+      "name" : "TypeError: anagrams is not a function",
+      "children" : [ {
+        "name" : "abba",
+        "uid" : "aa7f346c1d8c5a78",
+        "parentUid" : "1e61631886535a63525c1658b322745c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897658160,
+          "stop" : 1632897658160,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e61631886535a63525c1658b322745c"
+    }, {
+      "name" : "assert.strictEqual(received, expected)\n                \n                Expected value to strictly be equal to:\n                  true\n                Received:\n                  false\n                \n                Message:\n                  expected false to equal true\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/ValidParentheses/valid_parentheses.test.js:12:16)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+      "children" : [ {
+        "name" : "empty string",
+        "uid" : "eea1112ffb4ae851",
+        "parentUid" : "df4f50f716fdbf3ea5a1cec0ad27342c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897658535,
+          "stop" : 1632897658536,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df4f50f716fdbf3ea5a1cec0ad27342c"
+    }, {
+      "name" : "AssertionError: assert {'peaks': [6, 3], 'pos': [3, 7]} == None\n +  where None = pick_peaks([1, 2, 3, 6, 4, 1, ...])",
+      "children" : [ {
+        "name" : "test_pick_peaks[input0-expected_result0]",
+        "uid" : "d14d4787a3e375d3",
+        "parentUid" : "33010a42beda5047cbd60c939cf50b56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897682475,
+          "stop" : 1632897682475,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [3, 7], 'peaks': [6, 3]}", "[1, 2, 3, 6, 4, 1, 2, 3, 2, 1]" ]
+      } ],
+      "uid" : "33010a42beda5047cbd60c939cf50b56"
+    }, {
+      "name" : "AssertionError: assert {'peaks': [6, 3], 'pos': [3, 7]} == None\n +  where None = pick_peaks([3, 2, 3, 6, 4, 1, ...])",
+      "children" : [ {
+        "name" : "test_pick_peaks[input1-expected_result1]",
+        "uid" : "608548490f28571f",
+        "parentUid" : "703e92c33d0c54718bc09a28b66c4005",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897682509,
+          "stop" : 1632897682510,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [3, 7], 'peaks': [6, 3]}", "[3, 2, 3, 6, 4, 1, 2, 3, 2, 1, 2, 3]" ]
+      } ],
+      "uid" : "703e92c33d0c54718bc09a28b66c4005"
+    }, {
+      "name" : "AssertionError: assert {'peaks': [6, 3, 2], 'pos': [3, 7, 10]} == None\n +  where None = pick_peaks([3, 2, 3, 6, 4, 1, ...])",
+      "children" : [ {
+        "name" : "test_pick_peaks[input2-expected_result2]",
+        "uid" : "5680d8fa14778a0",
+        "parentUid" : "5fa8921f88e816e1fa0e0ca771671c1a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897682513,
+          "stop" : 1632897682514,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [3, 7, 10], 'peaks': [6, 3, 2]}", "[3, 2, 3, 6, 4, 1, 2, 3, 2, 1, 2, 2, 2, 1]" ]
+      } ],
+      "uid" : "5fa8921f88e816e1fa0e0ca771671c1a"
+    }, {
+      "name" : "AssertionError: assert {'peaks': [3, 2], 'pos': [2, 4]} == None\n +  where None = pick_peaks([2, 1, 3, 1, 2, 2, ...])",
+      "children" : [ {
+        "name" : "test_pick_peaks[input3-expected_result3]",
+        "uid" : "67b13c25b2f9cb74",
+        "parentUid" : "1824f3feca5a10000978a35f2cb7156c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897682518,
+          "stop" : 1632897682518,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [2, 4], 'peaks': [3, 2]}", "[2, 1, 3, 1, 2, 2, 2, 2, 1]" ]
+      } ],
+      "uid" : "1824f3feca5a10000978a35f2cb7156c"
+    }, {
+      "name" : "AssertionError: assert {'peaks': [3], 'pos': [2]} == None\n +  where None = pick_peaks([2, 1, 3, 1, 2, 2, ...])",
+      "children" : [ {
+        "name" : "test_pick_peaks[input4-expected_result4]",
+        "uid" : "902bfdc4d454b798",
+        "parentUid" : "13a68736ad1c07705516a611de21571a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897682522,
+          "stop" : 1632897682522,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [2], 'peaks': [3]}", "[2, 1, 3, 1, 2, 2, 2, 2]" ]
+      } ],
+      "uid" : "13a68736ad1c07705516a611de21571a"
+    }, {
+      "name" : "AssertionError: assert {'peaks': [3], 'pos': [2]} == None\n +  where None = pick_peaks([2, 1, 3, 2, 2, 2, ...])",
+      "children" : [ {
+        "name" : "test_pick_peaks[input5-expected_result5]",
+        "uid" : "9582b87cdcdc6ddc",
+        "parentUid" : "14a2b96ff7cb9a116990125e63429331",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897682527,
+          "stop" : 1632897682527,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [2], 'peaks': [3]}", "[2, 1, 3, 2, 2, 2, 2, 5, 6]" ]
+      }, {
+        "name" : "test_pick_peaks[input6-expected_result6]",
+        "uid" : "b69bc5028b9880a8",
+        "parentUid" : "14a2b96ff7cb9a116990125e63429331",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897682531,
+          "stop" : 1632897682531,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [2], 'peaks': [3]}", "[2, 1, 3, 2, 2, 2, 2, 1]" ]
+      } ],
+      "uid" : "14a2b96ff7cb9a116990125e63429331"
+    }, {
+      "name" : "AssertionError: assert {'peaks': [5, 6, 5, 5], 'pos': [2, 7, 14, 20]} == None\n +  where None = pick_peaks([1, 2, 5, 4, 3, 2, ...])",
+      "children" : [ {
+        "name" : "test_pick_peaks[input7-expected_result7]",
+        "uid" : "7e31277927020a4e",
+        "parentUid" : "7977f68b8d4bcdd36f218dfa29ef017f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897682536,
+          "stop" : 1632897682536,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [2, 7, 14, 20], 'peaks': [5, 6, 5, 5]}", "[1, 2, 5, 4, 3, 2, 3, 6, 4, 1, 2, 3, 3, 4, 5, 3, 2, 1, 2, 3, 5, 5, 4, 3]" ]
+      } ],
+      "uid" : "7977f68b8d4bcdd36f218dfa29ef017f"
+    }, {
+      "name" : "AssertionError: assert {'peaks': [], 'pos': []} == None\n +  where None = pick_peaks([])",
+      "children" : [ {
+        "name" : "test_pick_peaks[input8-expected_result8]",
+        "uid" : "c30c3a92e62b898f",
+        "parentUid" : "a95acc9dce4113caf42893d89473795f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897682541,
+          "stop" : 1632897682541,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [], 'peaks': []}", "[]" ]
+      } ],
+      "uid" : "a95acc9dce4113caf42893d89473795f"
+    }, {
+      "name" : "AssertionError: assert {'peaks': [], 'pos': []} == None\n +  where None = pick_peaks([1, 1, 1, 1])",
+      "children" : [ {
+        "name" : "test_pick_peaks[input9-expected_result9]",
+        "uid" : "41230e0098b4e916",
+        "parentUid" : "000cc45e351a14b858de32da45c6cc76",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897682546,
+          "stop" : 1632897682546,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pos': [], 'peaks': []}", "[1, 1, 1, 1]" ]
+      } ],
+      "uid" : "000cc45e351a14b858de32da45c6cc76"
+    }, {
+      "name" : "AssertionError: assert ['ul', 'nc', ...g', 'lj', ...] == ['ul', 'nc', ...g', 'lj', ...]\n  At index 25 diff: 'ls' != 'l\\n'\n  Right contains 3 more items, first extra item: 'yy'\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_split_strings[ulnckdcoygljbbkrjxmxmdxafyippuflgwaquathcrswadnbjgl\n     szozwtarkjtuojnamzzntnxpznjyrmjlskkkwmuzgyyxkju-expected_result6]",
+        "uid" : "7deee9b68b3fa544",
+        "parentUid" : "e2c33a61f26e0ceb93eafd11bf02e003",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897682575,
+          "stop" : 1632897682575,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['ul', 'nc', 'kd', 'co', 'yg', 'lj', 'bb', 'kr', 'jx', 'mx', 'md', 'xa', 'fy', 'ip', 'pu', 'fl', 'gw', 'aq', 'ua', 'th', 'cr', 'sw', 'ad', 'nb', 'jg', 'ls', 'zo', 'zw', 'ta', 'rk', 'jt', 'uo', 'jn', 'am', 'zz', 'nt', 'nx', 'pz', 'nj', 'yr', 'mj', 'ls', 'kk', 'kw', 'mu', 'zg', 'yy', 'xk', 'ju']", "'ulnckdcoygljbbkrjxmxmdxafyippuflgwaquathcrswadnbjgl\n     szozwtarkjtuojnamzzntnxpznjyrmjlskkkwmuzgyyxkju'" ]
+      } ],
+      "uid" : "e2c33a61f26e0ceb93eafd11bf02e003"
+    }, {
+      "name" : "AssertionError: assert ['to', 'tc', ...g', 'qg', ...] == ['to', 'tc', ...g', 'qg', ...]\n  At index 25 diff: 'fl' != 'f\\n'\n  Right contains 3 more items, first extra item: 'cr'\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_split_strings[totcmbfekgqgsltdlxtofeqmpmhblxetzovltijrqpztjrgmvnf\n     lunbbtnhvydwuudrsrgpylhcrhri-expected_result9]",
+        "uid" : "778adebc83b65c72",
+        "parentUid" : "3a0d96704f4ef9dcb1b77c471a6eb728",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897682585,
+          "stop" : 1632897682586,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['to', 'tc', 'mb', 'fe', 'kg', 'qg', 'sl', 'td', 'lx', 'to', 'fe', 'qm', 'pm', 'hb', 'lx', 'et', 'zo', 'vl', 'ti', 'jr', 'qp', 'zt', 'jr', 'gm', 'vn', 'fl', 'un', 'bb', 'tn', 'hv', 'yd', 'wu', 'ud', 'rs', 'rg', 'py', 'lh', 'cr', 'hr', 'i_']", "'totcmbfekgqgsltdlxtofeqmpmhblxetzovltijrqpztjrgmvnf\n     lunbbtnhvydwuudrsrgpylhcrhri'" ]
+      } ],
+      "uid" : "3a0d96704f4ef9dcb1b77c471a6eb728"
+    }, {
+      "name" : "AssertionError: assert ['lt', 'wt', ...x', 'qt', ...] == ['lt', 'wt', ...x', 'qt', ...]\n  At index 24 diff: 'cz' != '\\n '\n  Right contains 3 more items, first extra item: 'hw'\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_split_strings[ltwtthafxxqtghfvwwmvfyxyyekypglqsejmivxytwufiewi\n     czgzvyjezhasdjqbeglmwrcxgwgvtuiyjoghpofdfjhwvok-expected_result11]",
+        "uid" : "9cb4794b2c3ad1d7",
+        "parentUid" : "38f36ee01b0413349191aa98abf11446",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897682596,
+          "stop" : 1632897682597,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['lt', 'wt', 'th', 'af', 'xx', 'qt', 'gh', 'fv', 'ww', 'mv', 'fy', 'xy', 'ye', 'ky', 'pg', 'lq', 'se', 'jm', 'iv', 'xy', 'tw', 'uf', 'ie', 'wi', 'cz', 'gz', 'vy', 'je', 'zh', 'as', 'dj', 'qb', 'eg', 'lm', 'wr', 'cx', 'gw', 'gv', 'tu', 'iy', 'jo', 'gh', 'po', 'fd', 'fj', 'hw', 'vo', 'k_']", "'ltwtthafxxqtghfvwwmvfyxyyekypglqsejmivxytwufiewi\n     czgzvyjezhasdjqbeglmwrcxgwgvtuiyjoghpofdfjhwvok'" ]
+      } ],
+      "uid" : "38f36ee01b0413349191aa98abf11446"
+    }, {
+      "name" : "AssertionError: assert ['lp', 'dr', ...o', 'hi', ...] == ['lp', 'dr', ...o', 'hi', ...]\n  At index 22 diff: 'dq' != '\\n '\n  Right contains 3 more items, first extra item: 'an'\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_split_strings[lpdrbuwhoohiiagjsopchwuannfrfupsznxbgbwqgnfb\n     dqenhgwpofrcmfvptbinwxrjhdtfanczc-expected_result12]",
+        "uid" : "abbdb02bdeff8cea",
+        "parentUid" : "e890869bf8c1b7676bdccf5f95c3965c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897682603,
+          "stop" : 1632897682603,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['lp', 'dr', 'bu', 'wh', 'oo', 'hi', 'ia', 'gj', 'so', 'pc', 'hw', 'ua', 'nn', 'fr', 'fu', 'ps', 'zn', 'xb', 'gb', 'wq', 'gn', 'fb', 'dq', 'en', 'hg', 'wp', 'of', 'rc', 'mf', 'vp', 'tb', 'in', 'wx', 'rj', 'hd', 'tf', 'an', 'cz', 'c_']", "'lpdrbuwhoohiiagjsopchwuannfrfupsznxbgbwqgnfb\n     dqenhgwpofrcmfvptbinwxrjhdtfanczc'" ]
+      } ],
+      "uid" : "e890869bf8c1b7676bdccf5f95c3965c"
+    }, {
+      "name" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_split_strings[nlxikxqyhjttmovhdwguztwposwisfzbxzmyaxxjtff\n     iklbmgnrfspcjemcfrpfkmbiewhcyytxfcrwu-expected_result14]",
+        "uid" : "800c496a4f74675e",
+        "parentUid" : "26bd1cca9899bbf541250ccd3f6aa891",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897682611,
+          "stop" : 1632897682611,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['nl', 'xi', 'kx', 'qy', 'hj', 'tt', 'mo', 'vh', 'dw', 'gu', 'zt', 'wp', 'os', 'wi', 'sf', 'zb', 'xz', 'my', 'ax', 'xj', 'tf', 'fi', 'kl', 'bm', 'gn', 'rf', 'sp', 'cj', 'em', 'cf', 'rp', 'fk', 'mb', 'ie', 'wh', 'cy', 'yt', 'xf', 'cr', 'wu']", "'nlxikxqyhjttmovhdwguztwposwisfzbxzmyaxxjtff\n     iklbmgnrfspcjemcfrpfkmbiewhcyytxfcrwu'" ]
+      } ],
+      "uid" : "26bd1cca9899bbf541250ccd3f6aa891"
+    }, {
+      "name" : "AssertionError: assert [] == [[], [], []]\n  Right contains 3 more items, first extra item: []\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_sum_by_factors[input_array0-expected_result0]",
+        "uid" : "2832618a3f1a6ccd",
+        "parentUid" : "9375fbf4e80d985f2f60658cbaef332d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897682643,
+          "stop" : 1632897682644,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[]", "[]" ]
+      } ],
+      "uid" : "9375fbf4e80d985f2f60658cbaef332d"
+    }, {
+      "name" : "expected: <29> but was: <0>",
+      "children" : [ {
+        "name" : "[2] content=10, evapPerDay=10, threshold=5, expectedResult=29",
+        "uid" : "c190b9f77aac786e",
+        "parentUid" : "b06faddb23ea333810833e2955951d7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897904172,
+          "stop" : 1632897904251,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b06faddb23ea333810833e2955951d7f"
+    }, {
+      "name" : "expected: <22> but was: <0>",
+      "children" : [ {
+        "name" : "[1] content=10, evapPerDay=10, threshold=10, expectedResult=22",
+        "uid" : "7aec8c343d66675d",
+        "parentUid" : "fe6b9df604e7f1c1ce2957069f33a183",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897904246,
+          "stop" : 1632897904248,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe6b9df604e7f1c1ce2957069f33a183"
+    }, {
+      "name" : "expected: <59> but was: <0>",
+      "children" : [ {
+        "name" : "[3] content=100, evapPerDay=5, threshold=10, expectedResult=59",
+        "uid" : "b0b0ac8f359a9bdb",
+        "parentUid" : "a0dbe7c040f5f587b317616ed477dc44",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632897904257,
+          "stop" : 1632897904259,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0dbe7c040f5f587b317616ed477dc44"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

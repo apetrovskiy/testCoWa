@@ -1,0 +1,263 @@
+{
+  "uid" : "aa7f346c1d8c5a78",
+  "name" : "abba",
+  "fullName" : "Anagrams.abba",
+  "historyId" : "5220eb5fcd675e87fa40812bd0e137c9",
+  "time" : {
+    "start" : 1632897658160,
+    "stop" : 1632897658160,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: anagrams is not a function",
+  "statusTrace" : "TypeError: anagrams is not a function\n                    at Object.<anonymous> (/home/runner/work/testCoWa/testCoWa/src/main/java/training/katas/WhereMyAnagramsAt/where_my_anagrams_at.test.js:14:28)\n                    at Object.asyncJestTest (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n                    at new Promise (<anonymous>)\n                    at mapper (/home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n                    at /home/runner/work/testCoWa/testCoWa/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Anagrams"
+  }, {
+    "name" : "testClass",
+    "value" : "Anagrams"
+  }, {
+    "name" : "testMethod",
+    "value" : "abba"
+  }, {
+    "name" : "package",
+    "value" : "Anagrams"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 74,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 74
+      },
+      "items" : [ {
+        "uid" : "51389c0d197cc4c4",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/211//#testresult/51389c0d197cc4c4",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1622035611598,
+          "stop" : 1622035611598,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e440b8736fa52a15",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/210//#testresult/e440b8736fa52a15",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1622035271447,
+          "stop" : 1622035271448,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "1d202d350bd4a2f4",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/209//#testresult/1d202d350bd4a2f4",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1622035119082,
+          "stop" : 1622035119085,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "a81577c2a73d72ee",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/208//#testresult/a81577c2a73d72ee",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1622034967621,
+          "stop" : 1622034967621,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9549cd9237a51e4c",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/207//#testresult/9549cd9237a51e4c",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1622034445151,
+          "stop" : 1622034445151,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "18fd0d46e95992e1",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/206//#testresult/18fd0d46e95992e1",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1622031294102,
+          "stop" : 1622031294103,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ea5d358fe1f7cfa5",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/205//#testresult/ea5d358fe1f7cfa5",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1622030866303,
+          "stop" : 1622030866304,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "159f33892c0d5660",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/204//#testresult/159f33892c0d5660",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1622030231623,
+          "stop" : 1622030231623,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c7b9805dde573493",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/203//#testresult/c7b9805dde573493",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1622029292142,
+          "stop" : 1622029292143,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "59747f617dfa733",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/202//#testresult/59747f617dfa733",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1622022975936,
+          "stop" : 1622022975937,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d940add76c6a6290",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/201//#testresult/d940add76c6a6290",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1622021523222,
+          "stop" : 1622021523223,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "a5e74446fabe6e11",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/200//#testresult/a5e74446fabe6e11",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1622015193383,
+          "stop" : 1622015193384,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "13446cf001dd42d5",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/199//#testresult/13446cf001dd42d5",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1622014441829,
+          "stop" : 1622014441830,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "247610cee0d116fe",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/198//#testresult/247610cee0d116fe",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1622013559386,
+          "stop" : 1622013559387,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "46e86cec6e296125",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/197//#testresult/46e86cec6e296125",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1622011563840,
+          "stop" : 1622011563840,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a6374fce3e336ce6",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/196//#testresult/a6374fce3e336ce6",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1622011043099,
+          "stop" : 1622011043100,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "989d4cf5da1f6ae6",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/195//#testresult/989d4cf5da1f6ae6",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1621953297655,
+          "stop" : 1621953297655,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1c9e1524630e763c",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/194//#testresult/1c9e1524630e763c",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1620950126159,
+          "stop" : 1620950126159,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a70b34a782018248",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/193//#testresult/a70b34a782018248",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1620934925917,
+          "stop" : 1620934925918,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "fd13690749d1da4a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/192//#testresult/fd13690749d1da4a",
+        "status" : "failed",
+        "statusDetails" : "TypeError: anagrams is not a function",
+        "time" : {
+          "start" : 1620916700492,
+          "stop" : 1620916700492,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "aa7f346c1d8c5a78.json",
+  "parameterValues" : [ ]
+}
