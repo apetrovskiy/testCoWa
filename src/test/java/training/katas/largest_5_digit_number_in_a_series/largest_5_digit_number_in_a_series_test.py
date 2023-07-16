@@ -1,6 +1,7 @@
 # import pytest
-from src.main.java.training.katas.largest_5_digit_number_in_a_series.code \
-    import solution
+from src.main.java.training.katas.largest_5_digit_number_in_a_series.code import (
+    solution,
+)
 
 
 # @pytest.mark.skip(reason="TODO: no way of currently testing this")

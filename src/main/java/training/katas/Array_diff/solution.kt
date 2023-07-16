@@ -1,1 +1,1 @@
-package training.katas.Array_diff
+package training.katas.ArrayDiff
