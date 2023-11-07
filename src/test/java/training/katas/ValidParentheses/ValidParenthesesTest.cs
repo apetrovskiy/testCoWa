@@ -12,13 +12,13 @@ namespace training.katas.ValidParentheses
         [Test]
         public void SampleTest1()
         {
-            Assert.AreEqual(true, Parentheses.ValidParentheses("()"));
+            Assert.That(Parentheses.ValidParentheses("()"), Is.EqualTo(true));
         }
 
         [Test]
         public void SampleTest2()
         {
-            Assert.AreEqual(false, Parentheses.ValidParentheses(")(((("));
+            Assert.That(Parentheses.ValidParentheses(")(((("), Is.EqualTo(false));
         }
     }
 }
