@@ -11,6 +11,12 @@ import (
 	"testing"
 )
 
+const (
+	Epic    = "epic Training"
+	Feature = "feature Katas"
+	Story   = "story Deodorant evaporator"
+)
+
 // https://towardsdatascience.com/use-environment-variable-in-your-next-golang-project-39e17c3aaa66
 // use godot package to load/read the .env file and
 // return the value of the key
@@ -43,10 +49,17 @@ var _ = Describe("Tests Evaporator", func() {
 })
 
 func TestStepDeodorantEvaporator(t *testing.T) {
-	goDotEnvVariable("ALLURE_RESULTS_PATH")
-	allure.Test(t, allure.Action(func() {
-		Expect(Evaporator(10, 10, 10)).To(Equal(22))
-		Expect(Evaporator(10, 10, 5)).To(Equal(29))
-		Expect(Evaporator(100, 5, 5)).To(Equal(59))
-	}))
+
+	dotenv := goDotEnvVariable("ALLURE_RESULTS_PATH")
+	allure.Test(t,
+		allure.Epic(Epic),
+		allure.Feature(Feature),
+		// // allure.Story(Story),
+		// allure.Description("test Maximum subarray 01"),
+		allure.Action(func() {
+			Expect(Evaporator(10, 10, 10)).To(Equal(22))
+			Expect(Evaporator(10, 10, 5)).To(Equal(29))
+			Expect(Evaporator(100, 5, 5)).To(Equal(59))
+		}))
+
 }

@@ -21,6 +21,12 @@ var _ = Describe("CountBits()", func() {
 	})
 })
 
+const (
+	Epic    = "epic Training"
+	Feature = "feature Katas"
+	Story   = "story Bit Counting"
+)
+
 // https://towardsdatascience.com/use-environment-variable-in-your-next-golang-project-39e17c3aaa66
 // use godot package to load/read the .env file and
 // return the value of the key
@@ -43,12 +49,19 @@ func dotest(input uint, exp int) {
 }
 
 func TestStepBitCounting(t *testing.T) {
-	goDotEnvVariable("ALLURE_RESULTS_PATH")
-	allure.Test(t, allure.Action(func() {
-		Expect(CountBits(0)).To(Equal(0))
-		Expect(CountBits(4)).To(Equal(1))
-		Expect(CountBits(7)).To(Equal(3))
-		Expect(CountBits(9)).To(Equal(2))
-		Expect(CountBits(10)).To(Equal(2))
-	}))
+
+	dotenv := goDotEnvVariable("ALLURE_RESULTS_PATH")
+	allure.Test(t,
+		allure.Epic(Epic),
+		allure.Feature(Feature),
+		// // allure.Story(Story),
+		// allure.Description("test Maximum subarray 01"),
+		allure.Action(func() {
+			Expect(CountBits(0)).To(Equal(0))
+			Expect(CountBits(4)).To(Equal(1))
+			Expect(CountBits(7)).To(Equal(3))
+			Expect(CountBits(9)).To(Equal(2))
+			Expect(CountBits(10)).To(Equal(2))
+		}))
+
 }
