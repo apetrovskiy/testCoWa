@@ -1,0 +1,294 @@
+{
+  "uid" : "76ae9385d156e4a",
+  "name" : "test_split_strings[nlxikxqyhjttmovhdwguztwposwisfzbxzmyaxxjtff\n     iklbmgnrfspcjemcfrpfkmbiewhcyytxfcrwu-expected_result14]",
+  "fullName" : "src.test.java.training.katas.SplitStrings.test_split_strings#test_split_strings",
+  "historyId" : "b290543f0450c1a0bc4ceed126022901",
+  "time" : {
+    "start" : 1700312788704,
+    "stop" : 1700312788704,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+  "statusTrace" : "input = 'nlxikxqyhjttmovhdwguztwposwisfzbxzmyaxxjtff\\n     iklbmgnrfspcjemcfrpfkmbiewhcyytxfcrwu'\nexpected_result = ['nl', 'xi', 'kx', 'qy', 'hj', 'tt', ...]\n\n    @pytest.mark.parametrize(\"input,expected_result\", test_data)\n    def test_split_strings(input: str, expected_result: List[str]):\n>       assert expected_result == solution(input)\nE       AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\nE         At index 21 diff: 'fi' != 'f\\n'\nE         Right contains 3 more items, first extra item: 'xf'\nE         Use -v to get the full diff\n\nsrc/test/java/training/katas/SplitStrings/test_split_strings.py:564: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+    "statusTrace" : "input = 'nlxikxqyhjttmovhdwguztwposwisfzbxzmyaxxjtff\\n     iklbmgnrfspcjemcfrpfkmbiewhcyytxfcrwu'\nexpected_result = ['nl', 'xi', 'kx', 'qy', 'hj', 'tt', ...]\n\n    @pytest.mark.parametrize(\"input,expected_result\", test_data)\n    def test_split_strings(input: str, expected_result: List[str]):\n>       assert expected_result == solution(input)\nE       AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\nE         At index 21 diff: 'fi' != 'f\\n'\nE         Right contains 3 more items, first extra item: 'xf'\nE         Use -v to get the full diff\n\nsrc/test/java/training/katas/SplitStrings/test_split_strings.py:564: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "26b0be0a16d183b0",
+      "name" : "stdout",
+      "source" : "26b0be0a16d183b0.txt",
+      "type" : "text/plain",
+      "size" : 347
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.training.katas.SplitStrings"
+  }, {
+    "name" : "suite",
+    "value" : "test_split_strings"
+  }, {
+    "name" : "host",
+    "value" : "fv-az842-289"
+  }, {
+    "name" : "thread",
+    "value" : "2222-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.training.katas.SplitStrings.test_split_strings"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "['nl', 'xi', 'kx', 'qy', 'hj', 'tt', 'mo', 'vh', 'dw', 'gu', 'zt', 'wp', 'os', 'wi', 'sf', 'zb', 'xz', 'my', 'ax', 'xj', 'tf', 'fi', 'kl', 'bm', 'gn', 'rf', 'sp', 'cj', 'em', 'cf', 'rp', 'fk', 'mb', 'ie', 'wh', 'cy', 'yt', 'xf', 'cr', 'wu']"
+  }, {
+    "name" : "input",
+    "value" : "'nlxikxqyhjttmovhdwguztwposwisfzbxzmyaxxjtff\n     iklbmgnrfspcjemcfrpfkmbiewhcyytxfcrwu'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 40,
+        "broken" : 0,
+        "skipped" : 165,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 205
+      },
+      "items" : [ {
+        "uid" : "1e530e91e48e54d1",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/231//#testresult/1e530e91e48e54d1",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1700312797247,
+          "stop" : 1700312797248,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ebd46c067c05df05",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/229//#testresult/ebd46c067c05df05",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1700312540960,
+          "stop" : 1700312540960,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "dcfe0d485e5c306c",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/228//#testresult/dcfe0d485e5c306c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1700312491250,
+          "stop" : 1700312491250,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9d5bf1b222f8a550",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/227//#testresult/9d5bf1b222f8a550",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1700312293316,
+          "stop" : 1700312293316,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9ee4846919d36452",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/226//#testresult/9ee4846919d36452",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1699397274701,
+          "stop" : 1699397274701,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3bc3e7ebe66ef57a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/224//#testresult/3bc3e7ebe66ef57a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1689548800736,
+          "stop" : 1689548800736,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "28da2a9681a7592b",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/223//#testresult/28da2a9681a7592b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1689546551705,
+          "stop" : 1689546551706,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ac2fa1c1efc0b9fb",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/222//#testresult/ac2fa1c1efc0b9fb",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1689544416195,
+          "stop" : 1689544416195,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c128b40e4c3f0a87",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/221//#testresult/c128b40e4c3f0a87",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1689533810397,
+          "stop" : 1689533810398,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e63856571b807495",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/220//#testresult/e63856571b807495",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1689532214465,
+          "stop" : 1689532214465,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d949a596107e2492",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/219//#testresult/d949a596107e2492",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1689531923222,
+          "stop" : 1689531923222,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3af67d800ed3472e",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/218//#testresult/3af67d800ed3472e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1689531348254,
+          "stop" : 1689531348254,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c8a8c33574d8f45a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/217//#testresult/c8a8c33574d8f45a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1689529065680,
+          "stop" : 1689529065681,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cd98579f327e8d50",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/214//#testresult/cd98579f327e8d50",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1668944152456,
+          "stop" : 1668944152457,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "14829f3902ac0161",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/212//#testresult/14829f3902ac0161",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1632897657220,
+          "stop" : 1632897657220,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9ea4ee6334669125",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/211//#testresult/9ea4ee6334669125",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1622035621930,
+          "stop" : 1622035621930,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e1282d77d3821ab7",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/210//#testresult/e1282d77d3821ab7",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1622035288604,
+          "stop" : 1622035288604,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4c326c35682d541",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/209//#testresult/4c326c35682d541",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1622035130962,
+          "stop" : 1622035130962,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "97edb8126755d719",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/208//#testresult/97edb8126755d719",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1622034978506,
+          "stop" : 1622034978506,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3988fa5456c7ade3",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoWa/207//#testresult/3988fa5456c7ade3",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['nl', 'xi', ...j', 'tt', ...] == ['nl', 'xi', ...j', 'tt', ...]\n  At index 21 diff: 'fi' != 'f\\n'\n  Right contains 3 more items, first extra item: 'xf'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1622034440550,
+          "stop" : 1622034440550,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "76ae9385d156e4a.json",
+  "parameterValues" : [ "['nl', 'xi', 'kx', 'qy', 'hj', 'tt', 'mo', 'vh', 'dw', 'gu', 'zt', 'wp', 'os', 'wi', 'sf', 'zb', 'xz', 'my', 'ax', 'xj', 'tf', 'fi', 'kl', 'bm', 'gn', 'rf', 'sp', 'cj', 'em', 'cf', 'rp', 'fk', 'mb', 'ie', 'wh', 'cy', 'yt', 'xf', 'cr', 'wu']", "'nlxikxqyhjttmovhdwguztwposwisfzbxzmyaxxjtff\n     iklbmgnrfspcjemcfrpfkmbiewhcyytxfcrwu'" ]
+}
