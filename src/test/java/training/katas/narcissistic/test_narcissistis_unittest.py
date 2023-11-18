@@ -18,5 +18,5 @@ class NarcissisticTest(TestCase):
         self.assertEqual(narcissistic(4887), False)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

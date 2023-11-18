@@ -3,8 +3,8 @@
  */
 package testCoWa
 
-import kotlin.test.Test
-import kotlin.test.assertTrue
+import org.junit.jupiter.api.Assertions.assertTrue
+import org.junit.jupiter.api.Test
 
 class LibraryTest {
     @Test fun testSomeLibraryMethod() {

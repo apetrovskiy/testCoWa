@@ -1,3 +1,4 @@
-namespace training.katas.Array_diff{
+namespace training.katas.Array_diff
+{
 
 }

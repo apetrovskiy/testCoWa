@@ -1,17 +1,22 @@
 def solution(digits):
     print(digits)
-    digits = digits.replace('\n', '').replace(
-        ' ', '').replace('\t', '').replace('         ', '')
+    digits = (
+        digits.replace("\n", "")
+        .replace(" ", "")
+        .replace("\t", "")
+        .replace("         ", "")
+    )
     print(digits)
-    numbers = [int(digits[i:i+5]) for i in range(0, len(digits), 5)]
-    numbers.extend([int(digits[i+1:i+6]) for i in range(0, len(digits)-1, 5)])
-    numbers.extend([int(digits[i+2:i+7]) for i in range(0, len(digits)-2, 5)])
-    numbers.extend([int(digits[i+3:i+8]) for i in range(0, len(digits)-3, 5)])
-    numbers.extend([int(digits[i+4:i+9]) for i in range(0, len(digits)-4, 5)])
+    numbers = [int(digits[i : i + 5]) for i in range(0, len(digits), 5)]
+    numbers.extend([int(digits[i + 1 : i + 6]) for i in range(0, len(digits) - 1, 5)])
+    numbers.extend([int(digits[i + 2 : i + 7]) for i in range(0, len(digits) - 2, 5)])
+    numbers.extend([int(digits[i + 3 : i + 8]) for i in range(0, len(digits) - 3, 5)])
+    numbers.extend([int(digits[i + 4 : i + 9]) for i in range(0, len(digits) - 4, 5)])
     return max(numbers)
 
 
-solution("""73167176531330624919225119674426574742355349194934
+solution(
+    """73167176531330624919225119674426574742355349194934
          969835203685425063262395783180169848018694788518438
          586156078911294949545950173795833195285320880551112
          540698747158523863050715693290963295227443043557668
@@ -30,4 +35,5 @@ solution("""73167176531330624919225119674426574742355349194934
          554443629812309878799272442849091888458015616609791
          913387549920052406368991256071760605886116467109405
          077541002256983155200055935729725716362695618826704
-         28252483600823257540920752963450""")
+         28252483600823257540920752963450"""
+)

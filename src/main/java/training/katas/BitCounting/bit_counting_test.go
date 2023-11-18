@@ -7,6 +7,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"log"
+	"os"
 	"testing"
 )
 
@@ -21,9 +22,9 @@ var _ = Describe("CountBits()", func() {
 })
 
 const (
-	Epic    = "epic Problems"
-	Feature = "feature Easy"
-	Story   = "story Maximum subarray"
+	Epic    = "epic Training"
+	Feature = "feature Katas"
+	Story   = "story Bit Counting"
 )
 
 // https://towardsdatascience.com/use-environment-variable-in-your-next-golang-project-39e17c3aaa66
@@ -32,9 +33,10 @@ const (
 func goDotEnvVariable(key string) string {
 
 	// load .env file
-	err := godotenv.Load("variables.env")
+	err := godotenv.Load("../../../../../../variables.env")
 
 	if err != nil {
+		log.Fatal(err)
 		log.Fatalf("Error loading .env file")
 	}
 
@@ -47,6 +49,7 @@ func dotest(input uint, exp int) {
 }
 
 func TestStepBitCounting(t *testing.T) {
+
 	dotenv := goDotEnvVariable("ALLURE_RESULTS_PATH")
 	allure.Test(t,
 		allure.Epic(Epic),
@@ -60,4 +63,5 @@ func TestStepBitCounting(t *testing.T) {
 			Expect(CountBits(9)).To(Equal(2))
 			Expect(CountBits(10)).To(Equal(2))
 		}))
+
 }

@@ -13,9 +13,9 @@ import (
 )
 
 const (
-	Epic    = "epic Problems"
-	Feature = "feature Easy"
-	Story   = "story Maximum subarray"
+	Epic    = "epic Training"
+	Feature = "feature Katas"
+	Story   = "story Valid parentheses"
 )
 
 // https://towardsdatascience.com/use-environment-variable-in-your-next-golang-project-39e17c3aaa66
@@ -24,9 +24,10 @@ const (
 func goDotEnvVariable(key string) string {
 
 	// load .env file
-	err := godotenv.Load("variables.env")
+	err := godotenv.Load("../../../../../../variables.env")
 
 	if err != nil {
+		log.Fatal(err)
 		log.Fatalf("Error loading .env file")
 	}
 
@@ -41,6 +42,7 @@ func goDotEnvVariable(key string) string {
 // })
 
 func TestStepValidParentheses(t *testing.T) {
+
 	dotenv := goDotEnvVariable("ALLURE_RESULTS_PATH")
 	t.Parallel()
 	allure.Test(t,
@@ -55,4 +57,5 @@ func TestStepValidParentheses(t *testing.T) {
 			// wrong case
 			// Expect(k.ValidParentheses("()")).To(Equal(false))
 		}))
+
 }

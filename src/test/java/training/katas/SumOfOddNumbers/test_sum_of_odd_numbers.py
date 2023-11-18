@@ -12,17 +12,12 @@
 #         test.assert_equals(row_sum_odd_numbers(41), 68921)
 
 import pytest
-from src.main.java.training.katas.SumOfOddNumbers.sum_of_odd_numbers \
-    import row_sum_odd_numbers
+from src.main.java.training.katas.SumOfOddNumbers.sum_of_odd_numbers import (
+    row_sum_odd_numbers,
+)
 
 
-test_data = [
-    (1, 1),
-    (2, 8),
-    (13, 2197),
-    (19, 6859),
-    (41, 68921)
-]
+test_data = [(1, 1), (2, 8), (13, 2197), (19, 6859), (41, 68921)]
 
 
 @pytest.mark.parametrize("input,expected_result", test_data)

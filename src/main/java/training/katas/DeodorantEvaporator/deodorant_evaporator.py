@@ -1,5 +1,4 @@
-def evaporator(
-        content, evap_per_day, threshold):
+def evaporator(content, evap_per_day, threshold):
     nth_day = 0
     absolute_threshold = content * threshold / 100
     while content > absolute_threshold:

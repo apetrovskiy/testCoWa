@@ -12,9 +12,9 @@ import (
 )
 
 const (
-	Epic    = "epic Problems"
-	Feature = "feature Easy"
-	Story   = "story Maximum subarray"
+	Epic    = "epic Training"
+	Feature = "feature Katas"
+	Story   = "story Deodorant evaporator"
 )
 
 // https://towardsdatascience.com/use-environment-variable-in-your-next-golang-project-39e17c3aaa66
@@ -23,9 +23,10 @@ const (
 func goDotEnvVariable(key string) string {
 
 	// load .env file
-	err := godotenv.Load("variables.env")
+	err := godotenv.Load("../../../../../../variables.env")
 
 	if err != nil {
+		log.Fatal(err)
 		log.Fatalf("Error loading .env file")
 	}
 
@@ -48,6 +49,7 @@ var _ = Describe("Tests Evaporator", func() {
 })
 
 func TestStepDeodorantEvaporator(t *testing.T) {
+
 	dotenv := goDotEnvVariable("ALLURE_RESULTS_PATH")
 	allure.Test(t,
 		allure.Epic(Epic),
@@ -59,4 +61,5 @@ func TestStepDeodorantEvaporator(t *testing.T) {
 			Expect(Evaporator(10, 10, 5)).To(Equal(29))
 			Expect(Evaporator(100, 5, 5)).To(Equal(59))
 		}))
+
 }

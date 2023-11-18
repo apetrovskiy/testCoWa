@@ -1,5 +1,4 @@
-
-package training.katas.number_of_people_in_the_bus
+package training.katas.NumberOfPeopleInTheBus
 
 fun people(busStops: Array<Pair<Int, Int>>): Int {
     // code here

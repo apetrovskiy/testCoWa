@@ -1,5 +1,6 @@
-from src.main.java.training.katas.HumanReadableDurationFormat.solution \
-    import format_duration
+from src.main.java.training.katas.HumanReadableDurationFormat.solution import (
+    format_duration,
+)
 import pytest
 
 
@@ -10,41 +11,41 @@ test_data = [
     (3600, "1 hour"),
     (3662, "1 hour, 1 minute and 2 seconds"),
     (0, "now"),
-    (15731080, '182 days, 1 hour, 44 minutes and 40 seconds'),
-    (132030240, '4 years, 68 days, 3 hours and 4 minutes'),
-    (205851834, '6 years, 192 days, 13 hours, 3 minutes and 54 seconds'),
-    (253374061, '8 years, 12 days, 13 hours, 41 minutes and 1 second'),
-    (101956166, '3 years, 85 days, 1 hour, 9 minutes and 26 seconds'),
-    (7106407, '82 days, 6 hours and 7 seconds'),
-    (8601960, '99 days, 13 hours and 26 minutes'),
-    (5792789, '67 days, 1 hour, 6 minutes and 29 seconds'),
-    (3595920, '41 days, 14 hours and 52 minutes'),
-    (2165051, '25 days, 1 hour, 24 minutes and 11 seconds'),
-    (8990744, '104 days, 1 hour, 25 minutes and 44 seconds'),
-    (1820944, '21 days, 1 hour, 49 minutes and 4 seconds'),
-    (4341633, '50 days, 6 hours and 33 seconds'),
-    (9979254, '115 days, 12 hours and 54 seconds'),
-    (5015292, '58 days, 1 hour, 8 minutes and 12 seconds'),
-    (7178033, '83 days, 1 hour, 53 minutes and 53 seconds'),
-    (5216422, '60 days, 9 hours and 22 seconds'),
-    (7167617, '82 days, 23 hours and 17 seconds')
+    (15731080, "182 days, 1 hour, 44 minutes and 40 seconds"),
+    (132030240, "4 years, 68 days, 3 hours and 4 minutes"),
+    (205851834, "6 years, 192 days, 13 hours, 3 minutes and 54 seconds"),
+    (253374061, "8 years, 12 days, 13 hours, 41 minutes and 1 second"),
+    (101956166, "3 years, 85 days, 1 hour, 9 minutes and 26 seconds"),
+    (7106407, "82 days, 6 hours and 7 seconds"),
+    (8601960, "99 days, 13 hours and 26 minutes"),
+    (5792789, "67 days, 1 hour, 6 minutes and 29 seconds"),
+    (3595920, "41 days, 14 hours and 52 minutes"),
+    (2165051, "25 days, 1 hour, 24 minutes and 11 seconds"),
+    (8990744, "104 days, 1 hour, 25 minutes and 44 seconds"),
+    (1820944, "21 days, 1 hour, 49 minutes and 4 seconds"),
+    (4341633, "50 days, 6 hours and 33 seconds"),
+    (9979254, "115 days, 12 hours and 54 seconds"),
+    (5015292, "58 days, 1 hour, 8 minutes and 12 seconds"),
+    (7178033, "83 days, 1 hour, 53 minutes and 53 seconds"),
+    (5216422, "60 days, 9 hours and 22 seconds"),
+    (7167617, "82 days, 23 hours and 17 seconds"),
 ]
 
 
-@ pytest.mark.parametrize("seconds,expected_result", test_data)
+@pytest.mark.parametrize("seconds,expected_result", test_data)
 def test_human_readable_duration_format(seconds: int, expected_result: str):
     assert expected_result == format_duration(seconds)
 
 
-'''
+"""
 est.assert_equals(format_duration(1), "1 second")
 test.assert_equals(format_duration(62), "1 minute and 2 seconds")
 test.assert_equals(format_duration(120), "2 minutes")
 test.assert_equals(format_duration(3600), "1 hour")
 test.assert_equals(format_duration(3662), "1 hour, 1 minute and 2 seconds")
-'''
+"""
 
-'''
+"""
 Log
 242062374
 '' should equal '7 years, 246 days, 15 hours, 32 minutes and 54 seconds'
@@ -357,4 +358,4 @@ Log
 360841
 '' should equal '4 days, 4 hours, 14 minutes and 1 second'
 Completed in 8.21ms
-'''
+"""

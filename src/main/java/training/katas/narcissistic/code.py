@@ -5,7 +5,7 @@ def narcissistic(value):
     return int(value) == sum([int(x) ** number_length for x in number])
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     narcissistic(7)
     narcissistic(371)
     narcissistic(122)
