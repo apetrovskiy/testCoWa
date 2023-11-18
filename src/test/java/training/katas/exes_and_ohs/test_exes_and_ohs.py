@@ -2,8 +2,13 @@ from src.main.java.training.katas.exes_and_ohs.exes_and_ohs import xo
 import pytest
 
 
-test_data = [("ooxx", True), ("xooxx", False), ("ooxXm", True),
-             ("zpzpzpp", True), ("zzoo", False)]
+test_data = [
+    ("ooxx", True),
+    ("xooxx", False),
+    ("ooxXm", True),
+    ("zpzpzpp", True),
+    ("zzoo", False),
+]
 
 
 @pytest.mark.parametrize("input,expected_result", test_data)

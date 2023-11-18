@@ -1,4 +1,4 @@
-'''
+"""
 def _test(cases):
     for _in, _out in cases:
         test.assert_equals(triangle(_in), _out)
@@ -15,20 +15,21 @@ basic_cases = [
 ]
 test.it('Basic Tests')
 _test(basic_cases)
-'''
+"""
 
 import pytest
-from src.main.java.training.katas.InsaneColouredTriangles. \
-    insane_coloured_triangles import triangle
+from src.main.java.training.katas.InsaneColouredTriangles.insane_coloured_triangles import (
+    triangle,
+)
 
 
 test_data = basic_cases = [
-    ('B', 'B'),
-    ('GB', 'R'),
-    ('RRR', 'R'),
-    ('RGBG', 'B'),
-    ('RBRGBRB', 'G'),
-    ('RBRGBRBGGRRRBGBBBGG', 'G')
+    ("B", "B"),
+    ("GB", "R"),
+    ("RRR", "R"),
+    ("RGBG", "B"),
+    ("RBRGBRB", "G"),
+    ("RBRGBRBGGRRRBGBBBGG", "G"),
 ]
 
 

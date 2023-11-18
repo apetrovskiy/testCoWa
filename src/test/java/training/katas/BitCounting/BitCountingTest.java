@@ -1,2 +1,1 @@
 package training.katas.BitCounting;
-

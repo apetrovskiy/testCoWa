@@ -10,8 +10,8 @@ namespace training.katas.SplitStrings
         [Test]
         public void BasicTests()
         {
-            Assert.AreEqual(new string[] { "ab", "c_" }, SplitString.Solution("abc"));
-            Assert.AreEqual(new string[] { "ab", "cd", "ef" }, SplitString.Solution("abcdef"));
+            Assert.That(SplitString.Solution("abc"), Is.EqualTo(new string[] { "ab", "c_" }));
+            Assert.That(SplitString.Solution("abcdef"), Is.EqualTo(new string[] { "ab", "cd", "ef" }));
         }
     }
 }

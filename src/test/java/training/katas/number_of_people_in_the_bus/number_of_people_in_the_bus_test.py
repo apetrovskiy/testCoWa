@@ -1,5 +1,4 @@
-from src.main.java.training.katas.number_of_people_in_the_bus.code \
-    import number
+from src.main.java.training.katas.number_of_people_in_the_bus.code import number
 
 
 def test_number_of_people_in_the_bus():

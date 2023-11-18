@@ -1,9 +1,9 @@
-package training.katas.number_of_people_in_the_bus
+package training.katas.NumberOfPeopleInTheBus
 
-import org.junit.Test
-import kotlin.test.assertEquals
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Test
 
-class TestExample {
+class NumberOfPeopleInTheBusTest {
     @Test
     fun `Basic Tests`() {
         assertEquals(17, people(arrayOf(3 to 0, 9 to 1, 4 to 10, 12 to 2, 6 to 1, 7 to 10)))

@@ -1,5 +1,5 @@
-EXES = ['x', 'X']
-OHS = ['o', 'O']
+EXES = ["x", "X"]
+OHS = ["o", "O"]
 
 
 def xo(s: str):
